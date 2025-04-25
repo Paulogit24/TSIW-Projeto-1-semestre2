@@ -9,9 +9,6 @@ Contéudos nesta app
 -Best Deals-
 Este aplicativo monitorará todos os voos disponíveis e a rota específica exibirá todos os voos. Ao clicar no voo, você verá os detalhes dele. Aqui, podemos até adicionar passageiros a um voo.
 
--Fastest Deals-
-Além dos Best Deals, também incluimos uma opção para os voos mais rápidos possíveis a um preço ligeiramente aumentado. Esta função é a principal diferença entre AccelAir em relação a outras apps the voo
-
 -Users/Admin-
 Nesta aplicação, os usuários podem fazer login para verificar os seus dados e voos em que estão, com uma combinação específica do que está escrito no nome de usuário e na senha, que dá acesso ao administrador. Além disso, eles podem até reservar voos aqui. 
 

@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
     font-family: 'Alexandria', sans-serif;
   }
   
@@ -97,22 +94,27 @@
   .formulario-grupo {
     display: flex;
     flex-direction: column;
-    font-size: 12px;
+    font-size: 14px;
     color: #b30000;
   }
 
-  .formulario-grupo input {
-    padding: 6px 8px;
+  .input-com-icone {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .input-com-icone input {
+    height: 30px;
+    padding: 5px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-    width: 150px;
-    margin-top: 3px;
+    border-radius: 6px;
+    flex: 1;
   }
 
   .botao-pesquisa {
     position: absolute;
-    right: 440px; /* ajuste a distância conforme necessário */
+    right: 240px;
     top: 55.5%;
     transform: translateY(-50%);
     background-color: red;

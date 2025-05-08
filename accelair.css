@@ -131,12 +131,6 @@
     background-color: darkred;
   }
 
-  .conteudo-principal {
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
- }
-
  .viagens-container {
     display: flex;
     justify-content: space-between;
@@ -220,15 +214,10 @@
  }
 
  .sobre-nos {
-    background-color: #ff0000; /
-    color: white; 
+    background-color: #ff0000; 
+    color: white;
     text-align: center; 
     padding: 20px; 
     font-weight: bold; 
     font-size: 16px; 
  }
-  }
-  
-  .botao-pesquisa:hover {
-    background-color: darkred;
-  }

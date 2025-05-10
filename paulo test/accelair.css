@@ -130,3 +130,14 @@
   .botao-pesquisa:hover {
     background-color: darkred;
   }
+  #navbaradmin {
+    color: rgb(125, 121, 121);
+    position: fixed;
+    top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    transition: top 0.3s;
+    z-index: 1000;}

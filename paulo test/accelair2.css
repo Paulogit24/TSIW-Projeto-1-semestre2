@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alexandria', sans-serif;
+  }
+  
+  #navbar {
+    color: white;
+    position: fixed;
+    top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    transition: top 0.3s;
+    z-index: 1000;
+  }
+
+  #navbar img {
+    height: 40px;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ff4d4d;
+  }
+  
+  .login {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .login:hover {
+    color: #ff4d4d;
+  }
+  
+  .banner {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .banner-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner-texto {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .banner-texto-negrito {
+    text-decoration: solid;
+    font-size: 55px;
+  }
+
+  .banner-texto-topo {
+    font-size: 29px;
+  }
+
+  .formulario {
+    position: absolute;
+    top: 50%;
+    left: 6.5%;
+    background: rgba(255, 255, 255, 0.900);
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(255, 0, 0, 0.2);
+  }
+
+  .formulario-grupo {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #b30000;
+  }
+
+  .input-com-icone {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .input-com-icone input {
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    flex: 1;
+  }
+
+  .botao-pesquisa {
+    position: absolute;
+    right: 240px;
+    top: 55.5%;
+    transform: translateY(-50%);
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 25px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .botao-pesquisa:hover {
+    background-color: darkred;
+  }

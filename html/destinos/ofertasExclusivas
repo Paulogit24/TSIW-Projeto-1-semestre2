@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas Exclusivas - AccelAir</title>
+    <link rel="stylesheet" href="ofertasExclusivas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <img src="imagens/logo-site.png" class="logo">
+        <div class="nav-links">
+            <a href="#">Mais vendidos</a>
+            <a href="#">Ofertas exclusivas</a>
+            <a href="#">Tipos de turismo</a>
+            <a href="#">Sobre nós</a>
+        </div>
+        <div class="login">
+            <span>Iniciar sessão</span>
+            <span class="user-icon"><i class="fa-regular fa-user"></i></span>
+        </div>
+    </div>
+
+    <!-- BANNER -->
+    <div class="banner">
+        <img src="imagens/londres-banner.png" alt="Banner Londres">
+        <div class="banner-text">
+            <span>INGLATERRA</span>
+            <h1>LONDRES</h1>
+        </div>
+    </div>
+
+    <main>
+        <!-- Ofertas AccelAir -->
+        <section class="ofertas-section">
+            <h1 class="section-title red">Ofertas AccelAir</h1>
+            <div class="ofertas-content">
+                <div class="continentes">
+                    <span class="continente ativo">Europa</span>
+                    <span>América do Norte</span>
+                    <span>América do Sul</span>
+                    <span>Ásia</span>
+                    <span>África</span>
+                    <span>Oceania</span>
+                </div>
+                <div class="ofertas-grid">
+                    <img src="imagens/recente.png" alt="Destino">
+                    <img src="imagens/recente.png" alt="Destino">
+                    <img src="imagens/recente.png" alt="Destino">
+                    <img src="imagens/recente.png" alt="Destino">
+                </div>
+            </div>
+        </section>
+
+        <!-- Surpreendido -->
+        <section class="surpreendido-section">
+            <h2 class="section-title red">Quer ser surpreendido?</h2>
+            <p class="surpreendido-desc">Escolha um país e nós escolhemos o resto!</p>
+            <div class="surpreendido-content">
+                <img src="imagens/mapa.png" alt="Mapa" class="mapa-img">
+                <div class="destino-info">
+                    <span class="destino-title">Nome do destino</span>
+                    <div class="checkbox-list">
+                        <label><input type="checkbox"> Hotel "Nome do Hotel" - turismo arquitetónico</label>
+                        <label><input type="checkbox"> Hotel "Nome do Hotel" - turismo gastronómico</label>
+                        <label><input type="checkbox"> Hotel "Nome do Hotel" - turismo religioso</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-red-block">
+            <div class="footer-content">
+                <div>
+                    <img src="imagens/accel_air_2.png" class="footer-logo">
+                    <p>© AccelAir Ltd 2025</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Perguntas frequentes</a>
+                    <a href="#">Iniciar sessão</a>
+                    <a href="#">Sobre nós</a>
+                    <a href="#">Sugestões e reclamações</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Destinos mais populares</a>
+                    <a href="#">Exclusivo para si</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

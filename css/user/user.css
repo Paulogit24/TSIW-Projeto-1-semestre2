@@ -1,0 +1,262 @@
+body {
+    font-family: 'Alexandria', sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    height: 48px;
+    border-bottom: 3px solid #eee;
+    box-shadow: 0 2px 6px 0 rgba(255,0,0,0.04);
+}
+
+.logo {
+    height: 32px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.nav-links a {
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0 2px;
+}
+
+.login {
+    color: #222;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-icon {
+    background: #f8dede;
+    border-radius: 50%;
+    padding: 6px 8px 6px 8px;
+    margin-left: 4px;
+    color: #ff0000;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+/* BANNER PERFIL */
+.profile-banner {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background: #eee;
+    box-shadow: 0 2px 6px 0 rgba(255,0,0,0.04);
+}
+
+.profile-banner img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* CARD DE PERFIL SOBREPOSTO */
+.profile-card {
+    position: absolute;
+    left: 40px;
+    bottom: -50px;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+    padding: 18px 32px 18px 18px;
+    min-width: 420px;
+    z-index: 2;
+}
+
+.avatar-border {
+    border: 5px solid #ff0000;
+    border-radius: 50%;
+    padding: 2px;
+    background: #fff;
+    margin-right: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #eee;
+    display: block;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 24px;
+}
+
+.username {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 2px;
+}
+
+.user-level {
+    font-size: 16px;
+    color: #222;
+    font-weight: 500;
+}
+
+.edit-profile {
+    color: #ff0000;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+main {
+    margin: 80px auto 0 auto;
+    max-width: 900px;
+    padding: 0 20px 40px 20px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 40px 0 18px 0;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.img-row {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 10px;
+}
+
+.img-row img {
+    width: 270px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    background: #eee;
+}
+
+.img-row2 {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 10px;
+}
+
+.img-row2 img {
+    width: 400px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    background: #eee;
+}
+
+.img-row3 {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 10px;
+}
+
+.img-row3 img {
+    width: 270px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    background: #eee;
+}
+.carousel-dots {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 18px;
+    margin-left: 8px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background: #ffb3b3;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot.active {
+    background: #ff0000;
+}
+
+.tags-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 14px;
+}
+
+.tag {
+    background: #ff4d4d;
+    border-radius: 20px;
+    height: 28px;
+    width: 120px;
+    display: inline-block;
+}
+
+.footer-red-block {
+    background: #ff0000;
+    color: #fff;
+    padding: 30px 0 10px 0;
+    margin-top: 60px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-logo {
+    height: 32px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}

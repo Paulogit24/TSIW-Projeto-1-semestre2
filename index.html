@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon & CSS -->
-    <link rel="icon" href="imagens\icon.png"> 
+    <link rel="icon" href="../img/icon.png"> 
     <link rel="stylesheet" href="accelair.css">
     <!-- Tipo de letra -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,6 +28,7 @@
     </div>
  </div>
 
+ <!-- BANNER PRINCIPAL -->
  <div class="banner-container">
     <img src="imagens/banner-homepage.png" class="banner">
     <div class="banner-texto">
@@ -37,6 +38,7 @@
  </div>
  </div>
 
+ <!-- FORMULÁRIO DE BUSCA -->
  <div class="formulario">
     <div class="formulario-grupo">
         <label>Local de partida:</label>
@@ -45,7 +47,6 @@
             <input type="text" id="local" placeholder="Ex: Porto, PT">
         </div>
     </div>
-
     <div class="formulario-grupo">
         <label>Data de partida:</label>
         <div class="input-com-icone">
@@ -53,7 +54,6 @@
             <input type="date" id="data">
         </div>
     </div>
-
     <div class="formulario-grupo">
         <label>Número de pessoas:</label>
         <div class="input-com-icone">
@@ -61,7 +61,6 @@
             <input type="text" id="pessoas" placeholder="Ex: 2 adultos, 1 criança">
         </div>
     </div>
-
     <div class="formulario-grupo">
         <label>Dias de viagem:</label>
         <div class="input-com-icone">
@@ -69,7 +68,6 @@
             <input type="text" id="dias" placeholder="Ex: 7 dias">
         </div>
     </div>
-
     <div class="formulario-grupo">
         <label>Tipo de turismo:</label>
         <div class="input-com-icone">
@@ -79,8 +77,10 @@
     </div>
  </div>
 
+ <!-- BOTÃO DE PESQUISA -->
  <button class="botao-pesquisa">Pesquisar</button>
 
+ <!-- SEÇÃO DESTINOS POPULARES -->
  <section class="destinos-populares">
     <h2>Destinos populares</h2>
     <div class="destinos-container">
@@ -90,10 +90,12 @@
         <div class="destino">
             <img src="imagens/destino2.png" alt="Destino 2">
             <div class="destino-info">
+            </div>
         </div>
     </div>
  </section>
 
+  <!-- SEÇÃO VIAGENS PARA SI -->
  <section class="viagens-para-si">
     <h2>Viagens para si</h2>
     <div class="viagens-container">
@@ -115,12 +117,14 @@
     </div>
  </section>
 
+ <!-- SEÇÃO EXTRA (IMAGEM INFORMATIVA) -->
  <section class="extraInfo">
     <div class="extra">
         <img src="imagens/extra.png" alt="Extra Info">
- </div>
+    </div>
  </section>
 
+  <!-- SEÇÃO SURPREENDIDO (MAPA E TEXTO) -->
  <section class="surpreendido">
     <div class="surpreendido-container">
         <h2>Quer ser Surpreendido?</h2>
@@ -128,18 +132,31 @@
         <img src="imagens/mapa.png" alt="Extra Info">
     </div>
  </section>
+
+ <!-- FOOTER PADRÃO -->
  <footer>
-    <div class="sobre-nos">
-        <p>© AccelAir Ltd 2025</p>
-        <div class="footer-links">
-            <a href="#">Perguntas frequentes</a>
-            <a href="#">Iniciar sessão</a>
-            <a href="#">Sugestões e reclamações</a>
+        <div class="footer-red-block">
+            <div class="footer-content">
+                <div>
+                    <img src="imagens/accel_air_2.png" class="footer-logo">
+                    <p>© AccelAir Ltd 2025</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Perguntas frequentes</a>
+                    <a href="#">Iniciar sessão</a>
+                    <a href="#">Sobre nós</a>
+                    <a href="#">Sugestões e reclamações</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Destinos mais populares</a>
+                    <a href="#">Exclusivo para si</a>
+                </div>
+            </div>
         </div>
-    </div>
- </footer>
+    </footer>
 
  <script src="accelair.js"></script>
 </div>
 </body>
 </html>
+

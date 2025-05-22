@@ -49,6 +49,13 @@ export function getUserBanner() {
   return user ? user.banner : "#000000";
 }
 
+export function setbanner() {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    user.banner = document.querySelector("#banner").value;
+    localStorage.setItem("users", JSON.stringify(users));
+  }
+} 
 
 // classa do utilizador
 class User {

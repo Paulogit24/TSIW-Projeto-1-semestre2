@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon & CSS -->
+    <link rel="icon" href="imagens\icon.png"> 
+    <link rel="stylesheet" href="accelair.css">
+    <!-- Tipo de letra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>AccelAir</title>
+</head>
+<body>
+ <div id="navbar">
+    <div><a href="#"><img src="imagens/logo-site.png"></a></div>
+    <div class="nav-links">
+        <a href="#">Mais vendidos</a>
+        <a href="#">Ofertas exclusivas</a>
+        <a href="#">Tipos de turismo</a>
+        <a href="#">Sobre nós</a>
+    </div>
+    <div class="login">
+        <span>Iniciar sessão</span>
+    </div>
+ </div>
+
+ <!-- BANNER PRINCIPAL -->
+ <div class="banner-container">
+    <img src="imagens/banner-homepage.png" class="banner">
+    <div class="banner-texto">
+        <h2 class="banner-texto-topo">TORNAMOS A SUA VIAGEM</h2>
+        <h1 class="banner-texto-negrito">MAIS SIMPLES</h1>
+    </div>
+ </div>
+ </div>
+
+ <!-- FORMULÁRIO DE BUSCA -->
+ <div class="formulario">
+    <div class="formulario-grupo">
+        <label>Local de partida:</label>
+        <div class="input-com-icone">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" id="local" placeholder="Ex: Porto, PT">
+        </div>
+    </div>
+    <div class="formulario-grupo">
+        <label>Data de partida:</label>
+        <div class="input-com-icone">
+            <i class="fa-solid fa-calendar-day"></i>
+            <input type="date" id="data">
+        </div>
+    </div>
+    <div class="formulario-grupo">
+        <label>Número de pessoas:</label>
+        <div class="input-com-icone">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" id="pessoas" placeholder="Ex: 2 adultos, 1 criança">
+        </div>
+    </div>
+    <div class="formulario-grupo">
+        <label>Dias de viagem:</label>
+        <div class="input-com-icone">
+            <i class="fa-solid fa-clock"></i>
+            <input type="text" id="dias" placeholder="Ex: 7 dias">
+        </div>
+    </div>
+    <div class="formulario-grupo">
+        <label>Tipo de turismo:</label>
+        <div class="input-com-icone">
+            <i class="fa-solid fa-person-hiking"></i>
+            <input type="text" id="tipo" placeholder="Ex: Religioso">
+        </div>
+    </div>
+ </div>
+
+ <!-- BOTÃO DE PESQUISA -->
+ <button class="botao-pesquisa">Pesquisar</button>
+
+ <!-- SEÇÃO DESTINOS POPULARES -->
+ <section class="destinos-populares">
+    <h2>Destinos populares</h2>
+    <div class="destinos-container">
+        <div class="destino">
+            <img src="imagens/destino.png" alt="Destino 1">
+        </div>
+        <div class="destino">
+            <img src="imagens/destino2.png" alt="Destino 2">
+            <div class="destino-info">
+            </div>
+        </div>
+    </div>
+ </section>
+
+  <!-- SEÇÃO VIAGENS PARA SI -->
+ <section class="viagens-para-si">
+    <h2>Viagens para si</h2>
+    <div class="viagens-container">
+        <div class="viagem">
+            <img src="imagens/Paris.png" alt="Paris">
+        </div>
+        <div class="viagem">
+            <img src="imagens/Barcelona.png" alt="Barcelona">
+        </div>
+        <div class="viagem">
+            <img src="imagens/NovaYork.png" alt="Nova York">
+        </div>
+        <div class="viagem">
+            <img src="imagens/Roma.png" alt="Roma">
+        </div>
+        <div class="viagem">
+            <img src="imagens/Londres.png" alt="Cairo">
+        </div>
+    </div>
+ </section>
+
+ <!-- SEÇÃO EXTRA (IMAGEM INFORMATIVA) -->
+ <section class="extraInfo">
+    <div class="extra">
+        <img src="imagens/extra.png" alt="Extra Info">
+    </div>
+ </section>
+
+  <!-- SEÇÃO SURPREENDIDO (MAPA E TEXTO) -->
+ <section class="surpreendido">
+    <div class="surpreendido-container">
+        <h2>Quer ser Surpreendido?</h2>
+        <p>Escolhe um país e nós escolhemos o resto</p>
+        <img src="imagens/mapa.png" alt="Extra Info">
+    </div>
+ </section>
+
+ <!-- FOOTER PADRÃO -->
+ <footer>
+    <div class="sobre-nos">
+        <p>© AccelAir Ltd 2025</p>
+        <div class="footer-links">
+            <a href="#">Perguntas frequentes</a>
+            <a href="#">Iniciar sessão</a>
+            <a href="#">Sugestões e reclamações</a>
+        </div>
+    </div>
+    <!-- BLOCO VERMELHO FINAL -->
+    <div class="footer-red-block">
+        © AccelAir Ltd 2025 - Todos os direitos reservados
+    </div>
+ </footer>
+
+ <script src="accelair.js"></script>
+</div>
+</body>
+</html>

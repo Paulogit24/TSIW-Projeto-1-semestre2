@@ -33,6 +33,23 @@
   .nav-links a:hover {
     color: #ff4d4d;
   }
+
+  .navbar-branco {
+    background-color: white;
+    top: 10px;
+    color: #b30000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-branco .nav-links a,
+  .navbar-branco .login {
+    color: #b30000;
+  }
+
+  .navbar-branco .nav-links a:hover,
+  .navbar-branco .login:hover {
+    color: #ff4d4d;
+  }
   
   .login {
     display: flex;

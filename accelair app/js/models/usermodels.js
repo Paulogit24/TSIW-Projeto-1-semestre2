@@ -44,7 +44,7 @@ export function getUserLogged() {
   return JSON.parse(sessionStorage.getItem("loggedUser"));
 }
 // devolve o banner do utilizador
-export function getUserBanner() {
+export function getUBanner() {
   const user = JSON.parse(sessionStorage.getItem("loggedUser"));
   return user ? user.banner : "#000000";
 }
@@ -56,6 +56,37 @@ export function setbanner() {
     localStorage.setItem("users", JSON.stringify(users));
   }
 } 
+// função para atualzar o tier do utilizador (imcompleta: falta verificar se o utilizador tem exp suficiente para o tier, e colocar as quantidades corrretas de exp)
+export function updatetier() {
+  if (exp >= 1000 && exp < 2000) {
+    const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+    if (user) {
+      user.tier = "bronze";
+      localStorage.setItem("users", JSON.stringify(users));
+    }
+  }
+  if (exp >= 2000 && exp < 3000) {
+    const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+    if (user) {
+      user.tier = "prata";
+      localStorage.setItem("users", JSON.stringify(users));
+    }
+  }
+  if (exp >= 3000 && exp < 4000) {
+    const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+    if (user) {
+      user.tier = "ouro";
+      localStorage.setItem("users", JSON.stringify(users));
+    }
+  }
+  if (exp >= 4000 ) {
+    const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+    if (user) {
+      user.tier = "platina";
+      localStorage.setItem("users", JSON.stringify(users));
+    }
+  }
+}
 
 // classa do utilizador
 class User {

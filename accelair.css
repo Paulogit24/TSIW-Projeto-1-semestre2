@@ -220,15 +220,35 @@
  }
 
  .sobre-nos {
-    background-color: #ff0000; /
+    background-color: #ff0000; 
     color: white; 
     text-align: center; 
     padding: 20px; 
     font-weight: bold; 
     font-size: 16px; 
  }
-  }
   
   .botao-pesquisa:hover {
     background-color: darkred;
+  }
+
+  .titulos {
+    color: #ff0000; 
+  }
+
+  .veja-mais {
+    color: #ff0000; 
+  }
+
+  .mesma-linha {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6.5%;
+  margin-top: 20px;
+  }
+
+  .destinos-botoes {
+    width: 30%;
+    border-radius: 20px;
   }

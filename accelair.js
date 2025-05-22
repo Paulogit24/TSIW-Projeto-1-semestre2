@@ -1,13 +1,9 @@
-window.onscroll = function() {
-    scrollFunction();
-  };
-  
-  function scrollFunction() {
-    const navbar = document.getElementById("navbar");
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      navbar.style.top = "0";
-    } else {
-      navbar.style.top = "-70px";
-    }
+window.addEventListener('scroll', function () {
+  const navbar = document.getElementById("navbar");
+
+  if (window.scrollY > 100) {
+    navbar.classList.add("navbar-branco");
+  } else {
+    navbar.classList.remove("navbar-branco");
   }
-  
+});

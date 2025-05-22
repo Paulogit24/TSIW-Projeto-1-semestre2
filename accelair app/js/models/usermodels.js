@@ -43,7 +43,7 @@ export function isLogged() {
 export function getUserLogged() {
   return JSON.parse(sessionStorage.getItem("loggedUser"));
 }
-// devolve o baner do utilizador
+// devolve o banner do utilizador
 export function getUserBanner() {
   const user = JSON.parse(sessionStorage.getItem("loggedUser"));
   return user ? user.banner : "#000000";

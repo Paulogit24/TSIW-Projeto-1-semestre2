@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-assets>
+        <img id="ceu" src="ceu.png">
+        <img id="beachball" src="beachball.png">
+        <img id="sol" src="sol.jpg">
+        <a-asset-item id="Praia" src="praia/scene.gltf"></a-asset-item>
+        <a-asset-item id="Uzi" src="Uzi model/scene.gltf"></a-asset-item>
+        <a-asset-item id="plane" src="Uzi model/scene.gltf"></a-asset-item>  <!-- Plane com a Uzi como placeholder -->
+    </a-assets>
+
+    <a-scene>
+    <a-sky src="#ceu"></a-sky>
+    <a-entity gltf-model="#Praia" position="40 -85 0" rotation="0 180 0" scale = "1 1 1">
+        <a-entity position="0 50 0" rotation="0 0 0" scale = "1 1 1"  animation="property:rotation; to:360 0 0; loop:true; dur:2000; easing:linear">
+        <a-entity gltf-model="#plane" position="40 0 0" rotation="0 0 0" scale = "1 1 1">
+    </a-entity>
+    <a-entity position="-70 -4 -60" animation="property:rotation; to:0 -360 0; loop:true; dur:2000; easing:linear">
+	    <a-sphere src="#beachball" position="2 0 0" 
+		    animation="property:rotation; to:360 -360 360; loop:true; dur:2000; easing:linear">
+		</a-sphere>
+    </a-entity>
+    <a-sphere src="#sol" position="250 350 250" scale="40 40 40"></a-sphere>
+    </a-scene>
+</body>
+</html>

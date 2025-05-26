@@ -92,7 +92,7 @@ export function updatetier() {
 class User {
   username = "";
   password = "";
-  tier = "";
+  tier = "";   <!-- possivelmente não necessário -->
   exp = ""
   banner = "";
   userimage = "";

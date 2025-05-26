@@ -97,6 +97,7 @@ class User {
   banner = "";
   userimage = "";
   aboutuser = "";
+  admin = "";
 
   constructor(username, password) {
     this.username = username;
@@ -106,6 +107,7 @@ class User {
     this.banner = "#000000";
     this.userimage = "#000000";
     this.aboutuser = "write something about you";
+    this.admin = "false"
     
   }
 }

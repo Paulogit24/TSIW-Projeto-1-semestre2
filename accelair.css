@@ -183,3 +183,31 @@
     height: 250px;
     border-radius: 20px;
   }
+
+  .mesma-linha-botoes {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 61px
+  }
+
+  .botao-destino {
+    width: 400px;
+    height: 80px;
+    background-color: #ff0000;
+    border-radius: 20px;
+    border: none;
+    top: 65%;
+    left: 60%;
+    transform: translate(+24.8%, -100%);
+  }
+
+  .botao-destino-texto {
+    transform: translate(+30%, -650%);
+    color: white;
+    text-decoration: solid;
+  }
+
+  .botao-destino-texto-inferior {
+    transform: translate(+30%, -750%);
+    color: white;
+  }

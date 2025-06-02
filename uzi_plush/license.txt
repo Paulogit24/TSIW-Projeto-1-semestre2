@@ -1,0 +1,11 @@
+Model Information:
+* title:	Uzi Plush
+* source:	https://sketchfab.com/3d-models/uzi-plush-7373bc124ebb468084f5abfb0abc6876
+* author:	Bittergiggle Playz [OFFICIAL] (https://sketchfab.com/Bittergiggle_Playz)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Uzi Plush" (https://sketchfab.com/3d-models/uzi-plush-7373bc124ebb468084f5abfb0abc6876) by Bittergiggle Playz [OFFICIAL] (https://sketchfab.com/Bittergiggle_Playz) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

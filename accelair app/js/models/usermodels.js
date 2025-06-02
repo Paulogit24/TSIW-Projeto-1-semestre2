@@ -51,7 +51,7 @@ export function getUBanner() {
 
 
 // função para atualzar o tier do utilizador (imcompleta: falta verificar se o utilizador tem exp suficiente para o tier, e colocar as quantidades corrretas de exp)
-export function updatetier() {
+/*export function updatetier() {
   if (exp >= 1000 && exp < 2000) {
     const user = JSON.parse(sessionStorage.getItem("loggedUser"));
     if (user) {
@@ -80,7 +80,7 @@ export function updatetier() {
       localStorage.setItem("users", JSON.stringify(users));
     }
   }
-}
+}*/
 // addicionar fundos ao utilizador
 export function addfunds(funds) {
   const user = JSON.parse(sessionStorage.getItem("loggedUser"));
@@ -125,12 +125,20 @@ export function setBanner(newBanner) {
     localStorage.setItem("users", JSON.stringify(users));
   }
 }
+// alterar a password do utilizador
+export function setPassword(newPassword) {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    user.password = newPassword;
+    localStorage.setItem("users", JSON.stringify(users));
+  }
+}
 
 // classa do utilizador
 class User {
   username = "";
   password = "";
-  tier = "";   // possivelmente não necessário
+  //tier = "";   // possivelmente não necessário
   exp = 0
   banner = "";
   userimage = "";
@@ -141,7 +149,7 @@ class User {
   constructor(username, password) {
     this.username = username;
     this.password = password;
-    this.tier = "tierless";
+    //this.tier = "tierless";
     this.exp = 0;
     this.banner = "#000000";
     this.userimage = "#000000";

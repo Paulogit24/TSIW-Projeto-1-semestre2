@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low Poly Beach Assets
+* source:	https://sketchfab.com/3d-models/low-poly-beach-assets-66c18ecd7a834d4a99dabc46b5ee6e4a
+* author:	EdwinRC (https://sketchfab.com/Edwin3D)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low Poly Beach Assets" (https://sketchfab.com/3d-models/low-poly-beach-assets-66c18ecd7a834d4a99dabc46b5ee6e4a) by EdwinRC (https://sketchfab.com/Edwin3D) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

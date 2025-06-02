@@ -49,13 +49,7 @@ export function getUBanner() {
   return user ? user.banner : "#000000";
 }
 
-export function setbanner() {
-  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
-  if (user) {
-    user.banner = document.querySelector("#banner").value;
-    localStorage.setItem("users", JSON.stringify(users));
-  }
-} 
+
 // função para atualzar o tier do utilizador (imcompleta: falta verificar se o utilizador tem exp suficiente para o tier, e colocar as quantidades corrretas de exp)
 export function updatetier() {
   if (exp >= 1000 && exp < 2000) {
@@ -87,17 +81,62 @@ export function updatetier() {
     }
   }
 }
+// addicionar fundos ao utilizador
+export function addfunds(funds) {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    user.funds += funds;
+    localStorage.setItem("users", JSON.stringify(users));
+  }
+}
+// Alterar a imagem do utilizador
+export function setUserImage(image) {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    user.userimage = image;
+    localStorage.setItem("users", JSON.stringify(users));
+  }
+}
+// Alterar a descrição do utilizador
+export function setAboutUser(about) {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    user.aboutuser = about;
+    localStorage.setItem("users", JSON.stringify(users));
+  }
+}
+// Alterar o nome de utilizador
+export function setUsername(newUsername) {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    if (users.some((u) => u.username === newUsername)) {
+      throw Error(`User with username "${newUsername}" already exists!`);
+    } else {
+      user.username = newUsername;
+      localStorage.setItem("users", JSON.stringify(users));
+    }
+  }
+}
+// alterar o banner do utilizador
+export function setBanner(newBanner) {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    user.banner = newBanner;
+    localStorage.setItem("users", JSON.stringify(users));
+  }
+}
 
 // classa do utilizador
 class User {
   username = "";
   password = "";
   tier = "";   // possivelmente não necessário
-  exp = ""
+  exp = 0
   banner = "";
   userimage = "";
   aboutuser = "";
   admin = "";
+  funds = 0;
 
   constructor(username, password) {
     this.username = username;
@@ -108,6 +147,7 @@ class User {
     this.userimage = "#000000";
     this.aboutuser = "write something about you";
     this.admin = "false"
+    this.funds = 0;	
     
   }
 }

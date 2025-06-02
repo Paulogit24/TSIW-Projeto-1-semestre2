@@ -133,6 +133,26 @@ export function setPassword(newPassword) {
     localStorage.setItem("users", JSON.stringify(users));
   }
 }
+// cobrar fundos ao utilizador
+export function deductFunds(amount) {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    if (user.funds >= amount) {
+      user.funds -= amount;
+      localStorage.setItem("users", JSON.stringify(users));
+    } else {
+      throw Error("Insufficient funds!");
+    }
+  }
+}
+// alterar o admin do utilizador
+export function setAdmin(isAdmin) {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    user.admin = isAdmin ? "true" : "false";
+    localStorage.setItem("users", JSON.stringify(users));
+  }
+}
 
 // classa do utilizador
 class User {

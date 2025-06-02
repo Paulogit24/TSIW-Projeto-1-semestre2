@@ -5,7 +5,7 @@ export function init() {
   flights = localStorage.flights ? JSON.parse(localStorage.flights) : [];
 }
 
-// ADICIONAR VOO
+// ADICIONAR VOO  (mudar para try/catch para evitar erros)
 export function addfligth(flightNumber, origin, destination, departure, arrival, airline, price) {
   if (flights.some((flight) => flight.flightNumber === flightNumber)) {
     throw Error(`Flight with number "${flightNumber}" already exists!`);

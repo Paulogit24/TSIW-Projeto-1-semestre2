@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Favicon & CSS -->
+    <link rel="stylesheet" href="aaa.css">
     <link rel="icon" href="img\icon.png"> 
-    <link rel="stylesheet" href="css\accelair.css">
     <!-- Tipo de letra -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,102 +16,74 @@
     <title>AccelAir</title>
 </head>
 <body>
+
     
-<div id="navbar">
-    <div><a href="#"><img src="img\logo-site.png"></a></div>
-    <div class="nav-links">
-        <a href="maisvendidos.html">Mais vendidos</a>
-        <a href="ofertasexclusivas.html">Ofertas exclusivas</a>
-        <a href="tiposturismo.html">Tipos de turismo</a>
-        <a href="sobrenos.html">Sobre nós</a>
-    </div>
-    <div class="login">
-        <span>Iniciar sessão</span>
+<div class="container ">
+    <nav class="navbar navbar-expand-sm justify-content-center fixed-top" style="z-index: 1030;">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+        <a class="nav-link text-white" href="#">Mais vendidos</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link text-white" href="#">Ofertas exclusivas</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link text-white" href="#">Tipos de turismo</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link text-white" href="#">Sobre nós</a>
+        </li>
+    </ul>
+    </nav>     
+</div>
+
+<div class="position-relative">
+    <img class="img-fluid" width="100%" src="banner-homepage.png">
+    <div class="position-absolute text-white text-left" style="top: 50%; left: 17%; transform: translate(-50%, -50%)">
+      <h3 class="banner-texto">TORNAMOS A SUA VIAGEM</h3>
+      <h1 class="banner-texto-negrito">MAIS SIMPLES</h1>
     </div>
 </div>
 
-<div class="banner-container">
-    <img src="img\banner-homepage.png" class="banner">
-    <div class="banner-texto">
-        <h2 class="banner-texto-topo">TORNAMOS A SUA VIAGEM</h2>
-        <h1 class="banner-texto-negrito">MAIS SIMPLES</h1>
+<div class="container position-relative formulario">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col">
+        <label for="local-partida">Local de partida:</label>
+        <input type="text" class="form-control" id="local-partida" placeholder="Ex: Porto, PT" name="local-partida">
+      </div>
+      <div class="col">
+        <label for="data-partida">Data de partida:</label>
+        <input type="date" class="form-control" name="data-partida">
+      </div>
+      <div class="col">
+        <label for="num-pessoas">Número de pessoas:</label>
+        <input type="text" class="form-control" placeholder="Ex: 2 adultos, 1 criança" name="num-pessoas">
+      </div>
+      <div class="col">
+        <label for="dias-viagem">Dias de viagem:</label>
+        <input type="text" class="form-control" placeholder="Ex: 7 dias" name="dias-viagem">
+      </div>
+      <div class="col">
+        <label for="tipo-turismo">Tipo de turismo:</label>
+        <select class="form-control" id="tipo-turismo">
+          <option>Sol/Praia</option>
+          <option>Cultural</option>
+          <option>Religioso</option>
+          <option>Arquitetónico</option>
+          <option>Ecológico</option>
+          <option>Aventura</option>
+          <option>Eventos</option>
+          <option>Geek</option>
+        </select>
+      </div>
+      <div class="col">
+        <button type="submit" class="btn btn-primary botao-pesquisar">Pesquisar</button>
+      </div>
     </div>
+  </form>
 </div>
 
-<div class="formulario">
-    <div class="formulario-grupo">
-        <label>Local de partida:</label>
-        <div class="input-com-icone">
-            <i class="fa-solid fa-location-dot"></i>
-            <input type="text" id="local" placeholder="Ex: Porto, PT">
-        </div>
-    </div>
 
-    <div class="formulario-grupo">
-        <label>Data de partida:</label>
-        <div class="input-com-icone">
-            <i class="fa-solid fa-calendar-day"></i>
-            <input type="date" id="data">
-        </div>
-    </div>
-
-    <div class="formulario-grupo">
-        <label>Número de pessoas:</label>
-        <div class="input-com-icone">
-            <i class="fa-solid fa-user"></i>
-            <input type="text" id="pessoas" placeholder="Ex: 2 adultos, 1 criança">
-        </div>
-    </div>
-
-    <div class="formulario-grupo">
-        <label>Dias de viagem:</label>
-        <div class="input-com-icone">
-            <i class="fa-solid fa-clock"></i>
-            <input type="text" id="dias" placeholder="Ex: 7 dias">
-        </div>
-    </div>
-
-    <div class="formulario-grupo">
-        <label>Tipo de turismo:</label>
-        <div class="input-com-icone">
-            <i class="fa-solid fa-person-hiking"></i>
-            <input type="text" id="tipo" placeholder="Ex: Religioso">
-        </div>
-    </div>
-</div>
-
-<button class="botao-pesquisa">Pesquisar</button>
-
-<div class="mesma-linha">
-    <h2 class="titulos">Destinos populares</h2>
-    <h4 class="veja-mais">Veja mais ></h4>
-</div>
-
-<div class="mesma-linha-imagem">
-    <img src="img\lisboa.jpg" class="destinos-botoes-imagem">
-    <img src="img\lisboa.jpg" class="destinos-botoes-imagem">
-    <img src="img\lisboa.jpg" class="destinos-botoes-imagem">
-</div>
-
-<div class="mesma-linha-botoes">
-    <div>
-        <button class="botao-destino"></button>
-        <h3 class="botao-destino-texto">Nome do destino</h3>
-        <h4 class="botao-destino-texto-inferior">Nome do destino</h4>
-    </div>
-    <div>
-        <button class="botao-destino"></button>
-        <h3 class="botao-destino-texto">Nome do destino</h3>
-        <h4 class="botao-destino-texto-inferior">Nome do destino</h4>
-    </div>
-    <div>
-        <button class="botao-destino"></button>
-        <h3 class="botao-destino-texto">Nome do destino</h3>
-        <h4 class="botao-destino-texto-inferior">Nome do destino</h4>
-    </div>
-    
-</div>
-<script src="js\menu.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>

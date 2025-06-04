@@ -7,29 +7,29 @@ export function init() {
 }
 
 // ADICIONAR destino  (mudar para try/catch para evitar erros)
-export function addfligth(DesNumber, origin, destination, departure, arrival, airline, price) {
-  if (Destination.some((Des) => Des.DesNumber === DesNumber)) {
-    throw Error(`Des with number "${DesNumber}" already exists!`);
+export function addfligth(DestinationNumber, origin, destination, departure, arrival, airline, price) {
+  if (Destination.some((Des) => Des.DestinationNumber === DestinationNumber)) {
+    throw Error(`Des with number "${DestinationNumber}" already exists!`);
   } else {
-    Destination.push(new Des(DesNumber, origin, destination, departure, arrival, airline, price));
+    Destination.push(new Des(DestinationNumber, origin, destination, departure, arrival, airline, price));
     localStorage.setItem("Destination", JSON.stringify(Destination));
   }
 }
 
 // REMOVER destino
-export function removeDes(DesNumber) {
-  Destination = Destination.filter((Des) => Des.DesNumber !== DesNumber);
+export function removeDes(DestinationNumber) {
+  Destination = Destination.filter((Des) => Des.DestinationNumber !== DestinationNumber);
   localStorage.setItem("Destination", JSON.stringify(Destination));
 }
 
 // DEFINIR O destino ATUAL (AQUELE QUE SERÁ VISTO NO DETALHE)
-export function setCurrentDes(DesNumber) {
-  localStorage.setItem("Des", DesNumber);
+export function setCurrentDes(DestinationNumber) {
+  localStorage.setItem("Des", DestinationNumber);
 }
 
 // OBTER O destino ATUAL (OBJETO COMPLETO)
 export function getCurrentDes() {
-  return Destination.find((Des) => Des.DesNumber === localStorage.getItem("Des"));
+  return Destination.find((Des) => Des.DestinationNumber === localStorage.getItem("Des"));
 }
 
 // ORDENAR destinoS POR PREÇO OU DATA DE PARTIDA

@@ -23,11 +23,40 @@
   }
 
   .navbar-branco {
-  background-color: white;
-  color: #b30000;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: #b30000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 
   .navbar-branco .nav-link {
-  color: #b30000;
+    color: #b30000 !important;
+  }
+
+  .card-destino {
+    height: 280px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    position: relative;
+  }
+
+  .card-destino small {
+    margin-top: auto;
+    font-size: 0.85rem;
+    opacity: 0.9;
+  }
+
+  .fade-transition {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .fade-transition.fade-out {
+    opacity: 0;
   }

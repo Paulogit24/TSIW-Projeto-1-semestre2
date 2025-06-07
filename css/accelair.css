@@ -9,9 +9,9 @@
   }
 
   .formulario {
-    top: 80%; 
+    top: 90%; 
     left: 29.5%; 
-    transform: translate(-50%, -170%); 
+    transform: translate(-50%, -200%);
     background-color: rgba(255, 255, 255, 0.9); 
     padding: 1%; 
     border-radius: 15px;
@@ -20,4 +20,14 @@
   .botao-pesquisar {
     background-color:red;
     margin-top: 30px;
+  }
+
+  .navbar-branco {
+  background-color: white;
+  color: #b30000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-branco .nav-link {
+  color: #b30000;
   }

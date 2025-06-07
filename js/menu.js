@@ -1,5 +1,5 @@
 window.addEventListener('scroll', function () {
-  const navbar = document.getElementById("navbar");
+  const navbar = document.querySelector("#navbar nav");
 
   if (window.scrollY > 100) {
     navbar.classList.add("navbar-branco");

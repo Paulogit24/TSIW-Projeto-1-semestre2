@@ -7,29 +7,29 @@ export function init() {
 }
 
 // ADICIONAR destino  (mudar para try/catch para evitar erros)
-export function addDestination(destinationNumber, origin, destination, departure, arrival, airline, price) {
-  if (destination.some((destination) => destination.destinationNumber === destinationNumber)) {
-    throw Error(`destination with number "${destinationNumber}" already exists!`);
+export function addDestination(destinationID, origin, destination, departure, arrival, airline, price) {
+  if (destination.some((destination) => destination.destinationID === destinationID)) {
+    throw Error(`destination with number "${destinationID}" already exists!`);
   } else {
-    destination.push(new destination(destinationNumber, origin, destination, departure, arrival, airline, price));
+    destination.push(new destination(destinationID, origin, destination, departure, arrival, airline, price));
     localStorage.setItem("destination", JSON.stringify(destination));
   }
 }
 
 // REMOVER destino
-export function removedestination(destinationNumber) {
-  destination = destination.filter((destination) => destination.destinationNumber !== destinationNumber);
+export function removedestination(destinationID) {
+  destination = destination.filter((destination) => destination.destinationID !== destinationID);
   localStorage.setItem("destination", JSON.stringify(destination));
 }
 
 // DEFINIR O destino ATUAL (AQUELE QUE SERÁ VISTO NO DETALHE)
-export function setCurrentdestination(destinationNumber) {
-  localStorage.setItem("destination", destinationNumber);
+export function setCurrentdestination(destinationID) {
+  localStorage.setItem("destination", destinationID);
 }
 
 // OBTER O destino ATUAL (OBJETO COMPLETO)
 export function getCurrentdestination() {
-  return destination.find((destination) => destination.destinationNumber === localStorage.getItem("destination"));
+  return destination.find((destination) => destination.destinationID === localStorage.getItem("destination"));
 }
 
 // ORDENAR destinoS POR PREÇO OU DATA DE PARTIDA
@@ -59,7 +59,16 @@ export function getdestination(filterOrigin = "", filterdestination = "", isSort
 }
 
 class destination {
-  constructor(name, destinationcription, image, location, price, category) {
+  destinationID = "00000000";
+  name = "name";
+  destinationcription = "destination description";
+  image = "image-url";
+  location = "location";
+  price = "price";
+  category = "category";
+
+  constructor(destinationID, name, destinationcription, image, location, price, category) {
+    this.destinationID = destinationID;
     this.name = name;
     this.destinationcription = destinationcription;
     this.image = image;

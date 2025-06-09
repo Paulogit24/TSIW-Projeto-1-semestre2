@@ -81,6 +81,7 @@ export function getUBanner() {
     }
   }
 }*/
+
 // addicionar fundos ao utilizador
 export function addfunds(funds) {
   const user = JSON.parse(sessionStorage.getItem("loggedUser"));

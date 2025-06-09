@@ -6,29 +6,29 @@ export function init() {
 }
 
 // ADICIONAR VOO  (mudar para try/catch para evitar erros)
-export function addfligth(flightNumber, origin, destination, departure, arrival, airline, price) {
-  if (flights.some((flight) => flight.flightNumber === flightNumber)) {
-    throw Error(`Flight with number "${flightNumber}" already exists!`);
+export function addfligth(flightID, origin, destination, departure, arrival, airline, price) {
+  if (flights.some((flight) => flight.flightID === flightID)) {
+    throw Error(`Flight with number "${flightID}" already exists!`);
   } else {
-    flights.push(new Flight(flightNumber, origin, destination, departure, arrival, airline, price));
+    flights.push(new Flight(flightID, origin, destination, departure, arrival, airline, price));
     localStorage.setItem("flights", JSON.stringify(flights));
   }
 }
 
 // REMOVER VOO
-export function removeFlight(flightNumber) {
-  flights = flights.filter((flight) => flight.flightNumber !== flightNumber);
+export function removeFlight(flightID) {
+  flights = flights.filter((flight) => flight.flightID !== flightID);
   localStorage.setItem("flights", JSON.stringify(flights));
 }
 
 // DEFINIR O VOO ATUAL (AQUELE QUE SERÁ VISTO NO DETALHE)
-export function setCurrentFlight(flightNumber) {
-  localStorage.setItem("flight", flightNumber);
+export function setCurrentFlight(flightID) {
+  localStorage.setItem("flight", flightID);
 }
 
 // OBTER O VOO ATUAL (OBJETO COMPLETO)
 export function getCurrentFlight() {
-  return flights.find((flight) => flight.flightNumber === localStorage.getItem("flight"));
+  return flights.find((flight) => flight.flightID === localStorage.getItem("flight"));
 }
 
 // ORDENAR VOOS POR PREÇO OU DATA DE PARTIDA
@@ -59,7 +59,7 @@ export function getFlights(filterOrigin = "", filterDestination = "", isSorted =
 
 // Classe que modela um voo
 class Flight {
-  flightNumber = "";
+  flightID = "";
   origin = "";
   destination = "";
   departure = "";
@@ -67,8 +67,8 @@ class Flight {
   airline = "";
   price = 0;
 
-  constructor(flightNumber, origin, destination, departure, arrival, airline, price) {
-    this.flightNumber = flightNumber;
+  constructor(flightID, origin, destination, departure, arrival, airline, price) {
+    this.flightID = flightID; // Default flightID, should be unique
     this.origin = origin;
     this.destination = destination;
     this.departure = departure;

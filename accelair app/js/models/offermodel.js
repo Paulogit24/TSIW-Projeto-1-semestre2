@@ -31,7 +31,7 @@ class Offer {
   category = "category";
   items = [];
   // items são as viagems que estão associadas a esta oferta, como voos, hotéis, etc.
-  exp = "exp"; // Exp é a quantidade de exp necessária para desbloquear a oferta
+  exp = "0"; // Exp é a quantidade de exp necessária para desbloquear a oferta
 
   constructor(offerID, name, description, image, price, category) {
     this.offerID = offerID;

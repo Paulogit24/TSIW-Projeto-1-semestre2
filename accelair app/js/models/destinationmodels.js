@@ -16,6 +16,17 @@ export function addDestination(destinationID, origin, destination, departure, ar
   }
 }
 
+// alterar um destino (mudar para try/catch para evitar erros)
+export function updateDestination(destinationID, updatedData) {
+  const index = destination.findIndex((destination) => destination.destinationID === destinationID);
+  if (index !== -1) {
+    destination[index] = { ...destination[index], ...updatedData };
+    localStorage.setItem("destination", JSON.stringify(destination));
+  } else {
+    throw Error(`destination with ID "${destinationID}" not found!`);
+  }
+}
+
 // REMOVER destino
 export function removedestination(destinationID) {
   destination = destination.filter((destination) => destination.destinationID !== destinationID);
@@ -57,6 +68,8 @@ export function getdestination(filterOrigin = "", filterdestination = "", isSort
 
   return filtereddestination;
 }
+
+// Classe que modela um destino
 
 class destination {
   destinationID = "00000000";

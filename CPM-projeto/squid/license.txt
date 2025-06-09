@@ -1,0 +1,11 @@
+Model Information:
+* title:	Splatoon Squid
+* source:	https://sketchfab.com/3d-models/splatoon-squid-81bb2d9b6c66408fa10e59b85eafad05
+* author:	SleepyPineapple (https://sketchfab.com/SleepyPineapple)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Splatoon Squid" (https://sketchfab.com/3d-models/splatoon-squid-81bb2d9b6c66408fa10e59b85eafad05) by SleepyPineapple (https://sketchfab.com/SleepyPineapple) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

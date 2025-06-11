@@ -60,3 +60,8 @@
   .fade-transition.fade-out {
     opacity: 0;
   }
+
+  .carousel-image {
+    height: 400px;
+    object-fit: cover;
+  }

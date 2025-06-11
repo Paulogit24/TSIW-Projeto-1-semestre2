@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Favicon & CSS -->
-    <link rel="stylesheet" href="css\accelair.css">
-    <link rel="icon" href="img/icon.png"> 
+    <link rel="stylesheet" href="../css/accelair.css">
+    <link rel="icon" href="../img/icon.png"> 
     <!-- Tipo de letra -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,21 +20,21 @@
     
 <div class="container-fluid position-relative" id="navbar">
   <nav class="navbar navbar-expand-sm justify-content-center fixed-top" style="z-index: 1030;">
-    <a class="navbar-brand position-absolute" style="left: 20px;" href="index.html">
-      <img src="img/accel-air.png" alt="Logotipo" width="100">
+    <a class="navbar-brand position-absolute" style="left: 20px;" href="../index.html">
+      <img src="../img/accel-air.png" alt="Logotipo" width="100">
     </a>
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link text-white" href="html\destinos\maisvendidos.html">Mais vendidos</a>
+        <a class="nav-link text-white" href="../html\destinos\maisvendidos.html">Mais vendidos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="#">Ofertas exclusivas</a>
+        <a class="nav-link text-white" href="../html\destinos\ofertasexclusivas.html">Ofertas exclusivas</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="#">Tipos de turismo</a>
+        <a class="nav-link text-white" href="../html\destinos\tiposdeturismo.html">Tipos de turismo</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="#">Sobre nós</a>
+        <a class="nav-link text-white" href="../html\sobrenos.html">Sobre nós</a>
       </li>
     </ul>
     <a class="nav-link text-white position-absolute" style="right: 20px;" href="login.html">
@@ -45,110 +45,18 @@
 
 
 <div class="position-relative">
-    <img class="img-fluid" width="100%" src="img/banner-homepage.png">
+    <img class="img-fluid" width="100%" src="../img/paris-banner.png">
     <div class="position-absolute text-white text-left" style="top: 50%; left: 17%; transform: translate(-50%, -80%)">
-      <h3 class="banner-texto">TORNAMOS A SUA VIAGEM</h3>
-      <h1 class="banner-texto-negrito">MAIS SIMPLES</h1>
+      <h3 class="banner-texto">FRANÇA,</h3>
+      <h1 class="banner-texto-negrito">PARIS</h1>
     </div>
-</div>
-
-<div class="container position-relative formulario">
-  <form action="/action_page.php">
-    <div class="row">
-      <div class="col">
-        <label for="local-partida">Local de partida:</label>
-        <input type="text" class="form-control" id="local-partida" placeholder="Ex: Porto, PT" name="local-partida">
-      </div>
-      <div class="col">
-        <label for="data-partida">Data de partida:</label>
-        <input type="date" class="form-control" name="data-partida">
-      </div>
-      <div class="col">
-        <label for="num-pessoas">Número de pessoas:</label>
-        <input type="text" class="form-control" placeholder="Ex: 2 adultos, 1 criança" name="num-pessoas">
-      </div>
-      <div class="col">
-        <label for="dias-viagem">Dias de viagem:</label>
-        <input type="text" class="form-control" placeholder="Ex: 7 dias" name="dias-viagem">
-      </div>
-      <div class="col">
-        <label for="tipo-turismo">Tipo de turismo:</label>
-        <select class="form-control" id="tipo-turismo">
-          <option>Sol/Praia</option>
-          <option>Cultural</option>
-          <option>Religioso</option>
-          <option>Arquitetónico</option>
-          <option>Ecológico</option>
-          <option>Aventura</option>
-          <option>Eventos</option>
-          <option>Geek</option>
-        </select>
-      </div>
-      <div class="col">
-        <button type="submit" class="btn btn-primary botao-pesquisar">Pesquisar</button>
-      </div>
-    </div>
-  </form>
-</div>
-
-<div class="container-fluid px-5" style="margin-top: -40px;">
-  <div class="d-flex justify-content-between align-items-left mb-4">
-    <h4 class="font-weight-bold text-danger">Destinos populares</h4>
-    <a href="html\destinos\maisvendidos.html" class="text-danger font-weight-bold text-uppercase small">Veja mais ></a>
-  </div>
-  <div class="row g-3">
-    <div class="col-md-4">
-      <div class="card border-0 shadow-sm rounded" style="overflow: hidden;">
-        <img src="img/lisboa.jpg" class="card-img-top" alt="Destino">
-        <div class="bg-danger text-white p-2">
-          <h5 class="mb-0 font-weight-bold">Nome do destino</h5>
-          <small>País do destino</small>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card border-0 shadow-sm rounded" style="overflow: hidden;">
-        <img src="img/lisboa.jpg" class="card-img-top" alt="Destino">
-        <div class="bg-danger text-white p-2">
-          <h5 class="mb-0 font-weight-bold">Nome do destino</h5>
-          <small>País do destino</small>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card border-0 shadow-sm rounded" style="overflow: hidden;">
-        <img src="img/lisboa.jpg" class="card-img-top" alt="Destino">
-        <div class="bg-danger text-white p-2">
-          <h5 class="mb-0 font-weight-bold">Nome do destino</h5>
-          <small>País do destino</small>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid px-5" style="margin-top: 50px;">
-  <h4 class="font-weight-bold text-danger">Viagens para si</h4>
-
-  <div id="carousel-container" class="d-flex flex-wrap justify-content-between mt-3 fade-transition">
-
-  </div>
-
-  <div class="d-flex justify-content-end mt-3">
-    <button class="btn btn-light me-2" onclick="changeSet(-1)">
-      <i class="fas fa-circle-chevron-left text-danger fa-2x"></i>
-    </button>
-    <button class="btn btn-light" onclick="changeSet(1)">
-      <i class="fas fa-circle-chevron-right text-danger fa-2x"></i>
-    </button>
-  </div>
 </div>
 
 <footer class="mt-5" style="background-color: #f40000; color: white; border-top-left-radius: 30px; border-top-right-radius: 30px;">
   <div class="container py-4">
     <div class="row">
       <div class="col-md-4 mb-3">
-        <img src="img/accel-air-branco.png" alt="Logotipo AccelAir" width="120">
+        <img src="../img/accel-air-branco.png" alt="Logotipo AccelAir" width="120">
         <small class="d-block mt-2">© AccelAir Ltd 2025</small>
       </div>
       <div class="col-md-4 mb-3">
@@ -169,8 +77,6 @@
   </div>
 </footer>
 
-
-
 <script>
   window.addEventListener('scroll', function () {
   const navbar = document.querySelector("#navbar nav");
@@ -181,51 +87,6 @@
     navbar.classList.remove("navbar-branco");
   }
 });
-
-const sets = [
-  [
-    { cidade: "Paris", pais: "França", turismo: "Arquitetónico", imagem: "img/viagens-para-si/paris01.png" },
-    { cidade: "Barcelona", pais: "Espanha", turismo: "Arquitetónico", imagem: "img/viagens-para-si/barcelona01.png" },
-    { cidade: "Nova York", pais: "Estados Unidos", turismo: "Arquitetónico", imagem: "img/viagens-para-si/novayork01.png" },
-    { cidade: "Roma", pais: "Itália", turismo: "Histórico", imagem: "img/viagens-para-si/roma01.png" },
-    { cidade: "Londres", pais: "Inglaterra", turismo: "Arquitetónico", imagem: "img/viagens-para-si/londres01.png" }
-  ],
-  [
-    { cidade: "Tóquio", pais: "Japão", turismo: "Cultural", imagem: "img/viagens-para-si/toquio01.png" },
-    { cidade: "Dubai", pais: "Emirados", turismo: "Arquitetónico", imagem: "img/viagens-para-si/dubai01.png" },
-    { cidade: "Praga", pais: "Rep. Checa", turismo: "Arquitetónico", imagem: "img/viagens-para-si/praga01.png" },
-    { cidade: "Rio", pais: "Brasil", turismo: "Sol/Praia", imagem: "img/viagens-para-si/rio01.png" },
-    { cidade: "Istambul", pais: "Turquia", turismo: "Cultural", imagem: "img/viagens-para-si/istambul01.png" }
-  ]
-];
-
-let currentSet = 0;
-
-function renderSet(index) {
-  const container = document.getElementById("carousel-container");
-  container.innerHTML = "";
-  sets[index].forEach(dest => {
-    container.innerHTML += `
-      <div class="card-destino" style="background-image: url('${dest.imagem}')">
-        <h5 class="fw-bold">${dest.cidade}</h5>
-        <p>${dest.pais}</p>
-        <small>Turismo: ${dest.turismo}</small>
-      </div>
-    `;
-  });
-}
-
-function changeSet(direction) {
-  const container = document.getElementById("carousel-container");
-  container.classList.add("fade-out");
-  setTimeout(() => {
-    currentSet = (currentSet + direction + sets.length) % sets.length;
-    renderSet(currentSet);
-    container.classList.remove("fade-out");
-  }, 500);
-}
-
-document.addEventListener("DOMContentLoaded", () => renderSet(0));
 
 
 </script>

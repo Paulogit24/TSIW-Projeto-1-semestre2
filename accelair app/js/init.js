@@ -82,3 +82,8 @@ function initdata() {
   }
 }
 
+import SearchView from './views/searchView.js';
+
+document.addEventListener('DOMContentLoaded', () => {
+  new SearchView('form');
+});

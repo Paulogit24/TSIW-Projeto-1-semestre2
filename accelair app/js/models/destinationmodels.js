@@ -74,7 +74,7 @@ export function getdestination(filterOrigin = "", filterdestination = "", isSort
 class destination {
   destinationID = "00000000";
   name = "name";
-  destinationcription = "destination description";
+  destinationDescription = "destination description";
   image = "image-url";
   location = "location";
   price = "price";
@@ -83,7 +83,7 @@ class destination {
   constructor(destinationID, name, destinationcription, image, location, price, category) {
     this.destinationID = destinationID;
     this.name = name;
-    this.destinationcription = destinationcription;
+    this.destinationDescription = destinationcription;
     this.image = image;
     this.location = location;
     this.price = price;

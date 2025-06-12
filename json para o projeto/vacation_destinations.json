@@ -1,0 +1,904 @@
+{
+  "destinations": [
+    {
+      "destinationID": "dest001",
+      "name": "Kyoto",
+      "destinationDescription": "A serene destination filled with ancient temples and traditional culture.",
+      "image": "https://example.com/images/image1.jpg",
+      "location": "Japan",
+      "price": "$2945",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest002",
+      "name": "Rome",
+      "destinationDescription": "Rich in history and home to iconic ruins and architecture.",
+      "image": "https://example.com/images/image2.jpg",
+      "location": "Italy",
+      "price": "$2325",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest003",
+      "name": "Barcelona",
+      "destinationDescription": "Renowned for art, architecture, and Mediterranean charm.",
+      "image": "https://example.com/images/image3.jpg",
+      "location": "Spain",
+      "price": "$1219",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest004",
+      "name": "Sydney",
+      "destinationDescription": "Vibrant city with beautiful beaches and a laid-back lifestyle.",
+      "image": "https://example.com/images/image4.jpg",
+      "location": "Australia",
+      "price": "$2389",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest005",
+      "name": "Paris",
+      "destinationDescription": "A romantic city known for historical landmarks and fine dining.",
+      "image": "https://example.com/images/image5.jpg",
+      "location": "France",
+      "price": "$2314",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest006",
+      "name": "Kyoto",
+      "destinationDescription": "A serene destination filled with ancient temples and traditional culture.",
+      "image": "https://example.com/images/image6.jpg",
+      "location": "Japan",
+      "price": "$2547",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest007",
+      "name": "Barcelona",
+      "destinationDescription": "Renowned for art, architecture, and Mediterranean charm.",
+      "image": "https://example.com/images/image7.jpg",
+      "location": "Spain",
+      "price": "$2464",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest008",
+      "name": "Rome",
+      "destinationDescription": "Rich in history and home to iconic ruins and architecture.",
+      "image": "https://example.com/images/image8.jpg",
+      "location": "Italy",
+      "price": "$2163",
+      "category": "Eco Tourism"
+    },
+    {
+      "destinationID": "dest009",
+      "name": "Bali Island",
+      "destinationDescription": "A tropical paradise with stunning beaches and vibrant culture.",
+      "image": "https://example.com/images/image9.jpg",
+      "location": "Indonesia",
+      "price": "$1094",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest010",
+      "name": "Rome",
+      "destinationDescription": "Rich in history and home to iconic ruins and architecture.",
+      "image": "https://example.com/images/image10.jpg",
+      "location": "Italy",
+      "price": "$2726",
+      "category": "Eco Tourism"
+    },
+    {
+      "destinationID": "dest011",
+      "name": "Swiss Alps",
+      "destinationDescription": "Famous for skiing, hiking, and breathtaking mountain views.",
+      "image": "https://example.com/images/image11.jpg",
+      "location": "Switzerland",
+      "price": "$1615",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest012",
+      "name": "Bali Island",
+      "destinationDescription": "A tropical paradise with stunning beaches and vibrant culture.",
+      "image": "https://example.com/images/image12.jpg",
+      "location": "Indonesia",
+      "price": "$1669",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest013",
+      "name": "Istanbul",
+      "destinationDescription": "Where East meets West with a mix of cultures and history.",
+      "image": "https://example.com/images/image13.jpg",
+      "location": "Turkey",
+      "price": "$2380",
+      "category": "Eco Tourism"
+    },
+    {
+      "destinationID": "dest014",
+      "name": "Swiss Alps",
+      "destinationDescription": "Famous for skiing, hiking, and breathtaking mountain views.",
+      "image": "https://example.com/images/image14.jpg",
+      "location": "Switzerland",
+      "price": "$1410",
+      "category": "Adventure Tourism"
+    },
+    {
+      "destinationID": "dest015",
+      "name": "Paris",
+      "destinationDescription": "A romantic city known for historical landmarks and fine dining.",
+      "image": "https://example.com/images/image15.jpg",
+      "location": "France",
+      "price": "$1294",
+      "category": "Eco Tourism"
+    },
+    {
+      "destinationID": "dest016",
+      "name": "Barcelona",
+      "destinationDescription": "Renowned for art, architecture, and Mediterranean charm.",
+      "image": "https://example.com/images/image16.jpg",
+      "location": "Spain",
+      "price": "$1277",
+      "category": "Urban Tourism"
+    },
+    {
+      "destinationID": "dest017",
+      "name": "Bali Island",
+      "destinationDescription": "A tropical paradise with stunning beaches and vibrant culture.",
+      "image": "https://example.com/images/image17.jpg",
+      "location": "Indonesia",
+      "price": "$2659",
+      "category": "Urban Tourism"
+    },
+    {
+      "destinationID": "dest018",
+      "name": "New York City",
+      "destinationDescription": "A bustling metropolis with world-class attractions and nightlife.",
+      "image": "https://example.com/images/image18.jpg",
+      "location": "USA",
+      "price": "$1011",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest019",
+      "name": "Sydney",
+      "destinationDescription": "Vibrant city with beautiful beaches and a laid-back lifestyle.",
+      "image": "https://example.com/images/image19.jpg",
+      "location": "Australia",
+      "price": "$1051",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest020",
+      "name": "Istanbul",
+      "destinationDescription": "Where East meets West with a mix of cultures and history.",
+      "image": "https://example.com/images/image20.jpg",
+      "location": "Turkey",
+      "price": "$1802",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest021",
+      "name": "Kyoto",
+      "destinationDescription": "A serene destination filled with ancient temples and traditional culture.",
+      "image": "https://example.com/images/image21.jpg",
+      "location": "Japan",
+      "price": "$1272",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest022",
+      "name": "Paris",
+      "destinationDescription": "A romantic city known for historical landmarks and fine dining.",
+      "image": "https://example.com/images/image22.jpg",
+      "location": "France",
+      "price": "$1373",
+      "category": "Urban Tourism"
+    },
+    {
+      "destinationID": "dest023",
+      "name": "New York City",
+      "destinationDescription": "A bustling metropolis with world-class attractions and nightlife.",
+      "image": "https://example.com/images/image23.jpg",
+      "location": "USA",
+      "price": "$2051",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest024",
+      "name": "Kyoto",
+      "destinationDescription": "A serene destination filled with ancient temples and traditional culture.",
+      "image": "https://example.com/images/image24.jpg",
+      "location": "Japan",
+      "price": "$2453",
+      "category": "Eco Tourism"
+    },
+    {
+      "destinationID": "dest025",
+      "name": "Swiss Alps",
+      "destinationDescription": "Famous for skiing, hiking, and breathtaking mountain views.",
+      "image": "https://example.com/images/image25.jpg",
+      "location": "Switzerland",
+      "price": "$1688",
+      "category": "Eco Tourism"
+    },
+    {
+      "destinationID": "dest026",
+      "name": "Rome",
+      "destinationDescription": "Rich in history and home to iconic ruins and architecture.",
+      "image": "https://example.com/images/image26.jpg",
+      "location": "Italy",
+      "price": "$2756",
+      "category": "Eco Tourism"
+    },
+    {
+      "destinationID": "dest027",
+      "name": "Bali Island",
+      "destinationDescription": "A tropical paradise with stunning beaches and vibrant culture.",
+      "image": "https://example.com/images/image27.jpg",
+      "location": "Indonesia",
+      "price": "$2326",
+      "category": "Adventure Tourism"
+    },
+    {
+      "destinationID": "dest028",
+      "name": "Sydney",
+      "destinationDescription": "Vibrant city with beautiful beaches and a laid-back lifestyle.",
+      "image": "https://example.com/images/image28.jpg",
+      "location": "Australia",
+      "price": "$1516",
+      "category": "Eco Tourism"
+    },
+    {
+      "destinationID": "dest029",
+      "name": "New York City",
+      "destinationDescription": "A bustling metropolis with world-class attractions and nightlife.",
+      "image": "https://example.com/images/image29.jpg",
+      "location": "USA",
+      "price": "$2817",
+      "category": "Urban Tourism"
+    },
+    {
+      "destinationID": "dest030",
+      "name": "New York City",
+      "destinationDescription": "A bustling metropolis with world-class attractions and nightlife.",
+      "image": "https://example.com/images/image30.jpg",
+      "location": "USA",
+      "price": "$2345",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest031",
+      "name": "Paris",
+      "destinationDescription": "A romantic city known for historical landmarks and fine dining.",
+      "image": "https://example.com/images/image31.jpg",
+      "location": "France",
+      "price": "$1331",
+      "category": "Urban Tourism"
+    },
+    {
+      "destinationID": "dest032",
+      "name": "New York City",
+      "destinationDescription": "A bustling metropolis with world-class attractions and nightlife.",
+      "image": "https://example.com/images/image32.jpg",
+      "location": "USA",
+      "price": "$1850",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest033",
+      "name": "Kyoto",
+      "destinationDescription": "A serene destination filled with ancient temples and traditional culture.",
+      "image": "https://example.com/images/image33.jpg",
+      "location": "Japan",
+      "price": "$1175",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest034",
+      "name": "Cape Town",
+      "destinationDescription": "A coastal city known for natural beauty and diverse wildlife.",
+      "image": "https://example.com/images/image34.jpg",
+      "location": "South Africa",
+      "price": "$2728",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest035",
+      "name": "Rome",
+      "destinationDescription": "Rich in history and home to iconic ruins and architecture.",
+      "image": "https://example.com/images/image35.jpg",
+      "location": "Italy",
+      "price": "$2011",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest036",
+      "name": "Barcelona",
+      "destinationDescription": "Renowned for art, architecture, and Mediterranean charm.",
+      "image": "https://example.com/images/image36.jpg",
+      "location": "Spain",
+      "price": "$2588",
+      "category": "Eco Tourism"
+    },
+    {
+      "destinationID": "dest037",
+      "name": "Sydney",
+      "destinationDescription": "Vibrant city with beautiful beaches and a laid-back lifestyle.",
+      "image": "https://example.com/images/image37.jpg",
+      "location": "Australia",
+      "price": "$2604",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest038",
+      "name": "Kyoto",
+      "destinationDescription": "A serene destination filled with ancient temples and traditional culture.",
+      "image": "https://example.com/images/image38.jpg",
+      "location": "Japan",
+      "price": "$2573",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest039",
+      "name": "New York City",
+      "destinationDescription": "A bustling metropolis with world-class attractions and nightlife.",
+      "image": "https://example.com/images/image39.jpg",
+      "location": "USA",
+      "price": "$1017",
+      "category": "Eco Tourism"
+    },
+    {
+      "destinationID": "dest040",
+      "name": "Barcelona",
+      "destinationDescription": "Renowned for art, architecture, and Mediterranean charm.",
+      "image": "https://example.com/images/image40.jpg",
+      "location": "Spain",
+      "price": "$2062",
+      "category": "Urban Tourism"
+    },
+    {
+      "destinationID": "dest041",
+      "name": "Paris",
+      "destinationDescription": "A romantic city known for historical landmarks and fine dining.",
+      "image": "https://example.com/images/image41.jpg",
+      "location": "France",
+      "price": "$2541",
+      "category": "Adventure Tourism"
+    },
+    {
+      "destinationID": "dest042",
+      "name": "Paris",
+      "destinationDescription": "A romantic city known for historical landmarks and fine dining.",
+      "image": "https://example.com/images/image42.jpg",
+      "location": "France",
+      "price": "$2306",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest043",
+      "name": "Barcelona",
+      "destinationDescription": "Renowned for art, architecture, and Mediterranean charm.",
+      "image": "https://example.com/images/image43.jpg",
+      "location": "Spain",
+      "price": "$2636",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest044",
+      "name": "Swiss Alps",
+      "destinationDescription": "Famous for skiing, hiking, and breathtaking mountain views.",
+      "image": "https://example.com/images/image44.jpg",
+      "location": "Switzerland",
+      "price": "$1302",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest045",
+      "name": "Bali Island",
+      "destinationDescription": "A tropical paradise with stunning beaches and vibrant culture.",
+      "image": "https://example.com/images/image45.jpg",
+      "location": "Indonesia",
+      "price": "$2271",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest046",
+      "name": "New York City",
+      "destinationDescription": "A bustling metropolis with world-class attractions and nightlife.",
+      "image": "https://example.com/images/image46.jpg",
+      "location": "USA",
+      "price": "$2159",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest047",
+      "name": "Swiss Alps",
+      "destinationDescription": "Famous for skiing, hiking, and breathtaking mountain views.",
+      "image": "https://example.com/images/image47.jpg",
+      "location": "Switzerland",
+      "price": "$2005",
+      "category": "Adventure Tourism"
+    },
+    {
+      "destinationID": "dest048",
+      "name": "Barcelona",
+      "destinationDescription": "Renowned for art, architecture, and Mediterranean charm.",
+      "image": "https://example.com/images/image48.jpg",
+      "location": "Spain",
+      "price": "$2363",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest049",
+      "name": "Istanbul",
+      "destinationDescription": "Where East meets West with a mix of cultures and history.",
+      "image": "https://example.com/images/image49.jpg",
+      "location": "Turkey",
+      "price": "$2619",
+      "category": "Adventure Tourism"
+    },
+    {
+      "destinationID": "dest050",
+      "name": "Rome",
+      "destinationDescription": "Rich in history and home to iconic ruins and architecture.",
+      "image": "https://example.com/images/image50.jpg",
+      "location": "Italy",
+      "price": "$2334",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest051",
+      "name": "New York City",
+      "destinationDescription": "A bustling metropolis with world-class attractions and nightlife.",
+      "image": "https://example.com/images/image51.jpg",
+      "location": "USA",
+      "price": "$2832",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest052",
+      "name": "Istanbul",
+      "destinationDescription": "Where East meets West with a mix of cultures and history.",
+      "image": "https://example.com/images/image52.jpg",
+      "location": "Turkey",
+      "price": "$1852",
+      "category": "Adventure Tourism"
+    },
+    {
+      "destinationID": "dest053",
+      "name": "New York City",
+      "destinationDescription": "A bustling metropolis with world-class attractions and nightlife.",
+      "image": "https://example.com/images/image53.jpg",
+      "location": "USA",
+      "price": "$1348",
+      "category": "Eco Tourism"
+    },
+    {
+      "destinationID": "dest054",
+      "name": "Barcelona",
+      "destinationDescription": "Renowned for art, architecture, and Mediterranean charm.",
+      "image": "https://example.com/images/image54.jpg",
+      "location": "Spain",
+      "price": "$1234",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest055",
+      "name": "Barcelona",
+      "destinationDescription": "Renowned for art, architecture, and Mediterranean charm.",
+      "image": "https://example.com/images/image55.jpg",
+      "location": "Spain",
+      "price": "$1809",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest056",
+      "name": "Istanbul",
+      "destinationDescription": "Where East meets West with a mix of cultures and history.",
+      "image": "https://example.com/images/image56.jpg",
+      "location": "Turkey",
+      "price": "$2488",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest057",
+      "name": "Swiss Alps",
+      "destinationDescription": "Famous for skiing, hiking, and breathtaking mountain views.",
+      "image": "https://example.com/images/image57.jpg",
+      "location": "Switzerland",
+      "price": "$1084",
+      "category": "Adventure Tourism"
+    },
+    {
+      "destinationID": "dest058",
+      "name": "Istanbul",
+      "destinationDescription": "Where East meets West with a mix of cultures and history.",
+      "image": "https://example.com/images/image58.jpg",
+      "location": "Turkey",
+      "price": "$1479",
+      "category": "Adventure Tourism"
+    },
+    {
+      "destinationID": "dest059",
+      "name": "Cape Town",
+      "destinationDescription": "A coastal city known for natural beauty and diverse wildlife.",
+      "image": "https://example.com/images/image59.jpg",
+      "location": "South Africa",
+      "price": "$2818",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest060",
+      "name": "Bali Island",
+      "destinationDescription": "A tropical paradise with stunning beaches and vibrant culture.",
+      "image": "https://example.com/images/image60.jpg",
+      "location": "Indonesia",
+      "price": "$1597",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest061",
+      "name": "Istanbul",
+      "destinationDescription": "Where East meets West with a mix of cultures and history.",
+      "image": "https://example.com/images/image61.jpg",
+      "location": "Turkey",
+      "price": "$2949",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest062",
+      "name": "Kyoto",
+      "destinationDescription": "A serene destination filled with ancient temples and traditional culture.",
+      "image": "https://example.com/images/image62.jpg",
+      "location": "Japan",
+      "price": "$1928",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest063",
+      "name": "Kyoto",
+      "destinationDescription": "A serene destination filled with ancient temples and traditional culture.",
+      "image": "https://example.com/images/image63.jpg",
+      "location": "Japan",
+      "price": "$1566",
+      "category": "Eco Tourism"
+    },
+    {
+      "destinationID": "dest064",
+      "name": "Barcelona",
+      "destinationDescription": "Renowned for art, architecture, and Mediterranean charm.",
+      "image": "https://example.com/images/image64.jpg",
+      "location": "Spain",
+      "price": "$2416",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest065",
+      "name": "Kyoto",
+      "destinationDescription": "A serene destination filled with ancient temples and traditional culture.",
+      "image": "https://example.com/images/image65.jpg",
+      "location": "Japan",
+      "price": "$1798",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest066",
+      "name": "Bali Island",
+      "destinationDescription": "A tropical paradise with stunning beaches and vibrant culture.",
+      "image": "https://example.com/images/image66.jpg",
+      "location": "Indonesia",
+      "price": "$1412",
+      "category": "Eco Tourism"
+    },
+    {
+      "destinationID": "dest067",
+      "name": "Sydney",
+      "destinationDescription": "Vibrant city with beautiful beaches and a laid-back lifestyle.",
+      "image": "https://example.com/images/image67.jpg",
+      "location": "Australia",
+      "price": "$1551",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest068",
+      "name": "Barcelona",
+      "destinationDescription": "Renowned for art, architecture, and Mediterranean charm.",
+      "image": "https://example.com/images/image68.jpg",
+      "location": "Spain",
+      "price": "$1728",
+      "category": "Urban Tourism"
+    },
+    {
+      "destinationID": "dest069",
+      "name": "Paris",
+      "destinationDescription": "A romantic city known for historical landmarks and fine dining.",
+      "image": "https://example.com/images/image69.jpg",
+      "location": "France",
+      "price": "$2564",
+      "category": "Eco Tourism"
+    },
+    {
+      "destinationID": "dest070",
+      "name": "New York City",
+      "destinationDescription": "A bustling metropolis with world-class attractions and nightlife.",
+      "image": "https://example.com/images/image70.jpg",
+      "location": "USA",
+      "price": "$1096",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest071",
+      "name": "Cape Town",
+      "destinationDescription": "A coastal city known for natural beauty and diverse wildlife.",
+      "image": "https://example.com/images/image71.jpg",
+      "location": "South Africa",
+      "price": "$1114",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest072",
+      "name": "Paris",
+      "destinationDescription": "A romantic city known for historical landmarks and fine dining.",
+      "image": "https://example.com/images/image72.jpg",
+      "location": "France",
+      "price": "$1717",
+      "category": "Urban Tourism"
+    },
+    {
+      "destinationID": "dest073",
+      "name": "Bali Island",
+      "destinationDescription": "A tropical paradise with stunning beaches and vibrant culture.",
+      "image": "https://example.com/images/image73.jpg",
+      "location": "Indonesia",
+      "price": "$1040",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest074",
+      "name": "Kyoto",
+      "destinationDescription": "A serene destination filled with ancient temples and traditional culture.",
+      "image": "https://example.com/images/image74.jpg",
+      "location": "Japan",
+      "price": "$1670",
+      "category": "Urban Tourism"
+    },
+    {
+      "destinationID": "dest075",
+      "name": "Cape Town",
+      "destinationDescription": "A coastal city known for natural beauty and diverse wildlife.",
+      "image": "https://example.com/images/image75.jpg",
+      "location": "South Africa",
+      "price": "$1975",
+      "category": "Adventure Tourism"
+    },
+    {
+      "destinationID": "dest076",
+      "name": "New York City",
+      "destinationDescription": "A bustling metropolis with world-class attractions and nightlife.",
+      "image": "https://example.com/images/image76.jpg",
+      "location": "USA",
+      "price": "$2663",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest077",
+      "name": "Swiss Alps",
+      "destinationDescription": "Famous for skiing, hiking, and breathtaking mountain views.",
+      "image": "https://example.com/images/image77.jpg",
+      "location": "Switzerland",
+      "price": "$2538",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest078",
+      "name": "Sydney",
+      "destinationDescription": "Vibrant city with beautiful beaches and a laid-back lifestyle.",
+      "image": "https://example.com/images/image78.jpg",
+      "location": "Australia",
+      "price": "$1266",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest079",
+      "name": "Paris",
+      "destinationDescription": "A romantic city known for historical landmarks and fine dining.",
+      "image": "https://example.com/images/image79.jpg",
+      "location": "France",
+      "price": "$1848",
+      "category": "Adventure Tourism"
+    },
+    {
+      "destinationID": "dest080",
+      "name": "Paris",
+      "destinationDescription": "A romantic city known for historical landmarks and fine dining.",
+      "image": "https://example.com/images/image80.jpg",
+      "location": "France",
+      "price": "$1813",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest081",
+      "name": "Bali Island",
+      "destinationDescription": "A tropical paradise with stunning beaches and vibrant culture.",
+      "image": "https://example.com/images/image81.jpg",
+      "location": "Indonesia",
+      "price": "$1231",
+      "category": "Eco Tourism"
+    },
+    {
+      "destinationID": "dest082",
+      "name": "Paris",
+      "destinationDescription": "A romantic city known for historical landmarks and fine dining.",
+      "image": "https://example.com/images/image82.jpg",
+      "location": "France",
+      "price": "$1693",
+      "category": "Adventure Tourism"
+    },
+    {
+      "destinationID": "dest083",
+      "name": "Barcelona",
+      "destinationDescription": "Renowned for art, architecture, and Mediterranean charm.",
+      "image": "https://example.com/images/image83.jpg",
+      "location": "Spain",
+      "price": "$2089",
+      "category": "Eco Tourism"
+    },
+    {
+      "destinationID": "dest084",
+      "name": "Sydney",
+      "destinationDescription": "Vibrant city with beautiful beaches and a laid-back lifestyle.",
+      "image": "https://example.com/images/image84.jpg",
+      "location": "Australia",
+      "price": "$1522",
+      "category": "Adventure Tourism"
+    },
+    {
+      "destinationID": "dest085",
+      "name": "Swiss Alps",
+      "destinationDescription": "Famous for skiing, hiking, and breathtaking mountain views.",
+      "image": "https://example.com/images/image85.jpg",
+      "location": "Switzerland",
+      "price": "$1972",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest086",
+      "name": "Sydney",
+      "destinationDescription": "Vibrant city with beautiful beaches and a laid-back lifestyle.",
+      "image": "https://example.com/images/image86.jpg",
+      "location": "Australia",
+      "price": "$2662",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest087",
+      "name": "Swiss Alps",
+      "destinationDescription": "Famous for skiing, hiking, and breathtaking mountain views.",
+      "image": "https://example.com/images/image87.jpg",
+      "location": "Switzerland",
+      "price": "$1020",
+      "category": "Adventure Tourism"
+    },
+    {
+      "destinationID": "dest088",
+      "name": "New York City",
+      "destinationDescription": "A bustling metropolis with world-class attractions and nightlife.",
+      "image": "https://example.com/images/image88.jpg",
+      "location": "USA",
+      "price": "$2903",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest089",
+      "name": "Istanbul",
+      "destinationDescription": "Where East meets West with a mix of cultures and history.",
+      "image": "https://example.com/images/image89.jpg",
+      "location": "Turkey",
+      "price": "$2497",
+      "category": "Urban Tourism"
+    },
+    {
+      "destinationID": "dest090",
+      "name": "Barcelona",
+      "destinationDescription": "Renowned for art, architecture, and Mediterranean charm.",
+      "image": "https://example.com/images/image90.jpg",
+      "location": "Spain",
+      "price": "$2823",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest091",
+      "name": "Sydney",
+      "destinationDescription": "Vibrant city with beautiful beaches and a laid-back lifestyle.",
+      "image": "https://example.com/images/image91.jpg",
+      "location": "Australia",
+      "price": "$2660",
+      "category": "Adventure Tourism"
+    },
+    {
+      "destinationID": "dest092",
+      "name": "Istanbul",
+      "destinationDescription": "Where East meets West with a mix of cultures and history.",
+      "image": "https://example.com/images/image92.jpg",
+      "location": "Turkey",
+      "price": "$2949",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest093",
+      "name": "Sydney",
+      "destinationDescription": "Vibrant city with beautiful beaches and a laid-back lifestyle.",
+      "image": "https://example.com/images/image93.jpg",
+      "location": "Australia",
+      "price": "$2996",
+      "category": "Urban Tourism"
+    },
+    {
+      "destinationID": "dest094",
+      "name": "Cape Town",
+      "destinationDescription": "A coastal city known for natural beauty and diverse wildlife.",
+      "image": "https://example.com/images/image94.jpg",
+      "location": "South Africa",
+      "price": "$1834",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest095",
+      "name": "Kyoto",
+      "destinationDescription": "A serene destination filled with ancient temples and traditional culture.",
+      "image": "https://example.com/images/image95.jpg",
+      "location": "Japan",
+      "price": "$2041",
+      "category": "Beach Tourism"
+    },
+    {
+      "destinationID": "dest096",
+      "name": "Kyoto",
+      "destinationDescription": "A serene destination filled with ancient temples and traditional culture.",
+      "image": "https://example.com/images/image96.jpg",
+      "location": "Japan",
+      "price": "$1134",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest097",
+      "name": "Cape Town",
+      "destinationDescription": "A coastal city known for natural beauty and diverse wildlife.",
+      "image": "https://example.com/images/image97.jpg",
+      "location": "South Africa",
+      "price": "$2097",
+      "category": "Cultural Tourism"
+    },
+    {
+      "destinationID": "dest098",
+      "name": "Barcelona",
+      "destinationDescription": "Renowned for art, architecture, and Mediterranean charm.",
+      "image": "https://example.com/images/image98.jpg",
+      "location": "Spain",
+      "price": "$1301",
+      "category": "Heritage Tourism"
+    },
+    {
+      "destinationID": "dest099",
+      "name": "Kyoto",
+      "destinationDescription": "A serene destination filled with ancient temples and traditional culture.",
+      "image": "https://example.com/images/image99.jpg",
+      "location": "Japan",
+      "price": "$1036",
+      "category": "Urban Tourism"
+    },
+    {
+      "destinationID": "dest100",
+      "name": "Barcelona",
+      "destinationDescription": "Renowned for art, architecture, and Mediterranean charm.",
+      "image": "https://example.com/images/image100.jpg",
+      "location": "Spain",
+      "price": "$2661",
+      "category": "Adventure Tourism"
+    }
+  ]
+}

@@ -43,31 +43,140 @@ export function isLogged() {
 export function getUserLogged() {
   return JSON.parse(sessionStorage.getItem("loggedUser"));
 }
-// devolve o baner do utilizador
-export function getUserBanner() {
+// devolve o banner do utilizador
+export function getUBanner() {
   const user = JSON.parse(sessionStorage.getItem("loggedUser"));
   return user ? user.banner : "#000000";
 }
 
 
+// função para atualzar o tier do utilizador (imcompleta: falta verificar se o utilizador tem exp suficiente para o tier, e colocar as quantidades corrretas de exp)
+/*export function updatetier() {
+  if (exp >= 1000 && exp < 2000) {
+    const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+    if (user) {
+      user.tier = "bronze";
+      localStorage.setItem("users", JSON.stringify(users));
+    }
+  }
+  if (exp >= 2000 && exp < 3000) {
+    const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+    if (user) {
+      user.tier = "prata";
+      localStorage.setItem("users", JSON.stringify(users));
+    }
+  }
+  if (exp >= 3000 && exp < 4000) {
+    const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+    if (user) {
+      user.tier = "ouro";
+      localStorage.setItem("users", JSON.stringify(users));
+    }
+  }
+  if (exp >= 4000 ) {
+    const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+    if (user) {
+      user.tier = "platina";
+      localStorage.setItem("users", JSON.stringify(users));
+    }
+  }
+}*/
+
+// addicionar fundos ao utilizador
+export function addfunds(funds) {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    user.funds += funds;
+    localStorage.setItem("users", JSON.stringify(users));
+  }
+}
+// Alterar a imagem do utilizador
+export function setUserImage(image) {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    user.userimage = image;
+    localStorage.setItem("users", JSON.stringify(users));
+  }
+}
+// Alterar a descrição do utilizador
+export function setAboutUser(about) {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    user.aboutuser = about;
+    localStorage.setItem("users", JSON.stringify(users));
+  }
+}
+// Alterar o nome de utilizador
+export function setUsername(newUsername) {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    if (users.some((u) => u.username === newUsername)) {
+      throw Error(`User with username "${newUsername}" already exists!`);
+    } else {
+      user.username = newUsername;
+      localStorage.setItem("users", JSON.stringify(users));
+    }
+  }
+}
+// alterar o banner do utilizador
+export function setBanner(newBanner) {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    user.banner = newBanner;
+    localStorage.setItem("users", JSON.stringify(users));
+  }
+}
+// alterar a password do utilizador
+export function setPassword(newPassword) {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    user.password = newPassword;
+    localStorage.setItem("users", JSON.stringify(users));
+  }
+}
+// cobrar fundos ao utilizador
+export function deductFunds(amount) {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    if (user.funds >= amount) {
+      user.funds -= amount;
+      localStorage.setItem("users", JSON.stringify(users));
+    } else {
+      throw Error("Insufficient funds!");
+    }
+  }
+}
+// alterar o admin do utilizador
+export function setAdmin(isAdmin) {
+  const user = JSON.parse(sessionStorage.getItem("loggedUser"));
+  if (user) {
+    user.admin = isAdmin ? "true" : "false";
+    localStorage.setItem("users", JSON.stringify(users));
+  }
+}
+
 // classa do utilizador
 class User {
   username = "";
   password = "";
-  tier = "";
-  exp = ""
+  //tier = "";   // possivelmente não necessário
+  exp = 0
   banner = "";
   userimage = "";
   aboutuser = "";
+  admin = "";
+  funds = 0;
 
   constructor(username, password) {
     this.username = username;
     this.password = password;
-    this.tier = "tierless";
+    //this.tier = "tierless";
     this.exp = 0;
     this.banner = "#000000";
     this.userimage = "#000000";
     this.aboutuser = "write something about you";
+    this.admin = "false"
+    this.funds = 0;	
     
   }
 }

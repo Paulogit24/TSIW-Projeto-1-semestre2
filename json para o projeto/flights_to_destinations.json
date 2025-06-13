@@ -7,7 +7,7 @@
       "departure": "2025-07-27 20:00",
       "arrival": "2025-07-27 22:00",
       "airline": "AeroLux",
-      "price": "$337"
+      "price": 337
     },
     {
       "flightID": "FL0002",
@@ -16,7 +16,7 @@
       "departure": "2025-07-29 08:00",
       "arrival": "2025-07-29 16:00",
       "airline": "Oceanic Airlines",
-      "price": "$940"
+      "price": 940
     },
     {
       "flightID": "FL0003",
@@ -25,7 +25,7 @@
       "departure": "2025-07-26 05:00",
       "arrival": "2025-07-26 17:00",
       "airline": "AeroLux",
-      "price": "$319"
+      "price": 319
     },
     {
       "flightID": "FL0004",
@@ -34,7 +34,7 @@
       "departure": "2025-07-13 20:00",
       "arrival": "2025-07-14 04:00",
       "airline": "VoyageAir",
-      "price": "$478"
+      "price": 478
     },
     {
       "flightID": "FL0005",
@@ -43,7 +43,7 @@
       "departure": "2025-07-07 18:00",
       "arrival": "2025-07-07 20:00",
       "airline": "VoyageAir",
-      "price": "$347"
+      "price": 347
     },
     {
       "flightID": "FL0006",
@@ -52,7 +52,7 @@
       "departure": "2025-07-11 18:00",
       "arrival": "2025-07-11 21:00",
       "airline": "Oceanic Airlines",
-      "price": "$340"
+      "price": 340
     },
     {
       "flightID": "FL0007",
@@ -61,7 +61,7 @@
       "departure": "2025-07-26 16:00",
       "arrival": "2025-07-27 00:00",
       "airline": "CloudNine Air",
-      "price": "$986"
+      "price": 986
     },
     {
       "flightID": "FL0008",
@@ -70,7 +70,7 @@
       "departure": "2025-07-21 20:00",
       "arrival": "2025-07-22 00:00",
       "airline": "AeroLux",
-      "price": "$215"
+      "price": 215
     },
     {
       "flightID": "FL0009",
@@ -79,7 +79,7 @@
       "departure": "2025-07-21 12:00",
       "arrival": "2025-07-21 19:00",
       "airline": "VoyageAir",
-      "price": "$961"
+      "price": 961
     },
     {
       "flightID": "FL0010",
@@ -88,7 +88,7 @@
       "departure": "2025-07-22 18:00",
       "arrival": "2025-07-23 00:00",
       "airline": "TransGlobal",
-      "price": "$976"
+      "price": 976
     },
     {
       "flightID": "FL0011",
@@ -97,7 +97,7 @@
       "departure": "2025-07-25 08:00",
       "arrival": "2025-07-25 12:00",
       "airline": "SunAir",
-      "price": "$144"
+      "price": 144
     },
     {
       "flightID": "FL0012",
@@ -106,7 +106,7 @@
       "departure": "2025-07-08 16:00",
       "arrival": "2025-07-08 23:00",
       "airline": "Oceanic Airlines",
-      "price": "$882"
+      "price": 882
     },
     {
       "flightID": "FL0013",
@@ -115,7 +115,7 @@
       "departure": "2025-07-15 05:00",
       "arrival": "2025-07-15 13:00",
       "airline": "Oceanic Airlines",
-      "price": "$126"
+      "price": 126
     },
     {
       "flightID": "FL0014",
@@ -124,7 +124,7 @@
       "departure": "2025-07-21 08:00",
       "arrival": "2025-07-21 12:00",
       "airline": "Oceanic Airlines",
-      "price": "$435"
+      "price": 435
     },
     {
       "flightID": "FL0015",
@@ -133,7 +133,7 @@
       "departure": "2025-07-30 20:00",
       "arrival": "2025-07-31 06:00",
       "airline": "CloudNine Air",
-      "price": "$217"
+      "price": 217
     },
     {
       "flightID": "FL0016",
@@ -142,7 +142,7 @@
       "departure": "2025-07-16 15:00",
       "arrival": "2025-07-16 21:00",
       "airline": "TransGlobal",
-      "price": "$398"
+      "price": 398
     },
     {
       "flightID": "FL0017",
@@ -151,7 +151,7 @@
       "departure": "2025-07-26 07:00",
       "arrival": "2025-07-26 11:00",
       "airline": "Global Fly",
-      "price": "$805"
+      "price": 805
     },
     {
       "flightID": "FL0018",
@@ -160,7 +160,7 @@
       "departure": "2025-07-12 10:00",
       "arrival": "2025-07-12 20:00",
       "airline": "SkyJet Airways",
-      "price": "$534"
+      "price": 534
     },
     {
       "flightID": "FL0019",
@@ -169,7 +169,7 @@
       "departure": "2025-07-15 19:00",
       "arrival": "2025-07-16 02:00",
       "airline": "CloudNine Air",
-      "price": "$527"
+      "price": 527
     },
     {
       "flightID": "FL0020",
@@ -178,7 +178,7 @@
       "departure": "2025-07-30 17:00",
       "arrival": "2025-07-30 23:00",
       "airline": "Oceanic Airlines",
-      "price": "$759"
+      "price": 759
     },
     {
       "flightID": "FL0021",
@@ -187,7 +187,7 @@
       "departure": "2025-07-10 14:00",
       "arrival": "2025-07-10 20:00",
       "airline": "Oceanic Airlines",
-      "price": "$143"
+      "price": 143
     },
     {
       "flightID": "FL0022",
@@ -196,7 +196,7 @@
       "departure": "2025-07-02 14:00",
       "arrival": "2025-07-02 23:00",
       "airline": "CloudNine Air",
-      "price": "$764"
+      "price": 764
     },
     {
       "flightID": "FL0023",
@@ -205,7 +205,7 @@
       "departure": "2025-07-04 06:00",
       "arrival": "2025-07-04 14:00",
       "airline": "AeroLux",
-      "price": "$947"
+      "price": 947
     },
     {
       "flightID": "FL0024",
@@ -214,7 +214,7 @@
       "departure": "2025-07-21 10:00",
       "arrival": "2025-07-21 13:00",
       "airline": "AeroLux",
-      "price": "$588"
+      "price": 588
     },
     {
       "flightID": "FL0025",
@@ -223,7 +223,7 @@
       "departure": "2025-07-27 09:00",
       "arrival": "2025-07-27 14:00",
       "airline": "EuroWings",
-      "price": "$146"
+      "price": 146
     },
     {
       "flightID": "FL0026",
@@ -232,7 +232,7 @@
       "departure": "2025-07-11 12:00",
       "arrival": "2025-07-11 22:00",
       "airline": "CloudNine Air",
-      "price": "$993"
+      "price": 993
     },
     {
       "flightID": "FL0027",
@@ -241,7 +241,7 @@
       "departure": "2025-07-29 07:00",
       "arrival": "2025-07-29 17:00",
       "airline": "SunAir",
-      "price": "$561"
+      "price": 561
     },
     {
       "flightID": "FL0028",
@@ -250,7 +250,7 @@
       "departure": "2025-07-30 13:00",
       "arrival": "2025-07-30 17:00",
       "airline": "Global Fly",
-      "price": "$539"
+      "price": 539
     },
     {
       "flightID": "FL0029",
@@ -259,7 +259,7 @@
       "departure": "2025-07-16 11:00",
       "arrival": "2025-07-16 21:00",
       "airline": "Oceanic Airlines",
-      "price": "$106"
+      "price": 106
     },
     {
       "flightID": "FL0030",
@@ -268,7 +268,7 @@
       "departure": "2025-07-07 18:00",
       "arrival": "2025-07-07 20:00",
       "airline": "CloudNine Air",
-      "price": "$120"
+      "price": 120
     },
     {
       "flightID": "FL0031",
@@ -277,7 +277,7 @@
       "departure": "2025-07-28 15:00",
       "arrival": "2025-07-29 03:00",
       "airline": "CloudNine Air",
-      "price": "$897"
+      "price": 897
     },
     {
       "flightID": "FL0032",
@@ -286,7 +286,7 @@
       "departure": "2025-07-09 16:00",
       "arrival": "2025-07-09 19:00",
       "airline": "SkyJet Airways",
-      "price": "$417"
+      "price": 417
     },
     {
       "flightID": "FL0033",
@@ -295,7 +295,7 @@
       "departure": "2025-07-29 20:00",
       "arrival": "2025-07-29 22:00",
       "airline": "Global Fly",
-      "price": "$922"
+      "price": 922
     },
     {
       "flightID": "FL0034",
@@ -304,7 +304,7 @@
       "departure": "2025-07-20 20:00",
       "arrival": "2025-07-21 05:00",
       "airline": "Air Horizon",
-      "price": "$811"
+      "price": 811
     },
     {
       "flightID": "FL0035",
@@ -313,7 +313,7 @@
       "departure": "2025-07-11 13:00",
       "arrival": "2025-07-11 22:00",
       "airline": "CloudNine Air",
-      "price": "$787"
+      "price": 787
     },
     {
       "flightID": "FL0036",
@@ -322,7 +322,7 @@
       "departure": "2025-07-26 18:00",
       "arrival": "2025-07-27 04:00",
       "airline": "Global Fly",
-      "price": "$350"
+      "price": 350
     },
     {
       "flightID": "FL0037",
@@ -331,7 +331,7 @@
       "departure": "2025-07-15 13:00",
       "arrival": "2025-07-16 01:00",
       "airline": "Oceanic Airlines",
-      "price": "$988"
+      "price": 988
     },
     {
       "flightID": "FL0038",
@@ -340,7 +340,7 @@
       "departure": "2025-07-29 06:00",
       "arrival": "2025-07-29 09:00",
       "airline": "CloudNine Air",
-      "price": "$827"
+      "price": 827
     },
     {
       "flightID": "FL0039",
@@ -349,7 +349,7 @@
       "departure": "2025-07-23 05:00",
       "arrival": "2025-07-23 15:00",
       "airline": "TransGlobal",
-      "price": "$288"
+      "price": 288
     },
     {
       "flightID": "FL0040",
@@ -358,7 +358,7 @@
       "departure": "2025-07-10 16:00",
       "arrival": "2025-07-10 23:00",
       "airline": "SunAir",
-      "price": "$239"
+      "price": 239
     },
     {
       "flightID": "FL0041",
@@ -367,7 +367,7 @@
       "departure": "2025-07-27 08:00",
       "arrival": "2025-07-27 11:00",
       "airline": "TransGlobal",
-      "price": "$763"
+      "price": 763
     },
     {
       "flightID": "FL0042",
@@ -376,7 +376,7 @@
       "departure": "2025-07-27 16:00",
       "arrival": "2025-07-28 02:00",
       "airline": "SkyJet Airways",
-      "price": "$865"
+      "price": 865
     },
     {
       "flightID": "FL0043",
@@ -385,7 +385,7 @@
       "departure": "2025-07-02 14:00",
       "arrival": "2025-07-02 19:00",
       "airline": "EuroWings",
-      "price": "$951"
+      "price": 951
     },
     {
       "flightID": "FL0044",
@@ -394,7 +394,7 @@
       "departure": "2025-07-13 16:00",
       "arrival": "2025-07-14 04:00",
       "airline": "CloudNine Air",
-      "price": "$107"
+      "price": 107
     },
     {
       "flightID": "FL0045",
@@ -403,7 +403,7 @@
       "departure": "2025-07-18 13:00",
       "arrival": "2025-07-18 20:00",
       "airline": "Global Fly",
-      "price": "$260"
+      "price": 260
     },
     {
       "flightID": "FL0046",
@@ -412,7 +412,7 @@
       "departure": "2025-07-28 08:00",
       "arrival": "2025-07-28 18:00",
       "airline": "VoyageAir",
-      "price": "$331"
+      "price": 331
     },
     {
       "flightID": "FL0047",
@@ -421,7 +421,7 @@
       "departure": "2025-07-29 12:00",
       "arrival": "2025-07-29 15:00",
       "airline": "EuroWings",
-      "price": "$402"
+      "price": 402
     },
     {
       "flightID": "FL0048",
@@ -430,7 +430,7 @@
       "departure": "2025-07-15 07:00",
       "arrival": "2025-07-15 09:00",
       "airline": "AeroLux",
-      "price": "$925"
+      "price": 925
     },
     {
       "flightID": "FL0049",
@@ -439,7 +439,7 @@
       "departure": "2025-07-05 14:00",
       "arrival": "2025-07-06 00:00",
       "airline": "Oceanic Airlines",
-      "price": "$712"
+      "price": 712
     },
     {
       "flightID": "FL0050",
@@ -448,7 +448,7 @@
       "departure": "2025-07-06 10:00",
       "arrival": "2025-07-06 18:00",
       "airline": "AeroLux",
-      "price": "$177"
+      "price": 177
     },
     {
       "flightID": "FL0051",
@@ -457,7 +457,7 @@
       "departure": "2025-07-26 20:00",
       "arrival": "2025-07-26 23:00",
       "airline": "Oceanic Airlines",
-      "price": "$614"
+      "price": 614
     },
     {
       "flightID": "FL0052",
@@ -466,7 +466,7 @@
       "departure": "2025-07-01 11:00",
       "arrival": "2025-07-01 13:00",
       "airline": "SunAir",
-      "price": "$980"
+      "price": 980
     },
     {
       "flightID": "FL0053",
@@ -475,7 +475,7 @@
       "departure": "2025-07-06 19:00",
       "arrival": "2025-07-07 07:00",
       "airline": "CloudNine Air",
-      "price": "$113"
+      "price": 113
     },
     {
       "flightID": "FL0054",
@@ -484,7 +484,7 @@
       "departure": "2025-07-24 14:00",
       "arrival": "2025-07-24 17:00",
       "airline": "Air Horizon",
-      "price": "$555"
+      "price": 555
     },
     {
       "flightID": "FL0055",
@@ -493,7 +493,7 @@
       "departure": "2025-07-14 15:00",
       "arrival": "2025-07-14 23:00",
       "airline": "Global Fly",
-      "price": "$623"
+      "price": 623
     },
     {
       "flightID": "FL0056",
@@ -502,7 +502,7 @@
       "departure": "2025-07-02 17:00",
       "arrival": "2025-07-03 03:00",
       "airline": "SkyJet Airways",
-      "price": "$230"
+      "price": 230
     },
     {
       "flightID": "FL0057",
@@ -511,7 +511,7 @@
       "departure": "2025-07-20 11:00",
       "arrival": "2025-07-20 20:00",
       "airline": "SkyJet Airways",
-      "price": "$545"
+      "price": 545
     },
     {
       "flightID": "FL0058",
@@ -520,7 +520,7 @@
       "departure": "2025-07-01 11:00",
       "arrival": "2025-07-01 23:00",
       "airline": "SkyJet Airways",
-      "price": "$148"
+      "price": 148
     },
     {
       "flightID": "FL0059",
@@ -529,7 +529,7 @@
       "departure": "2025-07-15 15:00",
       "arrival": "2025-07-15 19:00",
       "airline": "Global Fly",
-      "price": "$736"
+      "price": 736
     },
     {
       "flightID": "FL0060",
@@ -538,7 +538,7 @@
       "departure": "2025-07-14 11:00",
       "arrival": "2025-07-14 23:00",
       "airline": "VoyageAir",
-      "price": "$538"
+      "price": 538
     },
     {
       "flightID": "FL0061",
@@ -547,7 +547,7 @@
       "departure": "2025-07-04 12:00",
       "arrival": "2025-07-05 00:00",
       "airline": "CloudNine Air",
-      "price": "$155"
+      "price": 155
     },
     {
       "flightID": "FL0062",
@@ -556,7 +556,7 @@
       "departure": "2025-07-15 14:00",
       "arrival": "2025-07-15 22:00",
       "airline": "SunAir",
-      "price": "$886"
+      "price": 886
     },
     {
       "flightID": "FL0063",
@@ -565,7 +565,7 @@
       "departure": "2025-07-26 10:00",
       "arrival": "2025-07-26 19:00",
       "airline": "CloudNine Air",
-      "price": "$390"
+      "price": 390
     },
     {
       "flightID": "FL0064",
@@ -574,7 +574,7 @@
       "departure": "2025-07-13 15:00",
       "arrival": "2025-07-13 18:00",
       "airline": "Air Horizon",
-      "price": "$686"
+      "price": 686
     },
     {
       "flightID": "FL0065",
@@ -583,7 +583,7 @@
       "departure": "2025-07-04 10:00",
       "arrival": "2025-07-04 12:00",
       "airline": "CloudNine Air",
-      "price": "$902"
+      "price": 902
     },
     {
       "flightID": "FL0066",
@@ -592,7 +592,7 @@
       "departure": "2025-07-12 15:00",
       "arrival": "2025-07-12 23:00",
       "airline": "SunAir",
-      "price": "$151"
+      "price": 151
     },
     {
       "flightID": "FL0067",
@@ -601,7 +601,7 @@
       "departure": "2025-07-29 20:00",
       "arrival": "2025-07-29 23:00",
       "airline": "SunAir",
-      "price": "$519"
+      "price": 519
     },
     {
       "flightID": "FL0068",
@@ -610,7 +610,7 @@
       "departure": "2025-07-02 06:00",
       "arrival": "2025-07-02 10:00",
       "airline": "VoyageAir",
-      "price": "$507"
+      "price": 507
     },
     {
       "flightID": "FL0069",
@@ -619,7 +619,7 @@
       "departure": "2025-07-03 09:00",
       "arrival": "2025-07-03 12:00",
       "airline": "SunAir",
-      "price": "$612"
+      "price": 612
     },
     {
       "flightID": "FL0070",
@@ -628,7 +628,7 @@
       "departure": "2025-07-26 07:00",
       "arrival": "2025-07-26 13:00",
       "airline": "EuroWings",
-      "price": "$866"
+      "price": 866
     },
     {
       "flightID": "FL0071",
@@ -637,7 +637,7 @@
       "departure": "2025-07-28 09:00",
       "arrival": "2025-07-28 21:00",
       "airline": "VoyageAir",
-      "price": "$739"
+      "price": 739
     },
     {
       "flightID": "FL0072",
@@ -646,7 +646,7 @@
       "departure": "2025-07-28 11:00",
       "arrival": "2025-07-28 19:00",
       "airline": "EuroWings",
-      "price": "$772"
+      "price": 772
     },
     {
       "flightID": "FL0073",
@@ -655,7 +655,7 @@
       "departure": "2025-07-04 12:00",
       "arrival": "2025-07-04 15:00",
       "airline": "Oceanic Airlines",
-      "price": "$490"
+      "price": 490
     },
     {
       "flightID": "FL0074",
@@ -664,7 +664,7 @@
       "departure": "2025-07-10 07:00",
       "arrival": "2025-07-10 13:00",
       "airline": "Air Horizon",
-      "price": "$505"
+      "price": 505
     },
     {
       "flightID": "FL0075",
@@ -673,7 +673,7 @@
       "departure": "2025-07-24 18:00",
       "arrival": "2025-07-24 21:00",
       "airline": "SkyJet Airways",
-      "price": "$340"
+      "price": 340
     },
     {
       "flightID": "FL0076",
@@ -682,7 +682,7 @@
       "departure": "2025-07-02 18:00",
       "arrival": "2025-07-03 01:00",
       "airline": "AeroLux",
-      "price": "$467"
+      "price": 467
     },
     {
       "flightID": "FL0077",
@@ -691,7 +691,7 @@
       "departure": "2025-07-28 14:00",
       "arrival": "2025-07-28 18:00",
       "airline": "VoyageAir",
-      "price": "$299"
+      "price": 299
     },
     {
       "flightID": "FL0078",
@@ -700,7 +700,7 @@
       "departure": "2025-07-22 15:00",
       "arrival": "2025-07-22 18:00",
       "airline": "SkyJet Airways",
-      "price": "$351"
+      "price": 351
     },
     {
       "flightID": "FL0079",
@@ -709,7 +709,7 @@
       "departure": "2025-07-13 08:00",
       "arrival": "2025-07-13 10:00",
       "airline": "AeroLux",
-      "price": "$853"
+      "price": 853
     },
     {
       "flightID": "FL0080",
@@ -718,7 +718,7 @@
       "departure": "2025-07-04 14:00",
       "arrival": "2025-07-04 22:00",
       "airline": "EuroWings",
-      "price": "$380"
+      "price": 380
     },
     {
       "flightID": "FL0081",
@@ -727,7 +727,7 @@
       "departure": "2025-07-27 20:00",
       "arrival": "2025-07-28 02:00",
       "airline": "Global Fly",
-      "price": "$612"
+      "price": 612
     },
     {
       "flightID": "FL0082",
@@ -736,7 +736,7 @@
       "departure": "2025-07-20 17:00",
       "arrival": "2025-07-20 22:00",
       "airline": "Oceanic Airlines",
-      "price": "$750"
+      "price": 750
     },
     {
       "flightID": "FL0083",
@@ -745,7 +745,7 @@
       "departure": "2025-07-13 06:00",
       "arrival": "2025-07-13 09:00",
       "airline": "VoyageAir",
-      "price": "$176"
+      "price": 176
     },
     {
       "flightID": "FL0084",
@@ -754,7 +754,7 @@
       "departure": "2025-07-07 19:00",
       "arrival": "2025-07-08 01:00",
       "airline": "Oceanic Airlines",
-      "price": "$590"
+      "price": 590
     },
     {
       "flightID": "FL0085",
@@ -763,7 +763,7 @@
       "departure": "2025-07-30 15:00",
       "arrival": "2025-07-30 22:00",
       "airline": "Air Horizon",
-      "price": "$392"
+      "price": 392
     },
     {
       "flightID": "FL0086",
@@ -772,7 +772,7 @@
       "departure": "2025-07-16 06:00",
       "arrival": "2025-07-16 09:00",
       "airline": "Global Fly",
-      "price": "$598"
+      "price": 598
     },
     {
       "flightID": "FL0087",
@@ -781,7 +781,7 @@
       "departure": "2025-07-18 19:00",
       "arrival": "2025-07-19 01:00",
       "airline": "VoyageAir",
-      "price": "$194"
+      "price": 194
     },
     {
       "flightID": "FL0088",
@@ -790,7 +790,7 @@
       "departure": "2025-07-29 10:00",
       "arrival": "2025-07-29 21:00",
       "airline": "Global Fly",
-      "price": "$106"
+      "price": 106
     },
     {
       "flightID": "FL0089",
@@ -799,7 +799,7 @@
       "departure": "2025-07-29 19:00",
       "arrival": "2025-07-30 04:00",
       "airline": "SkyJet Airways",
-      "price": "$125"
+      "price": 125
     },
     {
       "flightID": "FL0090",
@@ -808,7 +808,7 @@
       "departure": "2025-07-26 08:00",
       "arrival": "2025-07-26 16:00",
       "airline": "SkyJet Airways",
-      "price": "$211"
+      "price": 211
     },
     {
       "flightID": "FL0091",
@@ -817,7 +817,7 @@
       "departure": "2025-07-22 17:00",
       "arrival": "2025-07-22 23:00",
       "airline": "Global Fly",
-      "price": "$101"
+      "price": 101
     },
     {
       "flightID": "FL0092",
@@ -826,7 +826,7 @@
       "departure": "2025-07-04 20:00",
       "arrival": "2025-07-05 03:00",
       "airline": "Global Fly",
-      "price": "$220"
+      "price": 220
     },
     {
       "flightID": "FL0093",
@@ -835,7 +835,7 @@
       "departure": "2025-07-20 17:00",
       "arrival": "2025-07-21 02:00",
       "airline": "CloudNine Air",
-      "price": "$759"
+      "price": 759
     },
     {
       "flightID": "FL0094",
@@ -844,7 +844,7 @@
       "departure": "2025-07-01 12:00",
       "arrival": "2025-07-01 21:00",
       "airline": "SunAir",
-      "price": "$543"
+      "price": 543
     },
     {
       "flightID": "FL0095",
@@ -853,7 +853,7 @@
       "departure": "2025-07-10 15:00",
       "arrival": "2025-07-10 17:00",
       "airline": "TransGlobal",
-      "price": "$700"
+      "price": 700
     },
     {
       "flightID": "FL0096",
@@ -862,7 +862,7 @@
       "departure": "2025-07-18 06:00",
       "arrival": "2025-07-18 12:00",
       "airline": "VoyageAir",
-      "price": "$974"
+      "price": 974
     },
     {
       "flightID": "FL0097",
@@ -871,7 +871,7 @@
       "departure": "2025-07-28 09:00",
       "arrival": "2025-07-28 21:00",
       "airline": "Air Horizon",
-      "price": "$718"
+      "price": 718
     },
     {
       "flightID": "FL0098",
@@ -880,7 +880,7 @@
       "departure": "2025-07-09 17:00",
       "arrival": "2025-07-10 04:00",
       "airline": "AeroLux",
-      "price": "$791"
+      "price": 791
     },
     {
       "flightID": "FL0099",
@@ -889,7 +889,7 @@
       "departure": "2025-07-16 20:00",
       "arrival": "2025-07-17 04:00",
       "airline": "Air Horizon",
-      "price": "$711"
+      "price": 711
     },
     {
       "flightID": "FL0100",
@@ -898,7 +898,7 @@
       "departure": "2025-07-06 19:00",
       "arrival": "2025-07-07 03:00",
       "airline": "VoyageAir",
-      "price": "$228"
+      "price": 228
     },
     {
       "flightID": "FL0101",
@@ -907,7 +907,7 @@
       "departure": "2025-07-07 14:00",
       "arrival": "2025-07-07 22:00",
       "airline": "VoyageAir",
-      "price": "$736"
+      "price": 736
     },
     {
       "flightID": "FL0102",
@@ -916,7 +916,7 @@
       "departure": "2025-07-11 07:00",
       "arrival": "2025-07-11 10:00",
       "airline": "VoyageAir",
-      "price": "$259"
+      "price": 259
     },
     {
       "flightID": "FL0103",
@@ -925,7 +925,7 @@
       "departure": "2025-07-23 09:00",
       "arrival": "2025-07-23 11:00",
       "airline": "CloudNine Air",
-      "price": "$104"
+      "price": 104
     },
     {
       "flightID": "FL0104",
@@ -934,7 +934,7 @@
       "departure": "2025-07-22 13:00",
       "arrival": "2025-07-22 20:00",
       "airline": "VoyageAir",
-      "price": "$608"
+      "price": 608
     },
     {
       "flightID": "FL0105",
@@ -943,7 +943,7 @@
       "departure": "2025-07-10 07:00",
       "arrival": "2025-07-10 19:00",
       "airline": "SkyJet Airways",
-      "price": "$126"
+      "price": 126
     },
     {
       "flightID": "FL0106",
@@ -952,7 +952,7 @@
       "departure": "2025-07-22 15:00",
       "arrival": "2025-07-22 20:00",
       "airline": "Global Fly",
-      "price": "$211"
+      "price": 211
     },
     {
       "flightID": "FL0107",
@@ -961,7 +961,7 @@
       "departure": "2025-07-04 09:00",
       "arrival": "2025-07-04 21:00",
       "airline": "SunAir",
-      "price": "$385"
+      "price": 385
     },
     {
       "flightID": "FL0108",
@@ -970,7 +970,7 @@
       "departure": "2025-07-15 15:00",
       "arrival": "2025-07-15 22:00",
       "airline": "EuroWings",
-      "price": "$161"
+      "price": 161
     },
     {
       "flightID": "FL0109",
@@ -979,7 +979,7 @@
       "departure": "2025-07-11 14:00",
       "arrival": "2025-07-11 16:00",
       "airline": "Air Horizon",
-      "price": "$686"
+      "price": 686
     },
     {
       "flightID": "FL0110",
@@ -988,7 +988,7 @@
       "departure": "2025-07-30 08:00",
       "arrival": "2025-07-30 14:00",
       "airline": "TransGlobal",
-      "price": "$825"
+      "price": 825
     },
     {
       "flightID": "FL0111",
@@ -997,7 +997,7 @@
       "departure": "2025-07-27 08:00",
       "arrival": "2025-07-27 19:00",
       "airline": "Air Horizon",
-      "price": "$308"
+      "price": 308
     },
     {
       "flightID": "FL0112",
@@ -1006,7 +1006,7 @@
       "departure": "2025-07-09 11:00",
       "arrival": "2025-07-09 19:00",
       "airline": "Global Fly",
-      "price": "$199"
+      "price": 199
     },
     {
       "flightID": "FL0113",
@@ -1015,7 +1015,7 @@
       "departure": "2025-07-18 18:00",
       "arrival": "2025-07-19 05:00",
       "airline": "Global Fly",
-      "price": "$759"
+      "price": 759
     },
     {
       "flightID": "FL0114",
@@ -1024,7 +1024,7 @@
       "departure": "2025-07-30 09:00",
       "arrival": "2025-07-30 14:00",
       "airline": "Oceanic Airlines",
-      "price": "$752"
+      "price": 752
     },
     {
       "flightID": "FL0115",
@@ -1033,7 +1033,7 @@
       "departure": "2025-07-04 13:00",
       "arrival": "2025-07-04 17:00",
       "airline": "Air Horizon",
-      "price": "$988"
+      "price": 988
     },
     {
       "flightID": "FL0116",
@@ -1042,7 +1042,7 @@
       "departure": "2025-07-14 16:00",
       "arrival": "2025-07-15 00:00",
       "airline": "EuroWings",
-      "price": "$790"
+      "price": 790
     },
     {
       "flightID": "FL0117",
@@ -1051,7 +1051,7 @@
       "departure": "2025-07-10 18:00",
       "arrival": "2025-07-11 03:00",
       "airline": "SkyJet Airways",
-      "price": "$398"
+      "price": 398
     },
     {
       "flightID": "FL0118",
@@ -1060,7 +1060,7 @@
       "departure": "2025-07-13 10:00",
       "arrival": "2025-07-13 16:00",
       "airline": "Oceanic Airlines",
-      "price": "$805"
+      "price": 805
     },
     {
       "flightID": "FL0119",
@@ -1069,7 +1069,7 @@
       "departure": "2025-07-11 16:00",
       "arrival": "2025-07-11 22:00",
       "airline": "VoyageAir",
-      "price": "$259"
+      "price": 259
     },
     {
       "flightID": "FL0120",
@@ -1078,7 +1078,7 @@
       "departure": "2025-07-04 17:00",
       "arrival": "2025-07-05 02:00",
       "airline": "VoyageAir",
-      "price": "$591"
+      "price": 591
     }
   ]
 }

@@ -1,5 +1,5 @@
 import * as User from "../models/UserModel.js";
-import * as FlightModel from "../models/BandModel.js";
+import * as FlightModel from "../models/FlightModel.js";
 
 function catalogView() {
   FlightModel.init();
@@ -54,7 +54,7 @@ function renderCatalog(flights = []) {
 }
 
 // GERAR CARTÃO DE VOO
-function generateCard(flight) {
+/* function generateCard(flight) {
   let result = `
     <div class="col">
       <div class="card mb-3" style="width: 320px;">
@@ -78,6 +78,6 @@ function generateCard(flight) {
     </div>
   `;
   return result;
-}
+} */
 
 catalogView();

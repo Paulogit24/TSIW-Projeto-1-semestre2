@@ -1,4 +1,4 @@
-import * as FlightModel from "../models/BandModel.js";
+import * as FlightModel from "../models/FlightModel.js";
 
 function flightView() {
   FlightModel.init();

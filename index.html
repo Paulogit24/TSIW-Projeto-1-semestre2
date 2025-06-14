@@ -30,16 +30,16 @@
         <a class="nav-link text-white" href="html\destinos\maisvendidos.html">Mais vendidos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="#">Ofertas exclusivas</a>
+        <a class="nav-link text-white" href="html\destinos\ofertasexclusivas.html">Ofertas exclusivas</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="#">Tipos de turismo</a>
+        <a class="nav-link text-white" href="html\destinos\tiposdeturismo.html">Tipos de turismo</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="#">Sobre nós</a>
+        <a class="nav-link text-white" href="html\sobrenos.html">Sobre nós</a>
       </li>
     </ul>
-    <button class="btn btn-link text-white position-absolute" data-toggle="modal" data-target="#loginModal" style="right: 20px;">Iniciar sessão</button>
+    <button class="btn btn-link text-white position-absolute login-btn" data-toggle="modal" data-target="#loginModal" style="right: 20px;">Iniciar sessão</button>
   </nav>
 </div>
 
@@ -99,7 +99,7 @@
 </div>
 
 <div class="container position-relative formulario">
-  <form action="/action_page.php">
+  <form action="html/resultadoform.html" method="GET">
     <div class="row">
       <div class="col">
         <label for="local-partida">Local de partida:</label>
@@ -107,19 +107,19 @@
       </div>
       <div class="col">
         <label for="data-partida">Data de partida:</label>
-        <input type="date" class="form-control" name="data-partida">
+        <input type="date" class="form-control" name="data-partida" id="data-partida">
       </div>
       <div class="col">
         <label for="num-pessoas">Número de pessoas:</label>
-        <input type="text" class="form-control" placeholder="Ex: 2 adultos, 1 criança" name="num-pessoas">
+        <input type="text" class="form-control" placeholder="Ex: 2 adultos, 1 criança" name="num-pessoas" id="num-pessoas">
       </div>
       <div class="col">
         <label for="dias-viagem">Dias de viagem:</label>
-        <input type="text" class="form-control" placeholder="Ex: 7 dias" name="dias-viagem">
+        <input type="text" class="form-control" placeholder="Ex: 7 dias" name="dias-viagem" id="dias-viagem">
       </div>
       <div class="col">
         <label for="tipo-turismo">Tipo de turismo:</label>
-        <select class="form-control" id="tipo-turismo">
+        <select class="form-control" id="tipo-turismo" name="tipo-turismo">
           <option>Sol/Praia</option>
           <option>Cultural</option>
           <option>Religioso</option>
@@ -131,11 +131,12 @@
         </select>
       </div>
       <div class="col">
-        <button type="submit" class="btn btn-primary botao-pesquisar"><a href="html/resultadoform.html">Pesquisar</a></button>
+        <button type="submit" class="btn btn-primary botao-pesquisar">Pesquisar</button>
       </div>
     </div>
   </form>
 </div>
+
 
 <div class="container-fluid px-5" style="margin-top: -40px;">
   <div class="d-flex justify-content-between align-items-left mb-4">
@@ -199,32 +200,34 @@
       </div>
       <div class="col-md-4 mb-3">
         <ul class="list-unstyled">
-          <li><a href="#" class="text-white">Perguntas frequentes</a></li>
-          <li><a href="#" class="text-white">Iniciar sessão</a></li>
-          <li><a href="#" class="text-white">Sobre nós</a></li>
+          <li><a href="html\perguntasfrequentes.html" class="text-white">Perguntas frequentes</a></li>
+          <li><a href="html\sobrenos.html" class="text-white">Sobre nós</a></li>
           <li><a href="#" class="text-white">Sugestões e reclamações</a></li>
         </ul>
       </div>
       <div class="col-md-4 mb-3">
         <ul class="list-unstyled">
-          <li><a href="#" class="text-white">Destinos mais populares</a></li>
-          <li><a href="#" class="text-white">Exclusivo para si</a></li>
+          <li><a href="html\destinos\maisvendidos.html" class="text-white">Destinos mais populares</a></li>
+          <li><a href="html\destinos\ofertasexclusivas.html" class="text-white">Exclusivo para si</a></li>
         </ul>
       </div>
     </div>
   </div>
 </footer>
 
-
-
 <script>
-  window.addEventListener('scroll', function () {
+window.addEventListener('scroll', function () {
   const navbar = document.querySelector("#navbar nav");
+  const loginBtn = document.querySelector(".login-btn");
 
   if (window.scrollY > 100) {
     navbar.classList.add("navbar-branco");
+    loginBtn.classList.add("text-danger");
+    loginBtn.classList.remove("text-white");
   } else {
     navbar.classList.remove("navbar-branco");
+    loginBtn.classList.remove("text-danger");
+    loginBtn.classList.add("text-white");
   }
 });
 

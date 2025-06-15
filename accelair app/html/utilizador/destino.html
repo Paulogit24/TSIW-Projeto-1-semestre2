@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- Favicon & CSS -->
-    <link rel="stylesheet" href="/accelair app/css/lib/accelair.css">
-    <link rel="icon" href="/accelair app/img/icon.png"> 
-    <!-- Tipo de letra -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <title>AccelAir</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AccelAir</title>
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <!-- Favicon & CSS -->
+  <link rel="stylesheet" href="../css/accelair.css">
+  <link rel="icon" href="../img/icon.png">
+  <!-- Tipo de letra -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
@@ -22,26 +23,27 @@
  
 <div class="container-fluid position-relative" id="navbar">
   <nav class="navbar navbar-expand-sm justify-content-center fixed-top bg-white shadow-sm" style="z-index: 1030;">
-    <a class="navbar-brand position-absolute" style="left: 20px;" href="/accelair app/index.html">
-      <img src="/accelair app/img/accel-air.png" alt="Logotipo" width="100">
+    <a class="navbar-brand position-absolute" style="left: 20px;" href="../index.html">
+      <img src="../img/accel-air.png" alt="Logotipo" width="100">
     </a>
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link text-danger" href="/accelair app/html/destinos/maisvendidos.html">Mais vendidos</a>
+        <a class="nav-link text-danger" href="destinos\maisvendidos.html">Mais vendidos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-danger" href="/accelair app/html/destinos/ofertasexclusivas.html">Ofertas exclusivas</a>
+        <a class="nav-link text-danger" href="destinos\ofertasexclusivas.html">Ofertas exclusivas</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-danger" href="/accelair app/html/destinos/tiposdeturismo.html">Tipos de turismo</a>
+        <a class="nav-link text-danger" href="destinos\tiposdeturismo.html">Tipos de turismo</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-danger" href="/accelair app/html/sobrenos.html">Sobre nós</a>
+        <a class="nav-link text-danger" href="sobrenos.html">Sobre nós</a>
       </li>
     </ul>
     <button class="btn btn-link text-danger position-absolute login-btn" data-toggle="modal" data-target="#loginModal" style="right: 20px;">Iniciar sessão</button>
   </nav>
 </div>
+
 
 <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -50,7 +52,7 @@
       <!-- Ecrã 1: Login -->
       <div id="loginScreen" class="p-4">
         <div class="text-center mb-4">
-          <img src="/accelair app/img/accel-air.png" alt="AccelAir" width="120" class="img-fluid">
+          <img src="../img/accel-air.png" alt="AccelAir" width="120" class="img-fluid">
         </div>
         <div class="mb-2">
           <input type="text" id="username" class="form-control text-center rounded-pill" placeholder="Nome de Utilizador">
@@ -66,7 +68,7 @@
       <div id="registerScreen" class="p-4 d-none">
         <button class="btn btn-link p-0 mb-3" onclick="showLogin()">← Voltar</button>
         <div class="text-center mb-4">
-          <img src="/accelair app/img/accel-air.png" alt="AccelAir" width="120" class="img-fluid">
+          <img src="../img/accel-air.png" alt="AccelAir" width="120" class="img-fluid">
         </div>
 
         <div class="mb-2"><input type="text" class="form-control text-center rounded-pill" placeholder="Nome de Utilizador"></div>
@@ -90,6 +92,7 @@
 </div>
 
 <div class="container pt-5 mt-5">
+  
   <div class="bg-danger text-white p-3 rounded d-flex flex-wrap justify-content-between">
     <div><i class="fas fa-map-marker-alt"></i> Local de partida: <strong>Porto, PT</strong></div>
     <div><i class="fas fa-users"></i> Número de pessoas: <strong>2 adultos, 1 criança</strong></div>
@@ -98,41 +101,61 @@
     <div><i class="fas fa-umbrella-beach"></i> Tipo de turismo: <strong>Religioso</strong></div>
   </div>
 
-  <h4 class="text-danger mt-5 font-weight-bold">Melhor opção</h4>
-  <div class="card border-0 shadow-sm rounded mt-3 w-100">
-    <div class="row no-gutters">
-      <div class="col-md-5">
-        <img src="/accelair app/img/lisboa.jpg" class="card-img" alt="Destino">
-      </div>
-      <div class="col-md-7">
-        <div class="card-body">
-          <h5 class="card-title text-white bg-danger p-2 rounded">Nome do destino<br><small>País do destino</small></h5>
-          <p class="card-text mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
-          <p class="card-text"><a href="#" class="text-danger font-weight-bold">Interessado? Clique <a href="destino.html">aqui</a> para saber mais.</p>
-        </div>
-      </div>
+  <div class="card border-0 shadow-sm rounded mt-3">
+    <img src="../img/lisboa01.png" class="card-img-top" alt="Destino Paris">
+
+    <div class="card-body">
+      <h6 class="font-weight-bold">
+        5 noites | Hotel incluído | Acesso aos Parques Disneyland Paris
+      </h6>
+      <p class="mb-2">Explore a magia da Disney e viva o charme da Cidade Luz.</p>
+      <p class="text-danger font-weight-bold">Por apenas 500€</p>
+
+      <hr class="my-4">
+
+      <h5 class="text-danger font-weight-bold">Itinerário:</h5>
+
+      <p><strong>Dia 1 – Chegada a Paris</strong><br>
+        <small>Sugestão: passeio leve pelos Campos Elísios ou jantar num bistrô tradicional.</small></p>
+
+      <p><strong>Dia 2 – Disneyland Paris (1º dia)</strong><br>
+        <small>Dia inteiro no Parque Disneyland (parque clássico com o Castelo da Bela Adormecida, atrações como "Piratas das Caraíbas" e "Peter Pan’s Flight").</small></p>
+
+      <p><strong>Dia 3 – Disneyland Paris (2º dia)</strong><br>
+        <small>Explorar o Walt Disney Studios Park ("Ratatouille", "Toy Story Playland", "Avengers Campus").</small></p>
+
+      <p><strong>Dia 4 – Paris Cultural</strong><br>
+        <small>Torre Eiffel, Museu do Louvre, Bairro de Montmartre, Sacré-Cœur.</small></p>
+
+      <p><strong>Dia 5 – Paris Romântica e Passeio de Barco</strong><br>
+        <small>Visita ao Le Marais, passeio de barco no Rio Sena e monumentos icónicos como a Catedral de Notre-Dame.</small></p>
+
+      <a href="pagamento.html" class="btn btn-danger btn-block rounded-pill mt-3">
+        Avançar para pagamento
+      </a>
     </div>
   </div>
+
 </div>
 
 <footer class="mt-5" style="background-color: #f40000; color: white; border-top-left-radius: 30px; border-top-right-radius: 30px;">
   <div class="container py-4">
     <div class="row">
       <div class="col-md-4 mb-3">
-        <img src="/accelair app/img/accel-air-branco.png" alt="Logotipo AccelAir" width="120">
+        <img src="../img/accel-air-branco.png" alt="Logotipo AccelAir" width="120">
         <small class="d-block mt-2">© AccelAir Ltd 2025</small>
       </div>
       <div class="col-md-4 mb-3">
         <ul class="list-unstyled">
-          <li><a href="/accelair app/html/perguntasfrequentes.html" class="text-white">Perguntas frequentes</a></li>
-          <li><a href="/accelair app/html/sobrenos.html" class="text-white">Sobre nós</a></li>
+          <li><a href="html\perguntasfrequentes.html" class="text-white">Perguntas frequentes</a></li>
+          <li><a href="html\sobrenos.html" class="text-white">Sobre nós</a></li>
           <li><a href="#" class="text-white">Sugestões e reclamações</a></li>
         </ul>
       </div>
       <div class="col-md-4 mb-3">
         <ul class="list-unstyled">
-          <li><a href="/accelair app/html/destinos/maisvendidos.html" class="text-white">Destinos mais populares</a></li>
-          <li><a href="/accelair app/html/destinos/ofertasexclusivas.html" class="text-white">Exclusivo para si</a></li>
+          <li><a href="html\destinos\maisvendidos.html" class="text-white">Destinos mais populares</a></li>
+          <li><a href="html\destinos\ofertasexclusivas.html" class="text-white">Exclusivo para si</a></li>
         </ul>
       </div>
     </div>

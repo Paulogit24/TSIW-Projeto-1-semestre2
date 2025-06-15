@@ -59,3 +59,45 @@ function generateCard(flight) {
     `;   
     return result;
 }
+
+<script src="/accelair app/js/views/resultView.js"></script>
+
+function getQueryParams() {
+  const params = {};
+  window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
+    params[key] = decodeURIComponent(value);
+  });
+  return params;
+}
+
+const destinos = [
+  // ...array de destinos...
+];
+
+function renderResults() {
+  const params = getQueryParams();
+  const resultsContainer = document.getElementById('search-results');
+  let filtered = destinos;
+  if (params['tipo-turismo']) {
+    filtered = filtered.filter(d => d.turismo.toLowerCase().includes(params['tipo-turismo'].toLowerCase()));
+  }
+  // Adicione outros filtros conforme necessário
+
+  if (filtered.length === 0) {
+    resultsContainer.innerHTML = '<div class="col-12"><p class="text-muted">Nenhum destino encontrado.</p></div>';
+    return;
+  }
+  resultsContainer.innerHTML = filtered.map(dest => `
+    <div class="col-md-4 mb-4">
+      <div class="card border-0 shadow-sm rounded h-100">
+        <img src="${dest.imagem}" class="card-img-top" alt="${dest.cidade}">
+        <div class="bg-danger text-white p-2">
+          <h5 class="mb-0 font-weight-bold">${dest.cidade}</h5>
+          <small>${dest.pais} &ndash; ${dest.turismo}</small>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+document.addEventListener('DOMContentLoaded', renderResults);

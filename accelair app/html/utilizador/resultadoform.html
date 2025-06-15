@@ -89,13 +89,13 @@
   </div>
 </div>
 
-<div class="container pt-5 mt-5">
+<div class="container pt-5 mt-5" id="handleSearchSubmit">
   <div class="bg-danger text-white p-3 rounded d-flex flex-wrap justify-content-between">
-    <div><i class="fas fa-map-marker-alt"></i> Local de partida: <strong>Porto, PT</strong></div>
-    <div><i class="fas fa-users"></i> Número de pessoas: <strong>2 adultos, 1 criança</strong></div>
-    <div><i class="fas fa-calendar-alt"></i> Data de partida: <strong>07/04/2025</strong></div>
-    <div><i class="fas fa-clock"></i> Dias de viagem: <strong>7 dias</strong></div>
-    <div><i class="fas fa-umbrella-beach"></i> Tipo de turismo: <strong>Religioso</strong></div>
+    <div><i class="fas fa-map-marker-alt"></i> Local de partida: <strong id="local-partida"></strong></div>
+    <div><i class="fas fa-users"></i> Número de pessoas: <strong id="num-pessoas"></strong></div>
+    <div><i class="fas fa-calendar-alt"></i> Data de partida: <strong id="data-partida"></strong></div>
+    <div><i class="fas fa-clock"></i> Dias de viagem: <strong id="dias-viagem"></strong></div>
+    <div><i class="fas fa-umbrella-beach"></i> Tipo de turismo: <strong id="tipo-turismo"></strong></div>
   </div>
 
   <h4 class="text-danger mt-5 font-weight-bold">Melhor opção</h4>
@@ -114,6 +114,8 @@
     </div>
   </div>
 </div>
+
+<div id="search-results" class="row"></div>
 
 <footer class="mt-5" style="background-color: #f40000; color: white; border-top-left-radius: 30px; border-top-right-radius: 30px;">
   <div class="container py-4">

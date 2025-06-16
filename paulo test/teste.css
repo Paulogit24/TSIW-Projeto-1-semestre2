@@ -1,0 +1,23 @@
+.scrollable-list {
+  width: 200px; /* Or any desired width */
+  height: 150px; /* Or any desired height */
+  overflow: auto; /* or overflow: scroll */
+  border: 1px solid #ccc; /* Optional border */
+  padding: 5px; /* Optional padding */
+}
+
+.scrollable-list ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+}
+
+.scrollable-list li {
+  padding: 5px;
+  border-bottom: 1px solid #eee; /* Optional separator */
+}
+
+/* Optional: Style for the last item */
+.scrollable-list li:last-child {
+  border-bottom: none;
+}

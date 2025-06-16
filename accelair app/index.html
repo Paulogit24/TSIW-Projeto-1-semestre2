@@ -103,18 +103,7 @@
     <div class="row">
       <div class="col">
         <label for="local-partida">Local de partida:</label>
-        <select class="form-control" id="local-partida" name="local-partida">
-          <option>Cape Town, South Africa</option>
-          <option>Cairo, Egypt</option>
-          <option>Prague, Czech Republic</option>
-          <option>New York, USA</option>
-          <option>Rio de Janeiro, Brazil</option>
-          <option>Bali, Indonesia</option>
-          <option>Amsterdam, Netherlands</option>
-          <option>San Francisco, USA</option>
-          <option>Reykjavik, Iceland</option>
-          <option>Istanbul, Turkey</option>
-        </select>
+        <input type="text" class="form-control" placeholder="Ex: Porto, PT" name="local-partida" id="local-partida">
       </div>
       <div class="col">
         <label for="data-partida">Data de partida:</label>
@@ -159,17 +148,17 @@
       <div class="card border-0 shadow-sm rounded" style="overflow: hidden;">
         <img src="/accelair app/img/lisboa.jpg" class="card-img-top" alt="Destino">
         <div class="bg-danger text-white p-2">
-          <h5 class="mb-0 font-weight-bold">Nome do destino</h5>
-          <small>País do destino</small>
+          <h5 class="mb-0 font-weight-bold">Lisboa</h5>
+          <small>Portugal</small>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="card border-0 shadow-sm rounded" style="overflow: hidden;">
-        <img src="/accelair app/img/viagens-para-si/.png" class="card-img-top" alt="Destino">
+        <img src="/accelair app/img/tipos-turismo/maldivas01.jpg" class="card-img-top" alt="Destino">
         <div class="bg-danger text-white p-2">
-          <h5 class="mb-0 font-weight-bold">Nome do destino</h5>
-          <small>País do destino</small>
+          <h5 class="mb-0 font-weight-bold">Maldivas</h5>
+          <small>Ásia Meridional</small>
         </div>
       </div>
     </div>
@@ -177,8 +166,8 @@
       <div class="card border-0 shadow-sm rounded" style="overflow: hidden;">
         <img src="/accelair app/img/disneyland.jpg" class="card-img-top" alt="Destino">
         <div class="bg-danger text-white p-2">
-          <h5 class="mb-0 font-weight-bold">Nome do destino</h5>
-          <small>País do destino</small>
+          <h5 class="mb-0 font-weight-bold">Disneyland Paris</h5>
+          <small>França</small>
         </div>
       </div>
     </div>
@@ -309,6 +298,8 @@ document.addEventListener("DOMContentLoaded", () => renderSet(0));
 });
 
 </script>
+
+<script src="/accelair app/js/init.js"></script>
 
 </body>
 </html>

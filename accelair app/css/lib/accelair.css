@@ -88,3 +88,30 @@
   .hover-box:hover .hover-overlay {
     opacity: 1;
   }
+
+  .destino-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150, 1fr));
+    gap: .25rem;
+    margin-top: 1rem;
+  }
+  
+  .carta{
+    border: #ffffff 1px solid;
+    background-color: #b30000;
+    padding: .5rem;
+  }
+
+  .carta > .header{
+    margin-bottom: .25rem;
+    color: #ffffff;
+  }
+
+  .carta > .body{
+    font-size: .8rem;
+    color: #ffffff;
+  }
+
+  .hide{
+    display: none;
+  }

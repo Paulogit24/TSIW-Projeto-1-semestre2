@@ -1,3 +1,4 @@
+
 function handleSearchSubmit(event) {
     event.preventDefault();
     const form = event.target;
@@ -31,8 +32,7 @@ function generateMainCard(flight) {
           <p class="card-text">Data de chegada: ${flight.arrival}</p>
           <p class="card-text">Companhia aérea: ${flight.airline}</p>
           <p class="card-text">Preço: <span style="color:#E53935;font-weight:bold;">${flight.price}€</span></p>
-          <button class="btn btn-primary view" id="${flight.number}">Ver detalhes</button>
-          </div>
+          <button class="btn btn-primary view" id="${flight.number}">Ver detalhes</button>          </div>
           <img src="${flight.image}" class="card-img-top" style="height: 180px; object-fit:cover; border-radius: 12px 12px 0 0;">
         </div>
     </div>

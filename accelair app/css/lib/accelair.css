@@ -111,6 +111,14 @@
     font-size: .8rem;
     color: #ffffff;
   }
+  .carta > .type{
+    font-size: .8rem;
+    color: #ffffff;
+  }
+  .carta > .duration{
+    margin-top: .8rem;
+    color: #ffffff;
+  }
 
   .hide{
     display: none;

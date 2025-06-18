@@ -3,8 +3,6 @@ import * as FlightModel from "../models/FlightModel.js";
 
 let chartUsers, chartTrips, chartTypes;
 
-let user = JSON.parse(localStorage.getItem("user")) || [];
-
 function updateCharts() {
   // Example: get data from models or localStorage (replace with real logic)
   const usersData = [50, 75, 150, 100]; // Replace with dynamic data
@@ -27,6 +25,88 @@ function updateCharts() {
   }
 }
 
+// Utility to update localStorage and window.* after changes
+function syncAdminData() {
+  localStorage.setItem("flight", JSON.stringify(window.voos));
+  localStorage.setItem("destination", JSON.stringify(window.destinos));
+  localStorage.setItem("users", JSON.stringify(window.users));
+}
+
+// Render Destinos modal list
+function renderDestinos() {
+  const lista = document.getElementById("lista-destinos");
+  if (!lista) return;
+  lista.innerHTML = "";
+  window.destinos.forEach((dest, i) => {
+    const li = document.createElement("li");
+    li.className = "list-group-item d-flex justify-content-between align-items-center";
+    li.textContent = dest;
+    const btn = document.createElement("button");
+    btn.className = "btn btn-sm btn-danger";
+    btn.textContent = "Remover";
+    btn.onclick = () => {
+      window.destinos.splice(i, 1);
+      syncAdminData();
+      renderDestinos();
+      updateCharts();
+    };
+    li.appendChild(btn);
+    lista.appendChild(li);
+  });
+}
+
+// Render Users modal list
+function renderUsers() {
+  const lista = document.getElementById("lista-tipos");
+  if (!lista) return;
+  lista.innerHTML = "";
+  window.users.forEach((user, i) => {
+    const li = document.createElement("li");
+    li.className = "list-group-item d-flex justify-content-between align-items-center";
+    li.textContent = user;
+    const btn = document.createElement("button");
+    btn.className = "btn btn-sm btn-danger";
+    btn.textContent = "Remover";
+    btn.onclick = () => {
+      window.users.splice(i, 1);
+      syncAdminData();
+      renderUsers();
+      updateCharts();
+    };
+    li.appendChild(btn);
+    lista.appendChild(li);
+  });
+}
+
+// Add Destino
+window.adicionarDestino = function() {
+  const input = document.getElementById("novo-destino");
+  if (input.value.trim()) {
+    window.destinos.push(input.value.trim());
+    syncAdminData();
+    input.value = "";
+    renderDestinos();
+    updateCharts();
+  }
+};
+
+// Add User
+window.adicionarTipo = function() {
+  const input = document.getElementById("novo-tipo");
+  if (input.value.trim()) {
+    window.users.push(input.value.trim());
+    syncAdminData();
+    input.value = "";
+    renderUsers();
+    updateCharts();
+  }
+};
+
+// Modal event listeners
+$("#modalDestinos").on("show.bs.modal", renderDestinos);
+$("#modalTipos").on("show.bs.modal", renderUsers);
+
+// Flights table logic (reuse renderFlights if exists, else implement here)
 function renderFlights() {
   const flights = FlightModel.getAll ? FlightModel.getAll() : [];
   const table = document.querySelector("#flights-table tbody");
@@ -103,6 +183,8 @@ function setupCharts() {
         },
         options: { responsive: true, scales: { y: { beginAtZero: true } } }
       });
+    } else {
+      console.error("Canvas element for users chart not found.");
     }
     if (tripsCtx) {
       chartTrips = new Chart(tripsCtx, {
@@ -120,6 +202,8 @@ function setupCharts() {
         },
         options: { responsive: true, scales: { y: { beginAtZero: true } } }
       });
+    } else {
+      console.error("Canvas element for trips chart not found.");
     }
     if (typesCtx) {
       chartTypes = new Chart(typesCtx, {
@@ -146,7 +230,11 @@ function setupCharts() {
         },
         options: { responsive: true }
       });
+    } else {
+      console.error("Canvas element for types chart not found.");
     }
+  } else {
+    console.error("Chart.js library not loaded.");
   }
 }
 
@@ -164,5 +252,8 @@ window.onAdminDataChanged = onDataChanged;
 document.addEventListener("DOMContentLoaded", () => {
   setupCharts();
   addFlightView();
-  updateCharts();
+  // Only call updateCharts after setupCharts
+  setTimeout(() => {
+    updateCharts();
+  }, 100);
 });

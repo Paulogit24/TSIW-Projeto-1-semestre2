@@ -2257,6 +2257,20 @@ function initdata() {
   }
  }
  
+function exposeAdminData() {
+  // Flights
+  window.voos = JSON.parse(localStorage.getItem("flight")) || [];
+  // Destinations (as names for admin modal)
+  window.destinos = (JSON.parse(localStorage.getItem("destination")) || []).map(d => d.location || d.name || d.destination || "");
+  // Users (as types or usernames for admin modal)
+  window.users = (JSON.parse(localStorage.getItem("users")) || []).map(u => u.type || u.username || u.name || "");
+}
+
+// Call after data initialization
+if (typeof window !== 'undefined') {
+  exposeAdminData();
+}
+
 /* import SearchView from './views/searchView.js';
  
  document.addEventListener('DOMContentLoaded', () => {

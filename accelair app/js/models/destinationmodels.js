@@ -35,12 +35,12 @@ export function removedestination(destinationID) {
 
 // DEFINIR O destino ATUAL (AQUELE QUE SERÁ VISTO NO DETALHE)
 export function setCurrentdestination(destinationID) {
-  localStorage.setItem("destination", destinationID);
+  localStorage.setItem("setdestination", destinationID);
 }
 
 // OBTER O destino ATUAL (OBJETO COMPLETO)
 export function getCurrentdestination() {
-  return destination.find((destination) => destination.destinationID === localStorage.getItem("destination"));
+  return destination.find((destination) => destination.destinationID === localStorage.getItem("setdestination"));
 }
 
 // ORDENAR destinoS POR PREÇO OU DATA DE PARTIDA

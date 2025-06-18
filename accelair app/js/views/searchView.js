@@ -1,5 +1,13 @@
 
-function handleSearchSubmit(event) {
+export  default function initSearchView(formSelector) {
+    const form = document.querySelector(formSelector);
+    if (form) {
+        form.addEventListener('submit', handleSearchSubmit);
+    }
+
+
+ 
+  function handleSearchSubmit(event) {
     event.preventDefault();
     const form = event.target;
     const data = {
@@ -13,15 +21,29 @@ function handleSearchSubmit(event) {
     console.log('Dados da pesquisa:', data);
     // Exemplo: alert(JSON.stringify(data));
 }
-
-export function initSearchView(formSelector) {
-    const form = document.querySelector(formSelector);
-    if (form) {
-        form.addEventListener('submit', handleSearchSubmit);
-    }
+ 
 }
+initdata()
+const DestinationCardTemplate = document.querySelector('destination-card-template');
+const DestinationCardContainer = document.querySelector('destinationID');
 
-function generateMainCard(flight) {
+console.log(destination)
+
+ let destination = JSON.parse(localStorage.getItem("destination"));
+
+destination.forEach(destination => {
+  const card = DestinationCardTemplate.content.cloneNode(true).children[0];
+  const header = card.querySelector('[head]');
+  const body = card.querySelector('[body]');
+  header.textContent = destination.name;
+  body.textContent = destination.location;
+  DestinationCardContainer.append(card);
+});
+
+
+
+
+/*function generateMainCard(flight) {
   let result = `
     <div class="col">
       <div class="card mb-3" style="width: 450px;">
@@ -38,9 +60,9 @@ function generateMainCard(flight) {
     </div>
     `;   
     return result;
-}
+}*/
 
-function generateCard(flight) {
+/*function generateCard(flight) {
   let result = `
     <div class="col">
       <div class="card mb-3" style="width: 320px;">
@@ -58,9 +80,9 @@ function generateCard(flight) {
     </div>
     `;   
     return result;
-}
+}*/
 
-<script src="/accelair app/js/views/resultView.js"></script>
+
 
 function getQueryParams() {
   const params = {};
@@ -70,9 +92,7 @@ function getQueryParams() {
   return params;
 }
 
-const destinos = [
-  // ...array de destinos...
-];
+
 
 function renderResults() {
   const params = getQueryParams();
@@ -100,4 +120,27 @@ function renderResults() {
   `).join('');
 }
 
-document.addEventListener('DOMContentLoaded', renderResults);
+/*document.addEventListener("DOMContentLoaded", () => renderSet(0));
+
+  function showRegister() {
+    document.getElementById('loginScreen').classList.add('d-none');
+    document.getElementById('registerScreen').classList.remove('d-none');
+  }
+
+  function showLogin() {
+    document.getElementById('registerScreen').classList.add('d-none');
+    document.getElementById('loginScreen').classList.remove('d-none');
+  }
+
+  document.getElementById("btnLogin").addEventListener("click", function () {
+  const username = document.getElementById("username").value.trim();
+  const password = document.getElementById("password").value.trim();
+
+  if (username === "admin" && password === "admin") {
+    window.location.href = "html/admin/admin.html";
+  } else {
+    alert("Nome de utilizador ou palavra-passe incorretos.");
+  }
+});
+
+document.addEventListener('DOMContentLoaded', renderResults);*/

@@ -1,3 +1,6 @@
+//import * as destination from "./models/destinationmodels.js";
+//import * as users from "./models/usermodels.js";
+
 window.onscroll = function() {
     scrollFunction();
   };
@@ -15,8 +18,8 @@ initdata();
 
 function initdata() {
   // destinos
-  if (!localStorage.fligth) {
-    const flights = [
+  if (!localStorage.flight) {
+    const flight = [
       {
       flightID: "FL0001",
       origin: "Porto, Portugal",
@@ -1098,915 +1101,1018 @@ function initdata() {
       price: 591
     }      
    ];    
-   loalStorage.setItem("destinations", JSON.stringify(destinations));
+   localStorage.setItem("flight", JSON.stringify(flight));
   }
 
   // destinos
  if (!localStorage.destination) {
-   const destinations = [
+   const destination = [
      {
       destinationID: "dest001",
       name: "Grand Heritage Inn",
       destinationDescription: "A bustling city full of life and energy.",
-      image: "https://example.com/images/grandheritageinn1.jpg",
+      image: "https://example.com/images/grandheritageinn.jpg",
       location: "Cape Town, South Africa",
       price: 2950,
-      category: "Cultural Tourism"
+      counter: 7,
+      category: "Cultural"
     },
     {
       destinationID: "dest002",
       name: "Grand Heritage Inn",
       destinationDescription: "A beautiful and culturally rich destination.",
-      image: "https://example.com/images/grandheritageinn2.jpg",
+      image: "https://example.com/images/grandheritageinn.jpg",
       location: "Cairo, Egypt",
       price: 1575,
-      category: "Cultural Tourism"
+      counter: 8,
+      category: "Cultural"
     },
     {
       destinationID: "dest003",
       name: "Cultural Palace",
       destinationDescription: "Enjoy a blend of modernity and natural beauty.",
-      image: "https://example.com/images/culturalpalace3.jpg",
+      image: "https://example.com/images/culturalpalace.jpg",
       location: "Prague, Czech Republic",
       price: 1360,
-      category: "Urban Tourism"
+      counter: 0,
+      category: "Urban"
     },
     {
       destinationID: "dest004",
       name: "Grand Heritage Inn",
       destinationDescription: "Enjoy a blend of modernity and natural beauty.",
-      image: "https://example.com/images/grandheritageinn4.jpg",
+      image: "https://example.com/images/grandheritageinn.jpg",
       location: "New York, USA",
       price: 2145,
-      category: "Beach Tourism"
+      counter: 0,
+      category: "Beach"
     },
     {
       destinationID: "dest005",
       name: "Seaside Bliss Resort",
       destinationDescription: "Discover stunning architecture and rich traditions.",
-      image: "https://example.com/images/seasideblissresort5.jpg",
+      image: "https://example.com/images/seasideblissresort.jpg",
       location: "Rio de Janeiro, Brazil",
       price: 1478,
-      category: "Cultural Tourism"
+      counter: 3,
+      category: "Cultural"
     },
     {
       destinationID: "dest006",
       name: "Golden Dunes Resort",
       destinationDescription: "Ideal for adventurers and nature lovers.",
-      image: "https://example.com/images/goldendunesresort6.jpg",
+      image: "https://example.com/images/goldendunesresort.jpg",
       location: "Bali, Indonesia",
       price: 1861,
-      category: "Eco Tourism"
+      counter: 99,
+      category: "Eco"
     },
     {
       destinationID: "dest007",
       name: "Harbor Lights Hotel",
       destinationDescription: "Ideal for adventurers and nature lovers.",
-      image: "https://example.com/images/harborlightshotel7.jpg",
+      image: "https://example.com/images/harborlightshoteljpg",
       location: "Cairo, Egypt",
       price: 1855,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest008",
       name: "Mystic River Lodge",
       destinationDescription: "Ideal for adventurers and nature lovers.",
-      image: "https://example.com/images/mysticriverlodge8.jpg",
+      image: "https://example.com/images/mysticriverlodge.jpg",
       location: "Amsterdam, Netherlands",
       price: 1777,
-      category: "Cultural Tourism"
+      counter: 0,
+      category: "Cultural"
     },
     {
       destinationID: "dest009",
       name: "Royal Orchid Hotel",
       destinationDescription: "A bustling city full of life and energy.",
-      image: "https://example.com/images/royalorchidhotel9.jpg",
+      image: "https://example.com/images/royalorchidhotel.jpg",
       location: "San Francisco, USA",
       price: 1316,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest010",
       name: "Harbor Lights Hotel",
       destinationDescription: "Enjoy a blend of modernity and natural beauty.",
-      image: "https://example.com/images/harborlightshotel10.jpg",
+      image: "https://example.com/images/harborlightshotel.jpg",
       location: "New York, USA",
       price: 1331,
-      category: "Heritage Tourism"
+      counter: 0,
+      category: "Heritage"
     },
     {
       destinationID: "dest011",
       name: "Sunset Resort",
       destinationDescription: "Experience world-class cuisine and scenic views.",
-      image: "https://example.com/images/sunsetresort11.jpg",
+      image: "https://example.com/images/sunsetresort.jpg",
       location: "Reykjavik, Iceland",
       price: 2910,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest012",
       name: "Alpine Heights",
       destinationDescription: "A beautiful and culturally rich destination.",
-      image: "https://example.com/images/alpineheights12.jpg",
+      image: "https://example.com/images/alpineheights.jpg",
       location: "Bangkok, Thailand",
       price: 1810,
-      category: "Heritage Tourism"
+      counter: 0,
+      category: "Heritage"
     },
     {
       destinationID: "dest013",
       name: "Golden Dunes Resort",
       destinationDescription: "A hidden gem for travelers seeking something new.",
-      image: "https://example.com/images/goldendunesresort13.jpg",
+      image: "https://example.com/images/goldendunesresort.jpg",
       location: "Istanbul, Turkey",
       price: 2731,
-      category: "Adventure Tourism"
+      counter: 0,
+      category: "Adventure"
     },
     {
       destinationID: "dest014",
       name: "Ocean Breeze Hotel",
       destinationDescription: "Ideal for adventurers and nature lovers.",
-      image: "https://example.com/images/oceanbreezehotel14.jpg",
+      image: "https://example.com/images/oceanbreezehotel.jpg",
       location: "San Francisco, USA",
       price: 2625,
-      category: "Cultural Tourism"
+      counter: 0,
+      category: "Cultural"
     },
     {
       destinationID: "dest015",
       name: "Cultural Palace",
       destinationDescription: "Explore ancient history and modern attractions.",
-      image: "https://example.com/images/culturalpalace15.jpg",
+      image: "https://example.com/images/culturalpalace.jpg",
       location: "Dubai, UAE",
       price: 2044,
-      category: "Religious Tourism"
+      counter: 0,
+      category: "Religious"
     },
     {
       destinationID: "dest016",
       name: "Ocean Breeze Hotel",
       destinationDescription: "Ideal for adventurers and nature lovers.",
-      image: "https://example.com/images/oceanbreezehotel16.jpg",
+      image: "https://example.com/images/oceanbreezehotel.jpg",
       location: "Kyoto, Japan",
       price: 2163,
-      category: "Cultural Tourism"
+      counter: 0,
+      category: "Cultural"
     },
     {
       destinationID: "dest017",
       name: "Serenity Stay",
       destinationDescription: "A bustling city full of life and energy.",
-      image: "https://example.com/images/serenitystay17.jpg",
+      image: "https://example.com/images/serenitystay.jpg",
       location: "Dubai, UAE",
       price: 2131,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest018",
       name: "Seaside Bliss Resort",
       destinationDescription: "A lively hub of entertainment and shopping.",
-      image: "https://example.com/images/seasideblissresort18.jpg",
+      image: "https://example.com/images/seasideblissresort.jpg",
       location: "Toronto, Canada",
       price: 2228,
-      category: "Religious Tourism"
+      counter: 0,
+      category: "Religious"
     },
     {
       destinationID: "dest019",
       name: "Mystic River Lodge",
       destinationDescription: "Ideal for adventurers and nature lovers.",
-      image: "https://example.com/images/mysticriverlodge19.jpg",
+      image: "https://example.com/images/mysticriverlodge.jpg",
       location: "Toronto, Canada",
       price: 1068,
-      category: "Heritage Tourism"
+      counter: 0,
+      category: "Heritage"
     },
     {
       destinationID: "dest020",
       name: "Cultural Palace",
       destinationDescription: "Enjoy a blend of modernity and natural beauty.",
-      image: "https://example.com/images/culturalpalace20.jpg",
+      image: "https://example.com/images/culturalpalace.jpg",
       location: "Rio de Janeiro, Brazil",
       price: 2664,
-      category: "Heritage Tourism"
+      counter: 0,
+      category: "Heritage"
     },
     {
       destinationID: "dest021",
       name: "Sunset Resort",
       destinationDescription: "Perfect for a relaxing and luxurious getaway.",
-      image: "https://example.com/images/sunsetresort21.jpg",
+      image: "https://example.com/images/sunsetresort.jpg",
       location: "Prague, Czech Republic",
       price: 2331,
-      category: "Adventure Tourism"
+      counter: 0,
+      category: "Adventure"
     },
     {
       destinationID: "dest022",
       name: "Ocean Breeze Hotel",
       destinationDescription: "Explore ancient history and modern attractions.",
-      image: "https://example.com/images/oceanbreezehotel22.jpg",
+      image: "https://example.com/images/oceanbreezehotel.jpg",
       location: "Reykjavik, Iceland",
       price: 1499,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest023",
       name: "Sunset Resort",
       destinationDescription: "A bustling city full of life and energy.",
-      image: "https://example.com/images/sunsetresort23.jpg",
+      image: "https://example.com/images/sunsetresort.jpg",
       location: "Amsterdam, Netherlands",
       price: 1984,
-      category: "Heritage Tourism"
+      counter: 0,
+      category: "Heritage"
     },
     {
       destinationID: "dest024",
       name: "Crystal Coast Resort",
       destinationDescription: "Explore ancient history and modern attractions.",
-      image: "https://example.com/images/crystalcoastresort24.jpg",
+      image: "https://example.com/images/crystalcoastresort.jpg",
       location: "Dubai, UAE",
       price: 1125,
-      category: "Heritage Tourism"
+      counter: 0,
+      category: "Heritage"
     },
     {
       destinationID: "dest025",
       name: "Adventure Retreat",
       destinationDescription: "A hidden gem for travelers seeking something new.",
-      image: "https://example.com/images/adventureretreat25.jpg",
+      image: "https://example.com/images/adventureretreat.jpg",
       location: "Paris, France",
       price: 1157,
-      category: "Adventure Tourism"
+      counter: 0,
+      category: "Adventure"
     },
     {
       destinationID: "dest026",
       name: "Adventure Retreat",
       destinationDescription: "Explore ancient history and modern attractions.",
-      image: "https://example.com/images/adventureretreat26.jpg",
+      image: "https://example.com/images/adventureretreat.jpg",
       location: "Cape Town, South Africa",
       price: 2967,
-      category: "Religious Tourism"
+      counter: 0,
+      category: "Religious"
     },
     {
       destinationID: "dest027",
       name: "Adventure Retreat",
       destinationDescription: "Enjoy a blend of modernity and natural beauty.",
-      image: "https://example.com/images/adventureretreat27.jpg",
+      image: "https://example.com/images/adventureretreat.jpg",
       location: "Tokyo, Japan",
       price: 2436,
-      category: "Religious Tourism"
+      counter: 0,
+      category: "Religious"
     },
     {
       destinationID: "dest028",
       name: "Sunset Resort",
       destinationDescription: "Discover stunning architecture and rich traditions.",
-      image: "https://example.com/images/sunsetresort28.jpg",
+      image: "https://example.com/images/sunsetresort.jpg",
       location: "Cairo, Egypt",
       price: 2941,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest029",
       name: "Twilight Bay Inn",
       destinationDescription: "Experience world-class cuisine and scenic views.",
-      image: "https://example.com/images/twilightbayinn29.jpg",
+      image: "https://example.com/images/twilightbayinn.jpg",
       location: "Toronto, Canada",
       price: 1722,
-      category: "Cultural Tourism"
+      counter: 0,
+      category: "Cultural"
     },
     {
       destinationID: "dest030",
       name: "Cultural Palace",
       destinationDescription: "Experience world-class cuisine and scenic views.",
-      image: "https://example.com/images/culturalpalace30.jpg",
+      image: "https://example.com/images/culturalpalace.jpg",
       location: "Kyoto, Japan",
       price: 1809,
-      category: "Urban Tourism"
+      counter: 0,
+      category: "Urban"
     },
     {
       destinationID: "dest031",
       name: "Serenity Stay",
       destinationDescription: "A bustling city full of life and energy.",
-      image: "https://example.com/images/serenitystay31.jpg",
+      image: "https://example.com/images/serenitystay.jpg",
       location: "Barcelona, Spain",
       price: 1730,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest032",
       name: "Urban Oasis Hotel",
       destinationDescription: "Perfect for a relaxing and luxurious getaway.",
-      image: "https://example.com/images/urbanoasishotel32.jpg",
+      image: "https://example.com/images/urbanoasishotel.jpg",
       location: "Rome, Italy",
       price: 1948,
-      category: "Beach Tourism"
+      counter: 0,
+      category: "Beach"
     },
     {
       destinationID: "dest033",
       name: "Lagoon Escape",
       destinationDescription: "Experience world-class cuisine and scenic views.",
-      image: "https://example.com/images/lagoonescape33.jpg",
+      image: "https://example.com/images/lagoonescape.jpg",
       location: "Cairo, Egypt",
       price: 2248,
-      category: "Eco Tourism"
+      counter: 0,
+      category: "Eco"
     },
     {
       destinationID: "dest034",
       name: "Harbor Lights Hotel",
       destinationDescription: "Perfect for a relaxing and luxurious getaway.",
-      image: "https://example.com/images/harborlightshotel34.jpg",
+      image: "https://example.com/images/harborlightshotel.jpg",
       location: "Istanbul, Turkey",
       price: 1585,
-      category: "Heritage Tourism"
+      counter: 0,
+      category: "Heritage"
     },
     {
       destinationID: "dest035",
       name: "Urban Oasis Hotel",
       destinationDescription: "Discover stunning architecture and rich traditions.",
-      image: "https://example.com/images/urbanoasishotel35.jpg",
+      image: "https://example.com/images/urbanoasishotel.jpg",
       location: "Kyoto, Japan",
       price: 1713,
-      category: "Eco Tourism"
+      counter: 0,
+      category: "Eco"
     },
     {
       destinationID: "dest036",
       name: "Harbor Lights Hotel",
       destinationDescription: "A beautiful and culturally rich destination.",
-      image: "https://example.com/images/harborlightshotel36.jpg",
+      image: "https://example.com/images/harborlightshotel.jpg",
       location: "Toronto, Canada",
       price: 2937,
-      category: "Cultural Tourism"
+      counter: 0,
+      category: "Cultural"
     },
     {
       destinationID: "dest037",
       name: "Adventure Retreat",
       destinationDescription: "Enjoy a blend of modernity and natural beauty.",
-      image: "https://example.com/images/adventureretreat37.jpg",
+      image: "https://example.com/images/adventureretreat.jpg",
       location: "Cape Town, South Africa",
       price: 1836,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest038",
       name: "Twilight Bay Inn",
       destinationDescription: "A lively hub of entertainment and shopping.",
-      image: "https://example.com/images/twilightbayinn38.jpg",
+      image: "https://example.com/images/twilightbayinn.jpg",
       location: "Toronto, Canada",
       price: 2737,
-      category: "Cultural Tourism"
+      counter: 0,
+      category: "Cultural"
     },
     {
       destinationID: "dest039",
       name: "Harbor Lights Hotel",
       destinationDescription: "A hidden gem for travelers seeking something new.",
-      image: "https://example.com/images/harborlightshotel39.jpg",
+      image: "https://example.com/images/harborlightshotel.jpg",
       location: "Kyoto, Japan",
       price: 1573,
-      category: "Heritage Tourism"
+      counter: 0,
+      category: "Heritage"
     },
     {
       destinationID: "dest040",
       name: "Alpine Heights",
       destinationDescription: "Experience world-class cuisine and scenic views.",
-      image: "https://example.com/images/alpineheights40.jpg",
+      image: "https://example.com/images/alpineheights.jpg",
       location: "Amsterdam, Netherlands",
       price: 2324,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest041",
       name: "Adventure Retreat",
       destinationDescription: "Enjoy a blend of modernity and natural beauty.",
-      image: "https://example.com/images/adventureretreat41.jpg",
+      image: "https://example.com/images/adventureretreat.jpg",
       location: "Rome, Italy",
       price: 1039,
-      category: "Adventure Tourism"
+      counter: 0,
+      category: "Adventure"
     },
     {
       destinationID: "dest042",
       name: "Alpine Heights",
       destinationDescription: "A lively hub of entertainment and shopping.",
-      image: "https://example.com/images/alpineheights42.jpg",
+      image: "https://example.com/images/alpineheights.jpg",
       location: "Istanbul, Turkey",
       price: 1345,
-      category: "Religious Tourism"
+      counter: 0,
+      category: "Religious"
     },
     {
       destinationID: "dest043",
       name: "Timeless Sands Hotel",
       destinationDescription: "Enjoy a blend of modernity and natural beauty.",
-      image: "https://example.com/images/timelesssandshotel43.jpg",
+      image: "https://example.com/images/timelesssandshotel.jpg",
       location: "Toronto, Canada",
       price: 1261,
-      category: "Eco Tourism"
+      counter: 0,
+      category: "Eco"
     },
     {
       destinationID: "dest044",
       name: "Adventure Retreat",
       destinationDescription: "Perfect for a relaxing and luxurious getaway.",
-      image: "https://example.com/images/adventureretreat44.jpg",
+      image: "https://example.com/images/adventureretreat.jpg",
       location: "Cape Town, South Africa",
       price: 2870,
-      category: "Urban Tourism"
+      counter: 0,
+      category: "Urban"
     },
     {
       destinationID: "dest045",
       name: "Golden Dunes Resort",
       destinationDescription: "A bustling city full of life and energy.",
-      image: "https://example.com/images/goldendunesresort45.jpg",
+      image: "https://example.com/images/goldendunesresort.jpg",
       location: "Paris, France",
       price: 1637,
-      category: "Cultural Tourism"
+      counter: 0,
+      category: "Cultural"
     },
     {
       destinationID: "dest046",
       name: "Urban Oasis Hotel",
       destinationDescription: "Experience world-class cuisine and scenic views.",
-      image: "https://example.com/images/urbanoasishotel46.jpg",
+      image: "https://example.com/images/urbanoasishotel.jpg",
       location: "Toronto, Canada",
       price: 1494,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest047",
       name: "Alpine Heights",
       destinationDescription: "Experience world-class cuisine and scenic views.",
-      image: "https://example.com/images/alpineheights47.jpg",
+      image: "https://example.com/images/alpineheights.jpg",
       location: "Istanbul, Turkey",
       price: 1627,
-      category: "Adventure Tourism"
+      counter: 0,
+      category: "Adventure"
     },
     {
       destinationID: "dest048",
       name: "Lagoon Escape",
       destinationDescription: "Ideal for adventurers and nature lovers.",
-      image: "https://example.com/images/lagoonescape48.jpg",
+      image: "https://example.com/images/lagoonescape.jpg",
       location: "Sydney, Australia",
       price: 1506,
-      category: "Heritage Tourism"
+      counter: 0,
+      category: "Heritage"
     },
     {
       destinationID: "dest049",
       name: "Lagoon Escape",
       destinationDescription: "Discover stunning architecture and rich traditions.",
-      image: "https://example.com/images/lagoonescape49.jpg",
+      image: "https://example.com/images/lagoonescape.jpg",
       location: "Tokyo, Japan",
       price: 2664,
-      category: "Eco Tourism"
+      counter: 0,
+      category: "Eco"
     },
     {
       destinationID: "dest050",
       name: "Royal Orchid Hotel",
       destinationDescription: "A hidden gem for travelers seeking something new.",
-      image: "https://example.com/images/royalorchidhotel50.jpg",
+      image: "https://example.com/images/royalorchidhotel.jpg",
       location: "Cape Town, South Africa",
       price: 2513,
-      category: "Eco Tourism"
+      counter: 0,
+      category: "Eco"
     },
     {
       destinationID: "dest051",
       name: "Twilight Bay Inn",
       destinationDescription: "Perfect for a relaxing and luxurious getaway.",
-      image: "https://example.com/images/twilightbayinn51.jpg",
+      image: "https://example.com/images/twilightbayinn.jpg",
       location: "Cairo, Egypt",
       price: 1854,
-      category: "Heritage Tourism"
+      counter: 0,
+      category: "Heritage"
     },
     {
       destinationID: "dest052",
       name: "Golden Dunes Resort",
       destinationDescription: "A hidden gem for travelers seeking something new.",
-      image: "https://example.com/images/goldendunesresort52.jpg",
+      image: "https://example.com/images/goldendunesresort.jpg",
       location: "Barcelona, Spain",
       price: 2918,
-      category: "Beach Tourism"
+      counter: 0,
+      category: "Beach"
     },
     {
       destinationID: "dest053",
       name: "Urban Oasis Hotel",
       destinationDescription: "Perfect for a relaxing and luxurious getaway.",
-      image: "https://example.com/images/urbanoasishotel53.jpg",
+      image: "https://example.com/images/urbanoasishotel.jpg",
       location: "Dubai, UAE",
       price: 2202,
-      category: "Adventure Tourism"
+      counter: 0,
+      category: "Adventure"
     },
     {
       destinationID: "dest054",
       name: "Grand Heritage Inn",
       destinationDescription: "A bustling city full of life and energy.",
-      image: "https://example.com/images/grandheritageinn54.jpg",
+      image: "https://example.com/images/grandheritageinn.jpg",
       location: "Toronto, Canada",
       price: 2469,
-      category: "Beach Tourism"
+      counter: 0,
+      category: "Beach"
     },
     {
       destinationID: "dest055",
       name: "Cultural Palace",
       destinationDescription: "Experience world-class cuisine and scenic views.",
-      image: "https://example.com/images/culturalpalace55.jpg",
+      image: "https://example.com/images/culturalpalace.jpg",
       location: "Paris, France",
       price: 2915,
-      category: "Eco Tourism"
+      counter: 0,
+      category: "Eco"
     },
     {
       destinationID: "dest056",
       name: "Alpine Heights",
       destinationDescription: "Experience world-class cuisine and scenic views.",
-      image: "https://example.com/images/alpineheights56.jpg",
+      image: "https://example.com/images/alpineheights.jpg",
       location: "Sydney, Australia",
       price: 2188,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest057",
       name: "Harbor Lights Hotel",
       destinationDescription: "A lively hub of entertainment and shopping.",
-      image: "https://example.com/images/harborlightshotel57.jpg",
+      image: "https://example.com/images/harborlightshotel.jpg",
       location: "Toronto, Canada",
       price: 1194,
-      category: "Urban Tourism"
+      counter: 0,
+      category: "Urban"
     },
     {
       destinationID: "dest058",
       name: "Timeless Sands Hotel",
       destinationDescription: "Experience world-class cuisine and scenic views.",
-      image: "https://example.com/images/timelesssandshotel58.jpg",
+      image: "https://example.com/images/timelesssandshotel.jpg",
       location: "Toronto, Canada",
       price: 1580,
-      category: "Heritage Tourism"
+      counter: 0,
+      category: "Heritage"
     },
     {
       destinationID: "dest059",
       name: "Serenity Stay",
       destinationDescription: "Perfect for a relaxing and luxurious getaway.",
-      image: "https://example.com/images/serenitystay59.jpg",
+      image: "https://example.com/images/serenitystay.jpg",
       location: "Bali, Indonesia",
       price: 1384,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest060",
       name: "Grand Heritage Inn",
       destinationDescription: "A lively hub of entertainment and shopping.",
-      image: "https://example.com/images/grandheritageinn60.jpg",
+      image: "https://example.com/images/grandheritageinn.jpg",
       location: "San Francisco, USA",
       price: 1497,
-      category: "Urban Tourism"
+      counter: 0,
+      category: "Urban"
     },
     {
       destinationID: "dest061",
       name: "Royal Orchid Hotel",
       destinationDescription: "A bustling city full of life and energy.",
-      image: "https://example.com/images/royalorchidhotel61.jpg",
+      image: "https://example.com/images/royalorchidhotel.jpg",
       location: "Kyoto, Japan",
       price: 1644,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest062",
       name: "Urban Oasis Hotel",
       destinationDescription: "A hidden gem for travelers seeking something new.",
-      image: "https://example.com/images/urbanoasishotel62.jpg",
+      image: "https://example.com/images/urbanoasishotel.jpg",
       location: "Dubai, UAE",
       price: 2735,
-      category: "Beach Tourism"
+      counter: 0,
+      category: "Beach"
     },
     {
       destinationID: "dest063",
       name: "Grand Heritage Inn",
       destinationDescription: "A bustling city full of life and energy.",
-      image: "https://example.com/images/grandheritageinn63.jpg",
+      image: "https://example.com/images/grandheritageinn.jpg",
       location: "Tokyo, Japan",
       price: 1509,
-      category: "Adventure Tourism"
+      counter: 0,
+      category: "Adventure"
     },
     {
       destinationID: "dest064",
       name: "Mystic River Lodge",
       destinationDescription: "Perfect for a relaxing and luxurious getaway.",
-      image: "https://example.com/images/mysticriverlodge64.jpg",
+      image: "https://example.com/images/mysticriverlodge.jpg",
       location: "Amsterdam, Netherlands",
       price: 2646,
-      category: "Cultural Tourism"
+      counter: 0,
+      category: "Cultural"
     },
     {
       destinationID: "dest065",
       name: "Ocean Breeze Hotel",
       destinationDescription: "Discover stunning architecture and rich traditions.",
-      image: "https://example.com/images/oceanbreezehotel65.jpg",
+      image: "https://example.com/images/oceanbreezehotel.jpg",
       location: "Rome, Italy",
       price: 1537,
-      category: "Heritage Tourism"
+      counter: 0,
+      category: "Heritage"
     },
     {
       destinationID: "dest066",
       name: "Timeless Sands Hotel",
       destinationDescription: "A bustling city full of life and energy.",
-      image: "https://example.com/images/timelesssandshotel66.jpg",
+      image: "https://example.com/images/timelesssandshotel.jpg",
       location: "Bangkok, Thailand",
       price: 1324,
-      category: "Urban Tourism"
+      counter: 0,
+      category: "Urban"
     },
     {
       destinationID: "dest067",
       name: "Emerald Hills Hotel",
       destinationDescription: "Perfect for a relaxing and luxurious getaway.",
-      image: "https://example.com/images/emeraldhillshotel67.jpg",
+      image: "https://example.com/images/emeraldhillshotel.jpg",
       location: "Rome, Italy",
       price: 1474,
-      category: "Urban Tourism"
+      counter: 0,
+      category: "Urban"
     },
     {
       destinationID: "dest068",
       name: "Mystic River Lodge",
       destinationDescription: "Explore ancient history and modern attractions.",
-      image: "https://example.com/images/mysticriverlodge68.jpg",
+      image: "https://example.com/images/mysticriverlodge.jpg",
       location: "New York, USA",
       price: 1779,
-      category: "Religious Tourism"
+      counter: 0,
+      category: "Religious"
     },
     {
       destinationID: "dest069",
       name: "Urban Oasis Hotel",
       destinationDescription: "Perfect for a relaxing and luxurious getaway.",
-      image: "https://example.com/images/urbanoasishotel69.jpg",
+      image: "https://example.com/images/urbanoasishotel.jpg",
       location: "San Francisco, USA",
       price: 1134,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest070",
       name: "Serenity Stay",
       destinationDescription: "A beautiful and culturally rich destination.",
-      image: "https://example.com/images/serenitystay70.jpg",
+      image: "https://example.com/images/serenitystay.jpg",
       location: "Istanbul, Turkey",
       price: 2231,
-      category: "Adventure Tourism"
+      counter: 0,
+      category: "Adventure"
     },
     {
       destinationID: "dest071",
       name: "Timeless Sands Hotel",
       destinationDescription: "A lively hub of entertainment and shopping.",
-      image: "https://example.com/images/timelesssandshotel71.jpg",
+      image: "https://example.com/images/timelesssandshotel.jpg",
       location: "Rio de Janeiro, Brazil",
       price: 2671,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest072",
       name: "Seaside Bliss Resort",
       destinationDescription: "Perfect for a relaxing and luxurious getaway.",
-      image: "https://example.com/images/seasideblissresort72.jpg",
+      image: "https://example.com/images/seasideblissresort.jpg",
       location: "Cape Town, South Africa",
       price: 1369,
-      category: "Adventure Tourism"
+      counter: 0,
+      category: "Adventure"
     },
     {
       destinationID: "dest073",
       name: "Emerald Hills Hotel",
       destinationDescription: "Discover stunning architecture and rich traditions.",
-      image: "https://example.com/images/emeraldhillshotel73.jpg",
+      image: "https://example.com/images/emeraldhillshotel.jpg",
       location: "Barcelona, Spain",
       price: 1887,
-      category: "Urban Tourism"
+      counter: 0,
+      category: "Urban"
     },
     {
       destinationID: "dest074",
       name: "Lagoon Escape",
       destinationDescription: "A beautiful and culturally rich destination.",
-      image: "https://example.com/images/lagoonescape74.jpg",
+      image: "https://example.com/images/lagoonescape.jpg",
       location: "New York, USA",
       price: 1559,
-      category: "Heritage Tourism"
+      counter: 0,
+      category: "Heritage"
     },
     {
       destinationID: "dest075",
       name: "Harbor Lights Hotel",
       destinationDescription: "Perfect for a relaxing and luxurious getaway.",
-      image: "https://example.com/images/harborlightshotel75.jpg",
+      image: "https://example.com/images/harborlightshotel.jpg",
       location: "Istanbul, Turkey",
       price: 1794,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest076",
       name: "Ocean Breeze Hotel",
       destinationDescription: "Experience world-class cuisine and scenic views.",
-      image: "https://example.com/images/oceanbreezehotel76.jpg",
+      image: "https://example.com/images/oceanbreezehotel.jpg",
       location: "Prague, Czech Republic",
       price: 1498,
-      category: "Religious Tourism"
+      counter: 0,
+      category: "Religious"
     },
     {
       destinationID: "dest077",
       name: "Mystic River Lodge",
       destinationDescription: "Ideal for adventurers and nature lovers.",
-      image: "https://example.com/images/mysticriverlodge77.jpg",
+      image: "https://example.com/images/mysticriverlodge.jpg",
       location: "Rome, Italy",
       price: 1516,
-      category: "Cultural Tourism"
+      counter: 0,
+      category: "Cultural"
     },
     {
       destinationID: "dest078",
       name: "Emerald Hills Hotel",
       destinationDescription: "Explore ancient history and modern attractions.",
-      image: "https://example.com/images/emeraldhillshotel78.jpg",
+      image: "https://example.com/images/emeraldhillshotel.jpg",
       location: "Bangkok, Thailand",
       price: 1767,
-      category: "Eco Tourism"
+      counter: 0,
+      category: "Eco"
     },
     {
       destinationID: "dest079",
       name: "Mountain View Lodge",
       destinationDescription: "A lively hub of entertainment and shopping.",
-      image: "https://example.com/images/mountainviewlodge79.jpg",
+      image: "https://example.com/images/mountainviewlodge.jpg",
       location: "Tokyo, Japan",
       price: 1310,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest080",
       name: "Seaside Bliss Resort",
       destinationDescription: "Enjoy a blend of modernity and natural beauty.",
-      image: "https://example.com/images/seasideblissresort80.jpg",
+      image: "https://example.com/images/seasideblissresort.jpg",
       location: "New York, USA",
       price: 2143,
-      category: "Urban Tourism"
+      counter: 0,
+      category: "Urban"
     },
     {
       destinationID: "dest081",
       name: "Timeless Sands Hotel",
       destinationDescription: "A bustling city full of life and energy.",
-      image: "https://example.com/images/timelesssandshotel81.jpg",
+      image: "https://example.com/images/timelesssandshotel.jpg",
       location: "Cairo, Egypt",
       price: 2223,
-      category: "Adventure Tourism"
+      counter: 0,
+      category: "Adventure"
     },
     {
       destinationID: "dest082",
       name: "Adventure Retreat",
       destinationDescription: "A beautiful and culturally rich destination.",
-      image: "https://example.com/images/adventureretreat82.jpg",
+      image: "https://example.com/images/adventureretreat.jpg",
       location: "Istanbul, Turkey",
       price: 1922,
-      category: "Beach Tourism"
+      counter: 0,
+      category: "Beach"
     },
     {
       destinationID: "dest083",
       name: "Cultural Palace",
       destinationDescription: "Perfect for a relaxing and luxurious getaway.",
-      image: "https://example.com/images/culturalpalace83.jpg",
+      image: "https://example.com/images/culturalpalace.jpg",
       location: "Cape Town, South Africa",
       price: 2784,
-      category: "Cultural Tourism"
+      counter: 0,
+      category: "Cultural"
     },
     {
       destinationID: "dest084",
       name: "Adventure Retreat",
       destinationDescription: "A beautiful and culturally rich destination.",
-      image: "https://example.com/images/adventureretreat84.jpg",
+      image: "https://example.com/images/adventureretreat.jpg",
       location: "Prague, Czech Republic",
       price: 2244,
-      category: "Wildlife Tourism"
+      counter: 0,
+      category: "Wildlife"
     },
     {
       destinationID: "dest085",
       name: "Crystal Coast Resort",
       destinationDescription: "Enjoy a blend of modernity and natural beauty.",
-      image: "https://example.com/images/crystalcoastresort85.jpg",
+      image: "https://example.com/images/crystalcoastresort.jpg",
       location: "Kyoto, Japan",
       price: 2754,
-      category: "Heritage Tourism"
+      counter: 0,
+      category: "Heritage"
     },
     {
       destinationID: "dest086",
       name: "Twilight Bay Inn",
       destinationDescription: "Perfect for a relaxing and luxurious getaway.",
-      image: "https://example.com/images/twilightbayinn86.jpg",
+      image: "https://example.com/images/twilightbayinn.jpg",
       location: "Kyoto, Japan",
       price: 1922,
-      category: "Eco Tourism"
+      counter: 0,
+      category: "Eco"
     },
     {
       destinationID: "dest087",
       name: "Grand Heritage Inn",
       destinationDescription: "Explore ancient history and modern attractions.",
-      image: "https://example.com/images/grandheritageinn87.jpg",
+      image: "https://example.com/images/grandheritageinn.jpg",
       location: "Istanbul, Turkey",
       price: 2595,
-      category: "Cultural Tourism"
+      counter: 0,
+      category: "Cultural"
     },
     {
       destinationID: "dest088",
       name: "Grand Heritage Inn",
       destinationDescription: "A bustling city full of life and energy.",
-      image: "https://example.com/images/grandheritageinn88.jpg",
+      image: "https://example.com/images/grandheritageinn.jpg",
       location: "New York, USA",
       price: 2043,
-      category: "Cultural Tourism"
+      counter: 0,
+      category: "Cultural"
     },
     {
       destinationID: "dest089",
       name: "Adventure Retreat",
       destinationDescription: "Experience world-class cuisine and scenic views.",
-      image: "https://example.com/images/adventureretreat89.jpg",
+      image: "https://example.com/images/adventureretreat.jpg",
       location: "Rio de Janeiro, Brazil",
       price: 1840,
-      category: "Urban Tourism"
+      counter: 0,
+      category: "Urban"
     },
     {
       destinationID: "dest090",
       name: "Mystic River Lodge",
       destinationDescription: "Enjoy a blend of modernity and natural beauty.",
-      image: "https://example.com/images/mysticriverlodge90.jpg",
+      image: "https://example.com/images/mysticriverlodge.jpg",
       location: "Barcelona, Spain",
       price: 2074,
-      category: "Heritage Tourism"
+      counter: 0,
+      category: "Heritage"
     },
     {
       destinationID: "dest091",
       name: "Skyline Suites",
       destinationDescription: "A bustling city full of life and energy.",
-      image: "https://example.com/images/skylinesuites91.jpg",
+      image: "https://example.com/images/skylinesuites.jpg",
       location: "Zermatt, Switzerland",
       price: 1273,
-      category: "Urban Tourism"
+      counter: 0,
+      category: "Urban"
     },
     {
       destinationID: "dest092",
       name: "Mountain View Lodge",
       destinationDescription: "A hidden gem for travelers seeking something new.",
-      image: "https://example.com/images/mountainviewlodge92.jpg",
+      image: "https://example.com/images/mountainviewlodge.jpg",
       location: "Barcelona, Spain",
       price: 1574,
-      category: "Beach Tourism"
+      counter: 0,
+      category: "Beach"
     },
     {
       destinationID: "dest093",
       name: "Emerald Hills Hotel",
       destinationDescription: "Ideal for adventurers and nature lovers.",
-      image: "https://example.com/images/emeraldhillshotel93.jpg",
+      image: "https://example.com/images/emeraldhillshotel.jpg",
       location: "Zermatt, Switzerland",
       price: 1301,
-      category: "Adventure Tourism"
+      counter: 0,
+      category: "Adventure"
     },
     {
       destinationID: "dest094",
       name: "Timeless Sands Hotel",
       destinationDescription: "A lively hub of entertainment and shopping.",
-      image: "https://example.com/images/timelesssandshotel94.jpg",
+      image: "https://example.com/images/timelesssandshotel.jpg",
       location: "Cairo, Egypt",
       price: 1044,
-      category: "Religious Tourism"
+      counter: 0,
+      category: "Religious"
     },
     {
       destinationID: "dest095",
       name: "Skyline Suites",
       destinationDescription: "A bustling city full of life and energy.",
-      image: "https://example.com/images/skylinesuites95.jpg",
+      image: "https://example.com/images/skylinesuites.jpg",
       location: "Rio de Janeiro, Brazil",
       price: 1892,
-      category: "Cultural Tourism"
+      counter: 0,
+      category: "Cultural"
     },
     {
       destinationID: "dest096",
       name: "Emerald Hills Hotel",
       destinationDescription: "A lively hub of entertainment and shopping.",
-      image: "https://example.com/images/emeraldhillshotel96.jpg",
+      image: "https://example.com/images/emeraldhillshotel.jpg",
       location: "Tokyo, Japan",
       price: 1908,
-      category: "Urban Tourism"
+      counter: 0,
+      category: "Urban"
     },
     {
       destinationID: "dest097",
       name: "Cultural Palace",
       destinationDescription: "A hidden gem for travelers seeking something new.",
-      image: "https://example.com/images/culturalpalace97.jpg",
+      image: "https://example.com/images/culturalpalace.jpg",
       location: "San Francisco, USA",
       price: 2851,
-      category: "Cultural Tourism"
+      counter: 0,
+      category: "Cultural"
     },
     {
       destinationID: "dest098",
       name: "Ocean Breeze Hotel",
       destinationDescription: "A beautiful and culturally rich destination.",
-      image: "https://example.com/images/oceanbreezehotel98.jpg",
+      image: "https://example.com/images/oceanbreezehotel.jpg",
       location: "Amsterdam, Netherlands",
       price: 2059,
-      category: "Cultural Tourism"
+      counter: 0,
+      category: "Cultural"
     },
     {
       destinationID: "dest099",
       name: "Skyline Suites",
       destinationDescription: "A beautiful and culturally rich destination.",
-      image: "https://example.com/images/skylinesuites99.jpg",
+      image: "https://example.com/images/skylinesuites.jpg",
       location: "Amsterdam, Netherlands",
       price: 1039,
-      category: "Cultural Tourism"
+      counter: 0,
+      category: "Cultural"
     },
     {
       destinationID: "dest100",
       name: "Grand Heritage Inn",
       destinationDescription: "Experience world-class cuisine and scenic views.",
-      image: "https://example.com/images/grandheritageinn100.jpg",
+      image: "https://example.com/images/grandheritageinn.jpg",
       location: "Istanbul, Turkey",
       price: 1180,
-      category: "Beach Tourism"
+      counter: 0,
+      category: "Beach"
     },
      // Adicione mais voos conforme necessário
    ];
-   localStorage.setItem("flights", JSON.stringify(flights));
+   localStorage.setItem("destination", JSON.stringify(destination));
+  }
+  else {
+       destination = JSON.parse(localStorage.getItem("destination"));
   }
 
  // USERS
@@ -2032,14 +2138,27 @@ function initdata() {
         admin: 0,
         funds: 2000,
       },
+      {
+        username: "user2",
+        password: "user2",
+        exp: 3000,
+        banner: "",
+        userimage: "",
+        aboutuser: "",
+        admin: 0,
+        funds: 6000,
+      },
        // Adicione mais usuários conforme necessário
      ];
      localStorage.setItem("users", JSON.stringify(users));
    }
+    else {
+       users = JSON.parse(localStorage.getItem("users"));
+  }
  }
  
- import SearchView from './views/searchView.js';
+/* import SearchView from './views/searchView.js';
  
  document.addEventListener('DOMContentLoaded', () => {
    new SearchView('form');
- });
+ });*/

@@ -13,12 +13,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <title>AccelAir</title>>
+    <title>AccelAir</title>
+    <script src="/accelair app/js/init.js"></script>
 </head>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
-<script src="/accelair app/js/views/searchView.js" defer></script>
+<script type= "module" src="/accelair app/js/views/searchView.js" defer></script>
 <body>
  
 <div class="container-fluid position-relative" id="navbar">
@@ -93,9 +94,8 @@
 <div class="container pt-5 mt-5" id="handleSearchSubmit">
   <div class="bg-danger text-white p-3 rounded d-flex flex-wrap justify-content-between">
     <div><i class="fas fa-map-marker-alt"></i> Localalização: <input type="search" id="local"></div>
-    <div><i class="fas fa-users"></i> Número de pessoas: <input type="search" id=people></div>
-    <div><i class="fas fa-calendar-alt"></i> Data de partida: <input type="search" id="date"></div>
-    <div><i class="fas fa-clock"></i> Dias de viagem: <input type="search" id="days"></div>
+    <div><i class="fas fa-users"></i> Nome: <input type="search" id=name></div>
+    <div><i class="fas fa-clock"></i> Duração: <input type="search" id="duration"></div>
     <div><i class="fas fa-umbrella-beach"></i> Tipo de turismo: <input type="search" id="turismtype"></strong></div>
   </div>
 </div>
@@ -103,11 +103,11 @@
         <h1 class="text-danger">Resultados</h1>
         <p class="lead">Encontre o destino perfeito para a sua próxima viagem!</p>
 </div>
-<div class="destino-card">
-<template>
+<div id = "destinationID" class="destin-card" >
+<template id="DestinationCardTemplate">
 <div class="carta">
-  <div class="header"></div>
-  <div class="body"></div>
+  <div class="header" head></div>
+  <div class="body" body></div>
 </div>
 </template>
 </div>
@@ -138,31 +138,6 @@
   </div>
 </footer>
 
-<script>
-
-
-  document.addEventListener("DOMContentLoaded", () => renderSet(0));
-
-  function showRegister() {
-    document.getElementById('loginScreen').classList.add('d-none');
-    document.getElementById('registerScreen').classList.remove('d-none');
-  }
-
-  function showLogin() {
-    document.getElementById('registerScreen').classList.add('d-none');
-    document.getElementById('loginScreen').classList.remove('d-none');
-  }
-
-  document.getElementById("btnLogin").addEventListener("click", function () {
-  const username = document.getElementById("username").value.trim();
-  const password = document.getElementById("password").value.trim();
-
-  if (username === "admin" && password === "admin") {
-    window.location.href = "html/admin/admin.html";
-  } else {
-    alert("Nome de utilizador ou palavra-passe incorretos.");
-  }
-});
-</script>
 </body>
+
 </html>

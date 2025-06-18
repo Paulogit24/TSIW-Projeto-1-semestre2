@@ -3,6 +3,8 @@ import * as FlightModel from "../models/FlightModel.js";
 
 let chartUsers, chartTrips, chartTypes;
 
+let user = JSON.parse(localStorage.getItem("user")) || [];
+
 function updateCharts() {
   // Example: get data from models or localStorage (replace with real logic)
   const usersData = [50, 75, 150, 100]; // Replace with dynamic data

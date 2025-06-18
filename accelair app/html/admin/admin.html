@@ -85,11 +85,45 @@
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
       <div class="modal-body">
-        <ul id="lista-voos" class="list-group mb-3"></ul>
-        <input type="text" id="novo-voo" class="form-control" placeholder="Novo voo">
-      </div>
-      <div class="modal-footer">
-        <button class="btn btn-primary" onclick="adicionarVoo()">Adicionar</button>
+        <form id="form-add-flight">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" id="input-flight-number" class="form-control" placeholder="Nº do voo" required>
+            </div>
+            <div class="form-group col-md-6">
+              <input type="text" id="input-airline" class="form-control" placeholder="Companhia aérea" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" id="input-origin" class="form-control" placeholder="Origem" required>
+            </div>
+            <div class="form-group col-md-6">
+              <input type="text" id="input-destination" class="form-control" placeholder="Destino" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="datetime-local" id="input-departure" class="form-control" placeholder="Partida" required>
+            </div>
+            <div class="form-group col-md-6">
+              <input type="datetime-local" id="input-arrival" class="form-control" placeholder="Chegada" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="number" id="input-price" class="form-control" placeholder="Preço" required>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Adicionar Voo</button>
+        </form>
+        <hr>
+        <table class="table table-sm table-bordered mt-3" id="flights-table">
+          <thead class="thead-light">
+            <tr>
+              <th>Nº Voo</th><th>Origem</th><th>Destino</th><th>Partida</th><th>Chegada</th><th>Companhia</th><th>Preço</th><th>Ações</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
       </div>
     </div>
   </div>

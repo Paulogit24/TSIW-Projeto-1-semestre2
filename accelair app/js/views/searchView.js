@@ -24,20 +24,70 @@ export  default function initSearchView(formSelector) {
  
 }
 initdata()
-const DestinationCardTemplate = document.querySelector('destination-card-template');
-const DestinationCardContainer = document.querySelector('destinationID');
+const DestinationCardTemplate = document.getElementById('DestinationCardTemplate');
+const DestinationCardContainer = document.getElementById('destinationID');
+const localsearch = document.getElementById('local');
+const namesearch = document.getElementById('name');
+const durationsearch = document.getElementById('duration');
+const turismsearch = document.getElementById('turismtype');
 
+let destination = JSON.parse(localStorage.getItem("destination")) || [];
 console.log(destination)
 
- let destination = JSON.parse(localStorage.getItem("destination"));
+// store card
+const cards = [];
 
+/* //search by local
+localsearch.addEventListener('input', local => {
+  const localValue = local.target.value.toLowerCase();
+  console.log(localValue);
+  destination.forEach(destination => {
+    const isvisible = destination.location.toLowerCase().includes(localValue);
+    User.element.classList.toggle('hide', !isvisible);
+  })})*/
+
+
+//card generation
 destination.forEach(destination => {
   const card = DestinationCardTemplate.content.cloneNode(true).children[0];
   const header = card.querySelector('[head]');
   const body = card.querySelector('[body]');
+  const duration = card.querySelector('[duration]');
+  const type = card.querySelector('[type]');
   header.textContent = destination.name;
   body.textContent = destination.location;
+  duration.textContent = "Duração: " + destination.duration + " dias";
+  type.textContent = destination.category;
   DestinationCardContainer.append(card);
+  cards.push({ location: destination.location,name: destination.name,type: destination.category, element: card });
+});
+
+// Search by local
+localsearch.addEventListener('input', e => {
+  const localValue = e.target.value.toLowerCase();
+  cards.forEach(cardObj => {
+    const isVisible = cardObj.location.toLowerCase().includes(localValue);
+    cardObj.element.classList.toggle('hide', !isVisible);
+  });
+});
+
+// Search by name
+namesearch.addEventListener('input', e => {
+  const nameValue = e.target.value.toLowerCase();
+  cards.forEach(cardObj => {
+    const isVisible = cardObj.name.toLowerCase().includes(nameValue);
+    cardObj.element.classList.toggle('hide', !isVisible);
+  });
+});
+
+// Search by type
+
+turismsearch.addEventListener('input', e => {
+  const typeValue = e.target.value.toLowerCase();
+  cards.forEach(cardObj => {
+    const isVisible = cardObj.type.toLowerCase().includes(typeValue);
+    cardObj.element.classList.toggle('hide', !isVisible);
+  });
 });
 
 

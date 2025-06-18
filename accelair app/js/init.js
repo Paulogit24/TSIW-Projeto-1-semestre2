@@ -1115,6 +1115,7 @@ function initdata() {
       location: "Cape Town, South Africa",
       price: 2950,
       counter: 7,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -1125,6 +1126,7 @@ function initdata() {
       location: "Cairo, Egypt",
       price: 1575,
       counter: 8,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -1135,6 +1137,7 @@ function initdata() {
       location: "Prague, Czech Republic",
       price: 1360,
       counter: 0,
+      duration: "3",
       category: "Urban"
     },
     {
@@ -1145,6 +1148,7 @@ function initdata() {
       location: "New York, USA",
       price: 2145,
       counter: 0,
+      duration: "3",
       category: "Beach"
     },
     {
@@ -1155,6 +1159,7 @@ function initdata() {
       location: "Rio de Janeiro, Brazil",
       price: 1478,
       counter: 3,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -1165,6 +1170,7 @@ function initdata() {
       location: "Bali, Indonesia",
       price: 1861,
       counter: 99,
+      duration: "3",
       category: "Eco"
     },
     {
@@ -1175,6 +1181,7 @@ function initdata() {
       location: "Cairo, Egypt",
       price: 1855,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1185,6 +1192,7 @@ function initdata() {
       location: "Amsterdam, Netherlands",
       price: 1777,
       counter: 0,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -1195,6 +1203,7 @@ function initdata() {
       location: "San Francisco, USA",
       price: 1316,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1205,6 +1214,7 @@ function initdata() {
       location: "New York, USA",
       price: 1331,
       counter: 0,
+      duration: "3",
       category: "Heritage"
     },
     {
@@ -1215,6 +1225,7 @@ function initdata() {
       location: "Reykjavik, Iceland",
       price: 2910,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1225,6 +1236,7 @@ function initdata() {
       location: "Bangkok, Thailand",
       price: 1810,
       counter: 0,
+      duration: "3",
       category: "Heritage"
     },
     {
@@ -1235,6 +1247,7 @@ function initdata() {
       location: "Istanbul, Turkey",
       price: 2731,
       counter: 0,
+      duration: "3",
       category: "Adventure"
     },
     {
@@ -1245,6 +1258,7 @@ function initdata() {
       location: "San Francisco, USA",
       price: 2625,
       counter: 0,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -1255,6 +1269,7 @@ function initdata() {
       location: "Dubai, UAE",
       price: 2044,
       counter: 0,
+      duration: "3",
       category: "Religious"
     },
     {
@@ -1265,6 +1280,7 @@ function initdata() {
       location: "Kyoto, Japan",
       price: 2163,
       counter: 0,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -1275,6 +1291,7 @@ function initdata() {
       location: "Dubai, UAE",
       price: 2131,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1285,6 +1302,7 @@ function initdata() {
       location: "Toronto, Canada",
       price: 2228,
       counter: 0,
+      duration: "3",
       category: "Religious"
     },
     {
@@ -1295,6 +1313,7 @@ function initdata() {
       location: "Toronto, Canada",
       price: 1068,
       counter: 0,
+      duration: "3",
       category: "Heritage"
     },
     {
@@ -1305,6 +1324,7 @@ function initdata() {
       location: "Rio de Janeiro, Brazil",
       price: 2664,
       counter: 0,
+      duration: "3",
       category: "Heritage"
     },
     {
@@ -1315,6 +1335,7 @@ function initdata() {
       location: "Prague, Czech Republic",
       price: 2331,
       counter: 0,
+      duration: "3",
       category: "Adventure"
     },
     {
@@ -1325,6 +1346,7 @@ function initdata() {
       location: "Reykjavik, Iceland",
       price: 1499,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1335,6 +1357,7 @@ function initdata() {
       location: "Amsterdam, Netherlands",
       price: 1984,
       counter: 0,
+      duration: "3",
       category: "Heritage"
     },
     {
@@ -1345,6 +1368,7 @@ function initdata() {
       location: "Dubai, UAE",
       price: 1125,
       counter: 0,
+      duration: "3",
       category: "Heritage"
     },
     {
@@ -1355,6 +1379,7 @@ function initdata() {
       location: "Paris, France",
       price: 1157,
       counter: 0,
+      duration: "3",
       category: "Adventure"
     },
     {
@@ -1365,6 +1390,7 @@ function initdata() {
       location: "Cape Town, South Africa",
       price: 2967,
       counter: 0,
+      duration: "3",
       category: "Religious"
     },
     {
@@ -1375,6 +1401,7 @@ function initdata() {
       location: "Tokyo, Japan",
       price: 2436,
       counter: 0,
+      duration: "3",
       category: "Religious"
     },
     {
@@ -1385,6 +1412,7 @@ function initdata() {
       location: "Cairo, Egypt",
       price: 2941,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1395,6 +1423,7 @@ function initdata() {
       location: "Toronto, Canada",
       price: 1722,
       counter: 0,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -1405,6 +1434,7 @@ function initdata() {
       location: "Kyoto, Japan",
       price: 1809,
       counter: 0,
+      duration: "3",
       category: "Urban"
     },
     {
@@ -1415,6 +1445,7 @@ function initdata() {
       location: "Barcelona, Spain",
       price: 1730,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1425,6 +1456,7 @@ function initdata() {
       location: "Rome, Italy",
       price: 1948,
       counter: 0,
+      duration: "3",
       category: "Beach"
     },
     {
@@ -1435,6 +1467,7 @@ function initdata() {
       location: "Cairo, Egypt",
       price: 2248,
       counter: 0,
+      duration: "3",
       category: "Eco"
     },
     {
@@ -1445,6 +1478,7 @@ function initdata() {
       location: "Istanbul, Turkey",
       price: 1585,
       counter: 0,
+      duration: "3",
       category: "Heritage"
     },
     {
@@ -1455,6 +1489,7 @@ function initdata() {
       location: "Kyoto, Japan",
       price: 1713,
       counter: 0,
+      duration: "3",
       category: "Eco"
     },
     {
@@ -1465,6 +1500,7 @@ function initdata() {
       location: "Toronto, Canada",
       price: 2937,
       counter: 0,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -1475,6 +1511,7 @@ function initdata() {
       location: "Cape Town, South Africa",
       price: 1836,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1485,6 +1522,7 @@ function initdata() {
       location: "Toronto, Canada",
       price: 2737,
       counter: 0,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -1495,6 +1533,7 @@ function initdata() {
       location: "Kyoto, Japan",
       price: 1573,
       counter: 0,
+      duration: "3",
       category: "Heritage"
     },
     {
@@ -1505,6 +1544,7 @@ function initdata() {
       location: "Amsterdam, Netherlands",
       price: 2324,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1515,6 +1555,7 @@ function initdata() {
       location: "Rome, Italy",
       price: 1039,
       counter: 0,
+      duration: "3",
       category: "Adventure"
     },
     {
@@ -1525,6 +1566,7 @@ function initdata() {
       location: "Istanbul, Turkey",
       price: 1345,
       counter: 0,
+      duration: "3",
       category: "Religious"
     },
     {
@@ -1535,6 +1577,7 @@ function initdata() {
       location: "Toronto, Canada",
       price: 1261,
       counter: 0,
+      duration: "3",
       category: "Eco"
     },
     {
@@ -1545,6 +1588,7 @@ function initdata() {
       location: "Cape Town, South Africa",
       price: 2870,
       counter: 0,
+      duration: "3",
       category: "Urban"
     },
     {
@@ -1555,6 +1599,7 @@ function initdata() {
       location: "Paris, France",
       price: 1637,
       counter: 0,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -1565,6 +1610,7 @@ function initdata() {
       location: "Toronto, Canada",
       price: 1494,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1575,6 +1621,7 @@ function initdata() {
       location: "Istanbul, Turkey",
       price: 1627,
       counter: 0,
+      duration: "3",
       category: "Adventure"
     },
     {
@@ -1585,6 +1632,7 @@ function initdata() {
       location: "Sydney, Australia",
       price: 1506,
       counter: 0,
+      duration: "3",
       category: "Heritage"
     },
     {
@@ -1595,6 +1643,7 @@ function initdata() {
       location: "Tokyo, Japan",
       price: 2664,
       counter: 0,
+      duration: "3",
       category: "Eco"
     },
     {
@@ -1605,6 +1654,7 @@ function initdata() {
       location: "Cape Town, South Africa",
       price: 2513,
       counter: 0,
+      duration: "3",
       category: "Eco"
     },
     {
@@ -1615,6 +1665,7 @@ function initdata() {
       location: "Cairo, Egypt",
       price: 1854,
       counter: 0,
+      duration: "3",
       category: "Heritage"
     },
     {
@@ -1625,6 +1676,7 @@ function initdata() {
       location: "Barcelona, Spain",
       price: 2918,
       counter: 0,
+      duration: "3",
       category: "Beach"
     },
     {
@@ -1635,6 +1687,7 @@ function initdata() {
       location: "Dubai, UAE",
       price: 2202,
       counter: 0,
+      duration: "3",
       category: "Adventure"
     },
     {
@@ -1645,6 +1698,7 @@ function initdata() {
       location: "Toronto, Canada",
       price: 2469,
       counter: 0,
+      duration: "3",
       category: "Beach"
     },
     {
@@ -1655,6 +1709,7 @@ function initdata() {
       location: "Paris, France",
       price: 2915,
       counter: 0,
+      duration: "3",
       category: "Eco"
     },
     {
@@ -1665,6 +1720,7 @@ function initdata() {
       location: "Sydney, Australia",
       price: 2188,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1675,6 +1731,7 @@ function initdata() {
       location: "Toronto, Canada",
       price: 1194,
       counter: 0,
+      duration: "3",
       category: "Urban"
     },
     {
@@ -1685,6 +1742,7 @@ function initdata() {
       location: "Toronto, Canada",
       price: 1580,
       counter: 0,
+      duration: "3",
       category: "Heritage"
     },
     {
@@ -1695,6 +1753,7 @@ function initdata() {
       location: "Bali, Indonesia",
       price: 1384,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1705,6 +1764,7 @@ function initdata() {
       location: "San Francisco, USA",
       price: 1497,
       counter: 0,
+      duration: "3",
       category: "Urban"
     },
     {
@@ -1715,6 +1775,7 @@ function initdata() {
       location: "Kyoto, Japan",
       price: 1644,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1725,6 +1786,7 @@ function initdata() {
       location: "Dubai, UAE",
       price: 2735,
       counter: 0,
+      duration: "3",
       category: "Beach"
     },
     {
@@ -1735,6 +1797,7 @@ function initdata() {
       location: "Tokyo, Japan",
       price: 1509,
       counter: 0,
+      duration: "3",
       category: "Adventure"
     },
     {
@@ -1745,6 +1808,7 @@ function initdata() {
       location: "Amsterdam, Netherlands",
       price: 2646,
       counter: 0,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -1755,6 +1819,7 @@ function initdata() {
       location: "Rome, Italy",
       price: 1537,
       counter: 0,
+      duration: "3",
       category: "Heritage"
     },
     {
@@ -1765,6 +1830,7 @@ function initdata() {
       location: "Bangkok, Thailand",
       price: 1324,
       counter: 0,
+      duration: "3",
       category: "Urban"
     },
     {
@@ -1775,6 +1841,7 @@ function initdata() {
       location: "Rome, Italy",
       price: 1474,
       counter: 0,
+      duration: "3",
       category: "Urban"
     },
     {
@@ -1785,6 +1852,7 @@ function initdata() {
       location: "New York, USA",
       price: 1779,
       counter: 0,
+      duration: "3",
       category: "Religious"
     },
     {
@@ -1795,6 +1863,7 @@ function initdata() {
       location: "San Francisco, USA",
       price: 1134,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1805,6 +1874,7 @@ function initdata() {
       location: "Istanbul, Turkey",
       price: 2231,
       counter: 0,
+      duration: "3",
       category: "Adventure"
     },
     {
@@ -1815,6 +1885,7 @@ function initdata() {
       location: "Rio de Janeiro, Brazil",
       price: 2671,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1825,6 +1896,7 @@ function initdata() {
       location: "Cape Town, South Africa",
       price: 1369,
       counter: 0,
+      duration: "3",
       category: "Adventure"
     },
     {
@@ -1835,6 +1907,7 @@ function initdata() {
       location: "Barcelona, Spain",
       price: 1887,
       counter: 0,
+      duration: "3",
       category: "Urban"
     },
     {
@@ -1845,6 +1918,7 @@ function initdata() {
       location: "New York, USA",
       price: 1559,
       counter: 0,
+      duration: "3",
       category: "Heritage"
     },
     {
@@ -1855,6 +1929,7 @@ function initdata() {
       location: "Istanbul, Turkey",
       price: 1794,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1865,6 +1940,7 @@ function initdata() {
       location: "Prague, Czech Republic",
       price: 1498,
       counter: 0,
+      duration: "3",
       category: "Religious"
     },
     {
@@ -1875,6 +1951,7 @@ function initdata() {
       location: "Rome, Italy",
       price: 1516,
       counter: 0,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -1885,6 +1962,7 @@ function initdata() {
       location: "Bangkok, Thailand",
       price: 1767,
       counter: 0,
+      duration: "3",
       category: "Eco"
     },
     {
@@ -1895,6 +1973,7 @@ function initdata() {
       location: "Tokyo, Japan",
       price: 1310,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1905,6 +1984,7 @@ function initdata() {
       location: "New York, USA",
       price: 2143,
       counter: 0,
+      duration: "3",
       category: "Urban"
     },
     {
@@ -1915,6 +1995,7 @@ function initdata() {
       location: "Cairo, Egypt",
       price: 2223,
       counter: 0,
+      duration: "3",
       category: "Adventure"
     },
     {
@@ -1925,6 +2006,7 @@ function initdata() {
       location: "Istanbul, Turkey",
       price: 1922,
       counter: 0,
+      duration: "3",
       category: "Beach"
     },
     {
@@ -1935,6 +2017,7 @@ function initdata() {
       location: "Cape Town, South Africa",
       price: 2784,
       counter: 0,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -1945,6 +2028,7 @@ function initdata() {
       location: "Prague, Czech Republic",
       price: 2244,
       counter: 0,
+      duration: "3",
       category: "Wildlife"
     },
     {
@@ -1955,6 +2039,7 @@ function initdata() {
       location: "Kyoto, Japan",
       price: 2754,
       counter: 0,
+      duration: "3",
       category: "Heritage"
     },
     {
@@ -1965,6 +2050,7 @@ function initdata() {
       location: "Kyoto, Japan",
       price: 1922,
       counter: 0,
+      duration: "3",
       category: "Eco"
     },
     {
@@ -1975,6 +2061,7 @@ function initdata() {
       location: "Istanbul, Turkey",
       price: 2595,
       counter: 0,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -1985,6 +2072,7 @@ function initdata() {
       location: "New York, USA",
       price: 2043,
       counter: 0,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -1995,6 +2083,7 @@ function initdata() {
       location: "Rio de Janeiro, Brazil",
       price: 1840,
       counter: 0,
+      duration: "3",
       category: "Urban"
     },
     {
@@ -2005,6 +2094,7 @@ function initdata() {
       location: "Barcelona, Spain",
       price: 2074,
       counter: 0,
+      duration: "3",
       category: "Heritage"
     },
     {
@@ -2015,6 +2105,7 @@ function initdata() {
       location: "Zermatt, Switzerland",
       price: 1273,
       counter: 0,
+      duration: "3",
       category: "Urban"
     },
     {
@@ -2025,6 +2116,7 @@ function initdata() {
       location: "Barcelona, Spain",
       price: 1574,
       counter: 0,
+      duration: "3",
       category: "Beach"
     },
     {
@@ -2035,6 +2127,7 @@ function initdata() {
       location: "Zermatt, Switzerland",
       price: 1301,
       counter: 0,
+      duration: "3",
       category: "Adventure"
     },
     {
@@ -2045,6 +2138,7 @@ function initdata() {
       location: "Cairo, Egypt",
       price: 1044,
       counter: 0,
+      duration: "3",
       category: "Religious"
     },
     {
@@ -2055,6 +2149,7 @@ function initdata() {
       location: "Rio de Janeiro, Brazil",
       price: 1892,
       counter: 0,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -2065,6 +2160,7 @@ function initdata() {
       location: "Tokyo, Japan",
       price: 1908,
       counter: 0,
+      duration: "3",
       category: "Urban"
     },
     {
@@ -2075,6 +2171,7 @@ function initdata() {
       location: "San Francisco, USA",
       price: 2851,
       counter: 0,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -2085,6 +2182,7 @@ function initdata() {
       location: "Amsterdam, Netherlands",
       price: 2059,
       counter: 0,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -2095,6 +2193,7 @@ function initdata() {
       location: "Amsterdam, Netherlands",
       price: 1039,
       counter: 0,
+      duration: "3",
       category: "Cultural"
     },
     {
@@ -2105,6 +2204,7 @@ function initdata() {
       location: "Istanbul, Turkey",
       price: 1180,
       counter: 0,
+      duration: "3",
       category: "Beach"
     },
      // Adicione mais voos conforme necessário

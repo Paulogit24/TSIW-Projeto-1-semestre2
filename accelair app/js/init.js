@@ -1114,7 +1114,7 @@ function initdata() {
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/grandheritageinn.jpg",
 =======
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "/accelair app/img/grandheritageinn.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cape Town, South Africa",
@@ -1130,7 +1130,7 @@ function initdata() {
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/grandheritageinn.jpg",
 =======
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/grandheritageinn.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cairo, Egypt",
@@ -1146,7 +1146,7 @@ function initdata() {
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/culturalpalace.jpg",
 =======
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/culturalpalace.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Prague, Czech Republic",
@@ -1162,7 +1162,7 @@ function initdata() {
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/grandheritageinn.jpg",
 =======
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/grandheritageinn.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "New York, USA",
@@ -1178,7 +1178,7 @@ function initdata() {
       description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/seasideblissresort.jpg",
 =======
-      Description: "Discover stunning architecture and rich traditions.",
+      description: "Discover stunning architecture and rich traditions.",
       image: "/accelair app/img/seasideblissresort.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rio de Janeiro, Brazil",
@@ -1194,7 +1194,7 @@ function initdata() {
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/goldendunesresort.jpg",
 =======
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/goldendunesresort.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Bali, Indonesia",
@@ -1210,7 +1210,7 @@ function initdata() {
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/harborlightshoteljpg",
 =======
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/harborlightshoteljpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cairo, Egypt",
@@ -1226,7 +1226,7 @@ function initdata() {
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/mysticriverlodge.jpg",
 =======
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/mysticriverlodge.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Amsterdam, Netherlands",
@@ -1242,7 +1242,7 @@ function initdata() {
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/royalorchidhotel.jpg",
 =======
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "/accelair app/img/royalorchidhotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "San Francisco, USA",
@@ -1258,7 +1258,7 @@ function initdata() {
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/harborlightshotel.jpg",
 =======
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/harborlightshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "New York, USA",
@@ -1274,7 +1274,7 @@ function initdata() {
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/sunsetresort.jpg",
 =======
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "accelair app/img/sunsetresort.jpg", 
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Reykjavik, Iceland",
@@ -1290,7 +1290,7 @@ function initdata() {
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/alpineheights.jpg",
 =======
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/alpineheights.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Bangkok, Thailand",
@@ -1306,7 +1306,7 @@ function initdata() {
       description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/goldendunesresort.jpg",
 =======
-      Description: "A hidden gem for travelers seeking something new.",
+      description: "A hidden gem for travelers seeking something new.",
       image: "/accelair app/img/goldendunesresort.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
@@ -1322,7 +1322,7 @@ function initdata() {
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
 =======
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/oceanbreezehotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "San Francisco, USA",
@@ -1338,7 +1338,7 @@ function initdata() {
       description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/culturalpalace.jpg",
 =======
-      Description: "Explore ancient history and modern attractions.",
+      description: "Explore ancient history and modern attractions.",
       image: "/accelair app/img/culturalpalace.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Dubai, UAE",
@@ -1354,7 +1354,7 @@ function initdata() {
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
 =======
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/oceanbreezehotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Kyoto, Japan",
@@ -1370,7 +1370,7 @@ function initdata() {
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/serenitystay.jpg",
 =======
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "/accelair app/img/serenitystay.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Dubai, UAE",
@@ -1386,7 +1386,7 @@ function initdata() {
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/seasideblissresort.jpg",
 =======
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/seasideblissresort.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
@@ -1402,7 +1402,7 @@ function initdata() {
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/mysticriverlodge.jpg",
 =======
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/mysticriverlodge.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
@@ -1418,7 +1418,7 @@ function initdata() {
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/culturalpalace.jpg",
 =======
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/culturalpalace.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rio de Janeiro, Brazil",
@@ -1434,7 +1434,7 @@ function initdata() {
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/sunsetresort.jpg",
 =======
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/sunsetresort.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Prague, Czech Republic",
@@ -1450,7 +1450,7 @@ function initdata() {
       description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
 =======
-      Description: "Explore ancient history and modern attractions.",
+      description: "Explore ancient history and modern attractions.",
       image: "/accelair app/img/oceanbreezehotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Reykjavik, Iceland",
@@ -1466,7 +1466,7 @@ function initdata() {
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/sunsetresort.jpg",
 =======
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "/accelair app/img/sunsetresort.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Amsterdam, Netherlands",
@@ -1482,7 +1482,7 @@ function initdata() {
       description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/crystalcoastresort.jpg",
 =======
-      Description: "Explore ancient history and modern attractions.",
+      description: "Explore ancient history and modern attractions.",
       image: "/accelair app/img/crystalcoastresort.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Dubai, UAE",
@@ -1498,7 +1498,7 @@ function initdata() {
       description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/adventureretreat.jpg",
 =======
-      Description: "A hidden gem for travelers seeking something new.",
+      description: "A hidden gem for travelers seeking something new.",
       image: "/accelair app/img/adventureretreat.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Paris, France",
@@ -1514,7 +1514,7 @@ function initdata() {
       description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/adventureretreat.jpg",
 =======
-      Description: "Explore ancient history and modern attractions.",
+      description: "Explore ancient history and modern attractions.",
       image: "/accelair app/img/adventureretreat.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cape Town, South Africa",
@@ -1530,7 +1530,7 @@ function initdata() {
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/adventureretreat.jpg",
 =======
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/adventureretreat.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Tokyo, Japan",
@@ -1546,7 +1546,7 @@ function initdata() {
       description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/sunsetresort.jpg",
 =======
-      Description: "Discover stunning architecture and rich traditions.",
+      description: "Discover stunning architecture and rich traditions.",
       image: "/accelair app/img/sunsetresort.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cairo, Egypt",
@@ -1562,7 +1562,7 @@ function initdata() {
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/twilightbayinn.jpg",
 =======
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/twilightbayinn.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
@@ -1578,7 +1578,7 @@ function initdata() {
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/culturalpalace.jpg",
 =======
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/culturalpalace.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Kyoto, Japan",
@@ -1594,7 +1594,7 @@ function initdata() {
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/serenitystay.jpg",
 =======
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "/accelair app/img/serenitystay.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Barcelona, Spain",
@@ -1610,7 +1610,7 @@ function initdata() {
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/urbanoasishotel.jpg",
 =======
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/urbanoasishotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rome, Italy",
@@ -1626,7 +1626,7 @@ function initdata() {
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/lagoonescape.jpg",
 =======
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/lagoonescape.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cairo, Egypt",
@@ -1642,7 +1642,7 @@ function initdata() {
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/harborlightshotel.jpg",
 =======
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/harborlightshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
@@ -1658,7 +1658,7 @@ function initdata() {
       description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/urbanoasishotel.jpg",
 =======
-      Description: "Discover stunning architecture and rich traditions.",
+      description: "Discover stunning architecture and rich traditions.",
       image: "/accelair app/img/urbanoasishotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Kyoto, Japan",
@@ -1674,7 +1674,7 @@ function initdata() {
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/harborlightshotel.jpg",
 =======
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/harborlightshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
@@ -1690,7 +1690,7 @@ function initdata() {
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/adventureretreat.jpg",
 =======
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/adventureretreat.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cape Town, South Africa",
@@ -1706,7 +1706,7 @@ function initdata() {
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/twilightbayinn.jpg",
 =======
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/twilightbayinn.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
@@ -1722,7 +1722,7 @@ function initdata() {
       description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/harborlightshotel.jpg",
 =======
-      Description: "A hidden gem for travelers seeking something new.",
+      description: "A hidden gem for travelers seeking something new.",
       image: "/accelair app/img/harborlightshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Kyoto, Japan",
@@ -1738,7 +1738,7 @@ function initdata() {
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/alpineheights.jpg",
 =======
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/alpineheights.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Amsterdam, Netherlands",
@@ -1754,7 +1754,7 @@ function initdata() {
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/adventureretreat.jpg",
 =======
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/adventureretreat.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rome, Italy",
@@ -1770,7 +1770,7 @@ function initdata() {
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/alpineheights.jpg",
 =======
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/alpineheights.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
@@ -1786,7 +1786,7 @@ function initdata() {
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/timelesssandshotel.jpg",
 =======
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/timelesssandshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
@@ -1802,7 +1802,7 @@ function initdata() {
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/adventureretreat.jpg",
 =======
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/adventureretreat.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cape Town, South Africa",
@@ -1818,7 +1818,7 @@ function initdata() {
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/goldendunesresort.jpg",
 =======
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "/accelair app/img/goldendunesresort.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Paris, France",
@@ -1834,7 +1834,7 @@ function initdata() {
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/urbanoasishotel.jpg",
 =======
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/urbanoasishotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
@@ -1850,7 +1850,7 @@ function initdata() {
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/alpineheights.jpg",
 =======
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/alpineheights.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
@@ -1866,7 +1866,7 @@ function initdata() {
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/lagoonescape.jpg",
 =======
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/lagoonescape.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Sydney, Australia",
@@ -1882,7 +1882,7 @@ function initdata() {
       description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/lagoonescape.jpg",
 =======
-      Description: "Discover stunning architecture and rich traditions.",
+      description: "Discover stunning architecture and rich traditions.",
       image: "/accelair app/img/lagoonescape.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Tokyo, Japan",
@@ -1898,7 +1898,7 @@ function initdata() {
       description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/royalorchidhotel.jpg",
 =======
-      Description: "A hidden gem for travelers seeking something new.",
+      description: "A hidden gem for travelers seeking something new.",
       image: "/accelair app/img/royalorchidhotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cape Town, South Africa",
@@ -1914,7 +1914,7 @@ function initdata() {
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/twilightbayinn.jpg",
 =======
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/twilightbayinn.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cairo, Egypt",
@@ -1930,7 +1930,7 @@ function initdata() {
       description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/goldendunesresort.jpg",
 =======
-      Description: "A hidden gem for travelers seeking something new.",
+      description: "A hidden gem for travelers seeking something new.",
       image: "/accelair app/img/goldendunesresort.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Barcelona, Spain",
@@ -1946,7 +1946,7 @@ function initdata() {
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/urbanoasishotel.jpg",
 =======
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/urbanoasishotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Dubai, UAE",
@@ -1962,7 +1962,7 @@ function initdata() {
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/grandheritageinn.jpg",
 =======
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "/accelair app/img/grandheritageinn.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
@@ -1978,7 +1978,7 @@ function initdata() {
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/culturalpalace.jpg",
 =======
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/culturalpalace.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Paris, France",
@@ -1994,7 +1994,7 @@ function initdata() {
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/alpineheights.jpg",
 =======
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/alpineheights.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Sydney, Australia",
@@ -2010,7 +2010,7 @@ function initdata() {
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/harborlightshotel.jpg",
 =======
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/harborlightshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
@@ -2026,7 +2026,7 @@ function initdata() {
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/timelesssandshotel.jpg",
 =======
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/timelesssandshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
@@ -2042,7 +2042,7 @@ function initdata() {
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/serenitystay.jpg",
 =======
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/serenitystay.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Bali, Indonesia",
@@ -2058,7 +2058,7 @@ function initdata() {
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/grandheritageinn.jpg",
 =======
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/grandheritageinn.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "San Francisco, USA",
@@ -2074,7 +2074,7 @@ function initdata() {
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/royalorchidhotel.jpg",
 =======
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "/accelair app/img/royalorchidhotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Kyoto, Japan",
@@ -2090,7 +2090,7 @@ function initdata() {
       description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/urbanoasishotel.jpg",
 =======
-      Description: "A hidden gem for travelers seeking something new.",
+      description: "A hidden gem for travelers seeking something new.",
       image: "/accelair app/img/urbanoasishotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Dubai, UAE",
@@ -2106,7 +2106,7 @@ function initdata() {
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/grandheritageinn.jpg",
 =======
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "/accelair app/img/grandheritageinn.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Tokyo, Japan",
@@ -2122,7 +2122,7 @@ function initdata() {
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/mysticriverlodge.jpg",
 =======
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/mysticriverlodge.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Amsterdam, Netherlands",
@@ -2138,7 +2138,7 @@ function initdata() {
       description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
 =======
-      Description: "Discover stunning architecture and rich traditions.",
+      description: "Discover stunning architecture and rich traditions.",
       image: "/accelair app/img/oceanbreezehotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rome, Italy",
@@ -2154,7 +2154,7 @@ function initdata() {
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/timelesssandshotel.jpg",
 =======
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "/accelair app/img/timelesssandshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Bangkok, Thailand",
@@ -2170,7 +2170,7 @@ function initdata() {
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/emeraldhillshotel.jpg",
 =======
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/emeraldhillshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rome, Italy",
@@ -2186,7 +2186,7 @@ function initdata() {
       description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/mysticriverlodge.jpg",
 =======
-      Description: "Explore ancient history and modern attractions.",
+      description: "Explore ancient history and modern attractions.",
       image: "/accelair app/img/mysticriverlodge.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "New York, USA",
@@ -2202,7 +2202,7 @@ function initdata() {
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/urbanoasishotel.jpg",
 =======
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/urbanoasishotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "San Francisco, USA",
@@ -2218,7 +2218,7 @@ function initdata() {
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/serenitystay.jpg",
 =======
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/serenitystay.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
@@ -2234,7 +2234,7 @@ function initdata() {
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/timelesssandshotel.jpg",
 =======
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/timelesssandshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rio de Janeiro, Brazil",
@@ -2250,7 +2250,7 @@ function initdata() {
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/seasideblissresort.jpg",
 =======
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/seasideblissresort.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cape Town, South Africa",
@@ -2266,7 +2266,7 @@ function initdata() {
       description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/emeraldhillshotel.jpg",
 =======
-      Description: "Discover stunning architecture and rich traditions.",
+      description: "Discover stunning architecture and rich traditions.",
       image: "/accelair app/img/emeraldhillshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Barcelona, Spain",
@@ -2282,7 +2282,7 @@ function initdata() {
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/lagoonescape.jpg",
 =======
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/lagoonescape.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "New York, USA",
@@ -2298,7 +2298,7 @@ function initdata() {
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/harborlightshotel.jpg",
 =======
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/harborlightshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
@@ -2314,7 +2314,7 @@ function initdata() {
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
 =======
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/oceanbreezehotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Prague, Czech Republic",
@@ -2330,7 +2330,7 @@ function initdata() {
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/mysticriverlodge.jpg",
 =======
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/mysticriverlodge.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rome, Italy",
@@ -2346,7 +2346,7 @@ function initdata() {
       description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/emeraldhillshotel.jpg",
 =======
-      Description: "Explore ancient history and modern attractions.",
+      description: "Explore ancient history and modern attractions.",
       image: "/accelair app/img/emeraldhillshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Bangkok, Thailand",
@@ -2362,7 +2362,7 @@ function initdata() {
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/mountainviewlodge.jpg",
 =======
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/mountainviewlodge.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Tokyo, Japan",
@@ -2378,7 +2378,7 @@ function initdata() {
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/seasideblissresort.jpg",
 =======
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/seasideblissresort.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "New York, USA",
@@ -2394,7 +2394,7 @@ function initdata() {
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/timelesssandshotel.jpg",
 =======
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "/accelair app/img/timelesssandshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cairo, Egypt",
@@ -2410,7 +2410,7 @@ function initdata() {
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/adventureretreat.jpg",
 =======
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/adventureretreat.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
@@ -2426,7 +2426,7 @@ function initdata() {
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/culturalpalace.jpg",
 =======
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/culturalpalace.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cape Town, South Africa",
@@ -2442,7 +2442,7 @@ function initdata() {
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/adventureretreat.jpg",
 =======
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/adventureretreat.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Prague, Czech Republic",
@@ -2458,7 +2458,7 @@ function initdata() {
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/crystalcoastresort.jpg",
 =======
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/crystalcoastresort.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Kyoto, Japan",
@@ -2474,7 +2474,7 @@ function initdata() {
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/twilightbayinn.jpg",
 =======
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/twilightbayinn.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Kyoto, Japan",
@@ -2490,7 +2490,7 @@ function initdata() {
       description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/grandheritageinn.jpg",
 =======
-      Description: "Explore ancient history and modern attractions.",
+      description: "Explore ancient history and modern attractions.",
       image: "/accelair app/img/grandheritageinn.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
@@ -2506,7 +2506,7 @@ function initdata() {
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/grandheritageinn.jpg",
 =======
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "/accelair app/img/grandheritageinn.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "New York, USA",
@@ -2522,7 +2522,7 @@ function initdata() {
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/adventureretreat.jpg",
 =======
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/adventureretreat.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rio de Janeiro, Brazil",
@@ -2538,7 +2538,7 @@ function initdata() {
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/mysticriverlodge.jpg",
 =======
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/mysticriverlodge.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Barcelona, Spain",
@@ -2554,7 +2554,7 @@ function initdata() {
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/skylinesuites.jpg",
 =======
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "/accelair app/img/skylinesuites.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Zermatt, Switzerland",
@@ -2570,7 +2570,7 @@ function initdata() {
       description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/mountainviewlodge.jpg",
 =======
-      Description: "A hidden gem for travelers seeking something new.",
+      description: "A hidden gem for travelers seeking something new.",
       image: "/accelair app/img/mountainviewlodge.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Barcelona, Spain",
@@ -2586,7 +2586,7 @@ function initdata() {
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/emeraldhillshotel.jpg",
 =======
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/emeraldhillshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Zermatt, Switzerland",
@@ -2602,7 +2602,7 @@ function initdata() {
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/timelesssandshotel.jpg",
 =======
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/timelesssandshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cairo, Egypt",
@@ -2618,7 +2618,7 @@ function initdata() {
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/skylinesuites.jpg",
 =======
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "/accelair app/img/skylinesuites.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rio de Janeiro, Brazil",
@@ -2634,7 +2634,7 @@ function initdata() {
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/emeraldhillshotel.jpg",
 =======
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/emeraldhillshotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Tokyo, Japan",
@@ -2650,7 +2650,7 @@ function initdata() {
       description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/culturalpalace.jpg",
 =======
-      Description: "A hidden gem for travelers seeking something new.",
+      description: "A hidden gem for travelers seeking something new.",
       image: "/accelair app/img/culturalpalace.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "San Francisco, USA",
@@ -2666,7 +2666,7 @@ function initdata() {
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
 =======
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/oceanbreezehotel.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Amsterdam, Netherlands",
@@ -2682,7 +2682,7 @@ function initdata() {
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/skylinesuites.jpg",
 =======
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/skylinesuites.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Amsterdam, Netherlands",
@@ -2698,7 +2698,7 @@ function initdata() {
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/grandheritageinn.jpg",
 =======
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/grandheritageinn.jpg",
 >>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",

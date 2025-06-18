@@ -45,7 +45,7 @@ destination.forEach(destination => {
   //const duration = card.querySelector('[duration]');
   //const type = card.querySelector('[type]');
   header.textContent = destination.name + " - " +destination.location;
-  body.textContent = destination.Description;
+  body.textContent = destination.description;
   //duration.textContent = "Duração: " + destination.duration + " dias";
   //type.textContent = destination.category;
   DestinationCardContainer.append(card);

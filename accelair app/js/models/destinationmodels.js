@@ -74,10 +74,12 @@ export function getdestination(filterOrigin = "", filterdestination = "", isSort
 class destination {
   destinationID = "00000000";
   name = "name";
-  destinationDescription = "destination description";
+  description = "destination description";
   image = "image-url";
   location = "location";
   price = "price";
+  counter = 0;
+  duration = "3";
   category = "category";
 
   constructor(destinationID, name, destinationcription, image, location, price, category) {

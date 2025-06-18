@@ -64,7 +64,7 @@
   <div class="text-center mb-4">
     <button class="btn btn-danger mx-2" data-toggle="modal" data-target="#modalVoos">VOOS</button>
     <button class="btn btn-danger mx-2" data-toggle="modal" data-target="#modalDestinos">DESTINOS</button>
-    <button class="btn btn-danger mx-2" data-toggle="modal" data-target="#modalTipos">TIPOS DE TURISMO</button>
+    <button class="btn btn-danger mx-2" data-toggle="modal" data-target="#modalTipos">USERS</button>
   </div>
   <div class="bg-light rounded p-3">
     <h6 class="font-weight-bold">Pesquisas mais recentes</h6>
@@ -152,12 +152,12 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Editar Tipos de Turismo</h5>
+        <h5 class="modal-title">Editar Users</h5>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
       <div class="modal-body">
         <ul id="lista-tipos" class="list-group mb-3"></ul>
-        <input type="text" id="novo-tipo" class="form-control" placeholder="Novo tipo de turismo">
+        <input type="text" id="novo-tipo" class="form-control" placeholder="Novos Users">
       </div>
       <div class="modal-footer">
         <button class="btn btn-primary" onclick="adicionarTipo()">Adicionar</button>
@@ -238,9 +238,9 @@
     }
   });
 
-  const voos = ["Lisboa - Paris", "Porto - Madrid"];
-  const destinos = ["Paris", "Madrid"];
-  const tiposTurismo = ["Cultural", "Aventura"];
+  const voos = window.voos;
+  const destinos = window.destinos;
+  const users = window.users;
 
   function renderizarLista(id, items) {
     const lista = document.getElementById(id);
@@ -263,7 +263,7 @@
 
   $('#modalVoos').on('show.bs.modal', () => renderizarLista("lista-voos", voos));
   $('#modalDestinos').on('show.bs.modal', () => renderizarLista("lista-destinos", destinos));
-  $('#modalTipos').on('show.bs.modal', () => renderizarLista("lista-tipos", tiposTurismo));
+  $('#modalTipos').on('show.bs.modal', () => renderizarLista("lista-tipos", users));
 
   function adicionarVoo() {
     const input = document.getElementById("novo-voo");
@@ -286,9 +286,9 @@
   function adicionarTipo() {
     const input = document.getElementById("novo-tipo");
     if (input.value.trim()) {
-      tiposTurismo.push(input.value.trim());
+      users.push(input.value.trim());
       input.value = "";
-      renderizarLista("lista-tipos", tiposTurismo);
+      renderizarLista("lista-tipos", users);
     }
   }
 </script>-->

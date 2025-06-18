@@ -45,11 +45,11 @@ destination.forEach(destination => {
   //const duration = card.querySelector('[duration]');
   //const type = card.querySelector('[type]');
   header.textContent = destination.name + " - " +destination.location;
-  body.textContent = destination.description;
+  body.textContent = destination.destinationDescription;
   //duration.textContent = "Duração: " + destination.duration + " dias";
   //type.textContent = destination.category;
   DestinationCardContainer.append(card);
-  cards.push({ location: destination.location,name: destination.name,type: destination.category, element: card });
+  cards.push({ location: destination.location,name: destination.name,type: destination.category, duration: destination.duration, element: card });
 });
 
 // Search by local
@@ -76,6 +76,15 @@ turismsearch.addEventListener('input', e => {
   const typeValue = e.target.value.toLowerCase();
   cards.forEach(cardObj => {
     const isVisible = cardObj.type.toLowerCase().includes(typeValue);
+    cardObj.element.classList.toggle('hide', !isVisible);
+  });
+});
+
+// search by duration
+durationsearch.addEventListener('input', e => {
+  const durationValue = e.target.value.toLowerCase();
+  cards.forEach(cardObj => {
+    const isVisible = cardObj.duration.toLowerCase().includes(durationValue)
     cardObj.element.classList.toggle('hide', !isVisible);
   });
 });

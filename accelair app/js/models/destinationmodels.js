@@ -85,9 +85,10 @@ class destination {
   constructor(destinationID, name, destinationcription, image, location, price, category) {
     this.destinationID = destinationID;
     this.name = name;
-    this.destinationDescription = destinationcription;
+    this.description = destinationcription;
     this.image = image;
     this.location = location;
+    this.duration = "3"; // Default duration
     this.price = price;
     this.category = category;
   }

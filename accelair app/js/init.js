@@ -1110,7 +1110,7 @@ function initdata() {
      {
       destinationID: "dest001",
       name: "Grand Heritage Inn",
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "./accelair app/img/grandheritageinn.jpg",
       location: "Cape Town, South Africa",
       price: 2950,
@@ -1121,7 +1121,7 @@ function initdata() {
     {
       destinationID: "dest002",
       name: "Grand Heritage Inn",
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/grandheritageinn.jpg",
       location: "Cairo, Egypt",
       price: 1575,
@@ -1132,7 +1132,7 @@ function initdata() {
     {
       destinationID: "dest003",
       name: "Cultural Palace",
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/culturalpalace.jpg",
       location: "Prague, Czech Republic",
       price: 1360,
@@ -1143,7 +1143,7 @@ function initdata() {
     {
       destinationID: "dest004",
       name: "Grand Heritage Inn",
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/grandheritageinn.jpg",
       location: "New York, USA",
       price: 2145,
@@ -1154,7 +1154,7 @@ function initdata() {
     {
       destinationID: "dest005",
       name: "Seaside Bliss Resort",
-      Description: "Discover stunning architecture and rich traditions.",
+      description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/seasideblissresort.jpg",
       location: "Rio de Janeiro, Brazil",
       price: 1478,
@@ -1165,7 +1165,7 @@ function initdata() {
     {
       destinationID: "dest006",
       name: "Golden Dunes Resort",
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/goldendunesresort.jpg",
       location: "Bali, Indonesia",
       price: 1861,
@@ -1176,7 +1176,7 @@ function initdata() {
     {
       destinationID: "dest007",
       name: "Harbor Lights Hotel",
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/harborlightshoteljpg",
       location: "Cairo, Egypt",
       price: 1855,
@@ -1187,7 +1187,7 @@ function initdata() {
     {
       destinationID: "dest008",
       name: "Mystic River Lodge",
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/mysticriverlodge.jpg",
       location: "Amsterdam, Netherlands",
       price: 1777,
@@ -1198,7 +1198,7 @@ function initdata() {
     {
       destinationID: "dest009",
       name: "Royal Orchid Hotel",
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "./accelair app/img/royalorchidhotel.jpg",
       location: "San Francisco, USA",
       price: 1316,
@@ -1209,7 +1209,7 @@ function initdata() {
     {
       destinationID: "dest010",
       name: "Harbor Lights Hotel",
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/harborlightshotel.jpg",
       location: "New York, USA",
       price: 1331,
@@ -1220,7 +1220,7 @@ function initdata() {
     {
       destinationID: "dest011",
       name: "Sunset Resort",
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/sunsetresort.jpg",
       location: "Reykjavik, Iceland",
       price: 2910,
@@ -1231,7 +1231,7 @@ function initdata() {
     {
       destinationID: "dest012",
       name: "Alpine Heights",
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/alpineheights.jpg",
       location: "Bangkok, Thailand",
       price: 1810,
@@ -1242,7 +1242,7 @@ function initdata() {
     {
       destinationID: "dest013",
       name: "Golden Dunes Resort",
-      Description: "A hidden gem for travelers seeking something new.",
+      description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/goldendunesresort.jpg",
       location: "Istanbul, Turkey",
       price: 2731,
@@ -1253,7 +1253,7 @@ function initdata() {
     {
       destinationID: "dest014",
       name: "Ocean Breeze Hotel",
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
       location: "San Francisco, USA",
       price: 2625,
@@ -1264,7 +1264,7 @@ function initdata() {
     {
       destinationID: "dest015",
       name: "Cultural Palace",
-      Description: "Explore ancient history and modern attractions.",
+      description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/culturalpalace.jpg",
       location: "Dubai, UAE",
       price: 2044,
@@ -1275,7 +1275,7 @@ function initdata() {
     {
       destinationID: "dest016",
       name: "Ocean Breeze Hotel",
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
       location: "Kyoto, Japan",
       price: 2163,
@@ -1286,7 +1286,7 @@ function initdata() {
     {
       destinationID: "dest017",
       name: "Serenity Stay",
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "./accelair app/img/serenitystay.jpg",
       location: "Dubai, UAE",
       price: 2131,
@@ -1297,7 +1297,7 @@ function initdata() {
     {
       destinationID: "dest018",
       name: "Seaside Bliss Resort",
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/seasideblissresort.jpg",
       location: "Toronto, Canada",
       price: 2228,
@@ -1308,7 +1308,7 @@ function initdata() {
     {
       destinationID: "dest019",
       name: "Mystic River Lodge",
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/mysticriverlodge.jpg",
       location: "Toronto, Canada",
       price: 1068,
@@ -1319,7 +1319,7 @@ function initdata() {
     {
       destinationID: "dest020",
       name: "Cultural Palace",
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/culturalpalace.jpg",
       location: "Rio de Janeiro, Brazil",
       price: 2664,
@@ -1330,7 +1330,7 @@ function initdata() {
     {
       destinationID: "dest021",
       name: "Sunset Resort",
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/sunsetresort.jpg",
       location: "Prague, Czech Republic",
       price: 2331,
@@ -1341,7 +1341,7 @@ function initdata() {
     {
       destinationID: "dest022",
       name: "Ocean Breeze Hotel",
-      Description: "Explore ancient history and modern attractions.",
+      description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
       location: "Reykjavik, Iceland",
       price: 1499,
@@ -1352,7 +1352,7 @@ function initdata() {
     {
       destinationID: "dest023",
       name: "Sunset Resort",
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "./accelair app/img/sunsetresort.jpg",
       location: "Amsterdam, Netherlands",
       price: 1984,
@@ -1363,7 +1363,7 @@ function initdata() {
     {
       destinationID: "dest024",
       name: "Crystal Coast Resort",
-      Description: "Explore ancient history and modern attractions.",
+      description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/crystalcoastresort.jpg",
       location: "Dubai, UAE",
       price: 1125,
@@ -1374,7 +1374,7 @@ function initdata() {
     {
       destinationID: "dest025",
       name: "Adventure Retreat",
-      Description: "A hidden gem for travelers seeking something new.",
+      description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/adventureretreat.jpg",
       location: "Paris, France",
       price: 1157,
@@ -1385,7 +1385,7 @@ function initdata() {
     {
       destinationID: "dest026",
       name: "Adventure Retreat",
-      Description: "Explore ancient history and modern attractions.",
+      description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/adventureretreat.jpg",
       location: "Cape Town, South Africa",
       price: 2967,
@@ -1396,7 +1396,7 @@ function initdata() {
     {
       destinationID: "dest027",
       name: "Adventure Retreat",
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/adventureretreat.jpg",
       location: "Tokyo, Japan",
       price: 2436,
@@ -1407,7 +1407,7 @@ function initdata() {
     {
       destinationID: "dest028",
       name: "Sunset Resort",
-      Description: "Discover stunning architecture and rich traditions.",
+      description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/sunsetresort.jpg",
       location: "Cairo, Egypt",
       price: 2941,
@@ -1418,7 +1418,7 @@ function initdata() {
     {
       destinationID: "dest029",
       name: "Twilight Bay Inn",
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/twilightbayinn.jpg",
       location: "Toronto, Canada",
       price: 1722,
@@ -1429,7 +1429,7 @@ function initdata() {
     {
       destinationID: "dest030",
       name: "Cultural Palace",
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/culturalpalace.jpg",
       location: "Kyoto, Japan",
       price: 1809,
@@ -1440,7 +1440,7 @@ function initdata() {
     {
       destinationID: "dest031",
       name: "Serenity Stay",
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "./accelair app/img/serenitystay.jpg",
       location: "Barcelona, Spain",
       price: 1730,
@@ -1451,7 +1451,7 @@ function initdata() {
     {
       destinationID: "dest032",
       name: "Urban Oasis Hotel",
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/urbanoasishotel.jpg",
       location: "Rome, Italy",
       price: 1948,
@@ -1462,7 +1462,7 @@ function initdata() {
     {
       destinationID: "dest033",
       name: "Lagoon Escape",
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/lagoonescape.jpg",
       location: "Cairo, Egypt",
       price: 2248,
@@ -1473,7 +1473,7 @@ function initdata() {
     {
       destinationID: "dest034",
       name: "Harbor Lights Hotel",
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/harborlightshotel.jpg",
       location: "Istanbul, Turkey",
       price: 1585,
@@ -1484,7 +1484,7 @@ function initdata() {
     {
       destinationID: "dest035",
       name: "Urban Oasis Hotel",
-      Description: "Discover stunning architecture and rich traditions.",
+      description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/urbanoasishotel.jpg",
       location: "Kyoto, Japan",
       price: 1713,
@@ -1495,7 +1495,7 @@ function initdata() {
     {
       destinationID: "dest036",
       name: "Harbor Lights Hotel",
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/harborlightshotel.jpg",
       location: "Toronto, Canada",
       price: 2937,
@@ -1506,7 +1506,7 @@ function initdata() {
     {
       destinationID: "dest037",
       name: "Adventure Retreat",
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/adventureretreat.jpg",
       location: "Cape Town, South Africa",
       price: 1836,
@@ -1517,7 +1517,7 @@ function initdata() {
     {
       destinationID: "dest038",
       name: "Twilight Bay Inn",
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/twilightbayinn.jpg",
       location: "Toronto, Canada",
       price: 2737,
@@ -1528,7 +1528,7 @@ function initdata() {
     {
       destinationID: "dest039",
       name: "Harbor Lights Hotel",
-      Description: "A hidden gem for travelers seeking something new.",
+      description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/harborlightshotel.jpg",
       location: "Kyoto, Japan",
       price: 1573,
@@ -1539,7 +1539,7 @@ function initdata() {
     {
       destinationID: "dest040",
       name: "Alpine Heights",
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/alpineheights.jpg",
       location: "Amsterdam, Netherlands",
       price: 2324,
@@ -1550,7 +1550,7 @@ function initdata() {
     {
       destinationID: "dest041",
       name: "Adventure Retreat",
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/adventureretreat.jpg",
       location: "Rome, Italy",
       price: 1039,
@@ -1561,7 +1561,7 @@ function initdata() {
     {
       destinationID: "dest042",
       name: "Alpine Heights",
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/alpineheights.jpg",
       location: "Istanbul, Turkey",
       price: 1345,
@@ -1572,7 +1572,7 @@ function initdata() {
     {
       destinationID: "dest043",
       name: "Timeless Sands Hotel",
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/timelesssandshotel.jpg",
       location: "Toronto, Canada",
       price: 1261,
@@ -1583,7 +1583,7 @@ function initdata() {
     {
       destinationID: "dest044",
       name: "Adventure Retreat",
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/adventureretreat.jpg",
       location: "Cape Town, South Africa",
       price: 2870,
@@ -1594,7 +1594,7 @@ function initdata() {
     {
       destinationID: "dest045",
       name: "Golden Dunes Resort",
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "./accelair app/img/goldendunesresort.jpg",
       location: "Paris, France",
       price: 1637,
@@ -1605,7 +1605,7 @@ function initdata() {
     {
       destinationID: "dest046",
       name: "Urban Oasis Hotel",
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/urbanoasishotel.jpg",
       location: "Toronto, Canada",
       price: 1494,
@@ -1616,7 +1616,7 @@ function initdata() {
     {
       destinationID: "dest047",
       name: "Alpine Heights",
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/alpineheights.jpg",
       location: "Istanbul, Turkey",
       price: 1627,
@@ -1627,7 +1627,7 @@ function initdata() {
     {
       destinationID: "dest048",
       name: "Lagoon Escape",
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/lagoonescape.jpg",
       location: "Sydney, Australia",
       price: 1506,
@@ -1638,7 +1638,7 @@ function initdata() {
     {
       destinationID: "dest049",
       name: "Lagoon Escape",
-      Description: "Discover stunning architecture and rich traditions.",
+      description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/lagoonescape.jpg",
       location: "Tokyo, Japan",
       price: 2664,
@@ -1649,7 +1649,7 @@ function initdata() {
     {
       destinationID: "dest050",
       name: "Royal Orchid Hotel",
-      Description: "A hidden gem for travelers seeking something new.",
+      description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/royalorchidhotel.jpg",
       location: "Cape Town, South Africa",
       price: 2513,
@@ -1660,7 +1660,7 @@ function initdata() {
     {
       destinationID: "dest051",
       name: "Twilight Bay Inn",
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/twilightbayinn.jpg",
       location: "Cairo, Egypt",
       price: 1854,
@@ -1671,7 +1671,7 @@ function initdata() {
     {
       destinationID: "dest052",
       name: "Golden Dunes Resort",
-      Description: "A hidden gem for travelers seeking something new.",
+      description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/goldendunesresort.jpg",
       location: "Barcelona, Spain",
       price: 2918,
@@ -1682,7 +1682,7 @@ function initdata() {
     {
       destinationID: "dest053",
       name: "Urban Oasis Hotel",
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/urbanoasishotel.jpg",
       location: "Dubai, UAE",
       price: 2202,
@@ -1693,7 +1693,7 @@ function initdata() {
     {
       destinationID: "dest054",
       name: "Grand Heritage Inn",
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "./accelair app/img/grandheritageinn.jpg",
       location: "Toronto, Canada",
       price: 2469,
@@ -1704,7 +1704,7 @@ function initdata() {
     {
       destinationID: "dest055",
       name: "Cultural Palace",
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/culturalpalace.jpg",
       location: "Paris, France",
       price: 2915,
@@ -1715,7 +1715,7 @@ function initdata() {
     {
       destinationID: "dest056",
       name: "Alpine Heights",
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/alpineheights.jpg",
       location: "Sydney, Australia",
       price: 2188,
@@ -1726,7 +1726,7 @@ function initdata() {
     {
       destinationID: "dest057",
       name: "Harbor Lights Hotel",
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/harborlightshotel.jpg",
       location: "Toronto, Canada",
       price: 1194,
@@ -1737,7 +1737,7 @@ function initdata() {
     {
       destinationID: "dest058",
       name: "Timeless Sands Hotel",
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/timelesssandshotel.jpg",
       location: "Toronto, Canada",
       price: 1580,
@@ -1748,7 +1748,7 @@ function initdata() {
     {
       destinationID: "dest059",
       name: "Serenity Stay",
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/serenitystay.jpg",
       location: "Bali, Indonesia",
       price: 1384,
@@ -1759,7 +1759,7 @@ function initdata() {
     {
       destinationID: "dest060",
       name: "Grand Heritage Inn",
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/grandheritageinn.jpg",
       location: "San Francisco, USA",
       price: 1497,
@@ -1770,7 +1770,7 @@ function initdata() {
     {
       destinationID: "dest061",
       name: "Royal Orchid Hotel",
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "./accelair app/img/royalorchidhotel.jpg",
       location: "Kyoto, Japan",
       price: 1644,
@@ -1781,7 +1781,7 @@ function initdata() {
     {
       destinationID: "dest062",
       name: "Urban Oasis Hotel",
-      Description: "A hidden gem for travelers seeking something new.",
+      description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/urbanoasishotel.jpg",
       location: "Dubai, UAE",
       price: 2735,
@@ -1792,7 +1792,7 @@ function initdata() {
     {
       destinationID: "dest063",
       name: "Grand Heritage Inn",
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "./accelair app/img/grandheritageinn.jpg",
       location: "Tokyo, Japan",
       price: 1509,
@@ -1803,7 +1803,7 @@ function initdata() {
     {
       destinationID: "dest064",
       name: "Mystic River Lodge",
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/mysticriverlodge.jpg",
       location: "Amsterdam, Netherlands",
       price: 2646,
@@ -1814,7 +1814,7 @@ function initdata() {
     {
       destinationID: "dest065",
       name: "Ocean Breeze Hotel",
-      Description: "Discover stunning architecture and rich traditions.",
+      description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
       location: "Rome, Italy",
       price: 1537,
@@ -1825,7 +1825,7 @@ function initdata() {
     {
       destinationID: "dest066",
       name: "Timeless Sands Hotel",
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "./accelair app/img/timelesssandshotel.jpg",
       location: "Bangkok, Thailand",
       price: 1324,
@@ -1836,7 +1836,7 @@ function initdata() {
     {
       destinationID: "dest067",
       name: "Emerald Hills Hotel",
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/emeraldhillshotel.jpg",
       location: "Rome, Italy",
       price: 1474,
@@ -1847,7 +1847,7 @@ function initdata() {
     {
       destinationID: "dest068",
       name: "Mystic River Lodge",
-      Description: "Explore ancient history and modern attractions.",
+      description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/mysticriverlodge.jpg",
       location: "New York, USA",
       price: 1779,
@@ -1858,7 +1858,7 @@ function initdata() {
     {
       destinationID: "dest069",
       name: "Urban Oasis Hotel",
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/urbanoasishotel.jpg",
       location: "San Francisco, USA",
       price: 1134,
@@ -1869,7 +1869,7 @@ function initdata() {
     {
       destinationID: "dest070",
       name: "Serenity Stay",
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/serenitystay.jpg",
       location: "Istanbul, Turkey",
       price: 2231,
@@ -1880,7 +1880,7 @@ function initdata() {
     {
       destinationID: "dest071",
       name: "Timeless Sands Hotel",
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/timelesssandshotel.jpg",
       location: "Rio de Janeiro, Brazil",
       price: 2671,
@@ -1891,7 +1891,7 @@ function initdata() {
     {
       destinationID: "dest072",
       name: "Seaside Bliss Resort",
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/seasideblissresort.jpg",
       location: "Cape Town, South Africa",
       price: 1369,
@@ -1902,7 +1902,7 @@ function initdata() {
     {
       destinationID: "dest073",
       name: "Emerald Hills Hotel",
-      Description: "Discover stunning architecture and rich traditions.",
+      description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/emeraldhillshotel.jpg",
       location: "Barcelona, Spain",
       price: 1887,
@@ -1913,7 +1913,7 @@ function initdata() {
     {
       destinationID: "dest074",
       name: "Lagoon Escape",
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/lagoonescape.jpg",
       location: "New York, USA",
       price: 1559,
@@ -1924,7 +1924,7 @@ function initdata() {
     {
       destinationID: "dest075",
       name: "Harbor Lights Hotel",
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/harborlightshotel.jpg",
       location: "Istanbul, Turkey",
       price: 1794,
@@ -1935,7 +1935,7 @@ function initdata() {
     {
       destinationID: "dest076",
       name: "Ocean Breeze Hotel",
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
       location: "Prague, Czech Republic",
       price: 1498,
@@ -1946,7 +1946,7 @@ function initdata() {
     {
       destinationID: "dest077",
       name: "Mystic River Lodge",
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/mysticriverlodge.jpg",
       location: "Rome, Italy",
       price: 1516,
@@ -1957,7 +1957,7 @@ function initdata() {
     {
       destinationID: "dest078",
       name: "Emerald Hills Hotel",
-      Description: "Explore ancient history and modern attractions.",
+      description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/emeraldhillshotel.jpg",
       location: "Bangkok, Thailand",
       price: 1767,
@@ -1968,7 +1968,7 @@ function initdata() {
     {
       destinationID: "dest079",
       name: "Mountain View Lodge",
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/mountainviewlodge.jpg",
       location: "Tokyo, Japan",
       price: 1310,
@@ -1979,7 +1979,7 @@ function initdata() {
     {
       destinationID: "dest080",
       name: "Seaside Bliss Resort",
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/seasideblissresort.jpg",
       location: "New York, USA",
       price: 2143,
@@ -1990,7 +1990,7 @@ function initdata() {
     {
       destinationID: "dest081",
       name: "Timeless Sands Hotel",
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "./accelair app/img/timelesssandshotel.jpg",
       location: "Cairo, Egypt",
       price: 2223,
@@ -2001,7 +2001,7 @@ function initdata() {
     {
       destinationID: "dest082",
       name: "Adventure Retreat",
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/adventureretreat.jpg",
       location: "Istanbul, Turkey",
       price: 1922,
@@ -2012,7 +2012,7 @@ function initdata() {
     {
       destinationID: "dest083",
       name: "Cultural Palace",
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/culturalpalace.jpg",
       location: "Cape Town, South Africa",
       price: 2784,
@@ -2023,7 +2023,7 @@ function initdata() {
     {
       destinationID: "dest084",
       name: "Adventure Retreat",
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/adventureretreat.jpg",
       location: "Prague, Czech Republic",
       price: 2244,
@@ -2034,7 +2034,7 @@ function initdata() {
     {
       destinationID: "dest085",
       name: "Crystal Coast Resort",
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/crystalcoastresort.jpg",
       location: "Kyoto, Japan",
       price: 2754,
@@ -2045,7 +2045,7 @@ function initdata() {
     {
       destinationID: "dest086",
       name: "Twilight Bay Inn",
-      Description: "Perfect for a relaxing and luxurious getaway.",
+      description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/twilightbayinn.jpg",
       location: "Kyoto, Japan",
       price: 1922,
@@ -2056,7 +2056,7 @@ function initdata() {
     {
       destinationID: "dest087",
       name: "Grand Heritage Inn",
-      Description: "Explore ancient history and modern attractions.",
+      description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/grandheritageinn.jpg",
       location: "Istanbul, Turkey",
       price: 2595,
@@ -2067,7 +2067,7 @@ function initdata() {
     {
       destinationID: "dest088",
       name: "Grand Heritage Inn",
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "./accelair app/img/grandheritageinn.jpg",
       location: "New York, USA",
       price: 2043,
@@ -2078,7 +2078,7 @@ function initdata() {
     {
       destinationID: "dest089",
       name: "Adventure Retreat",
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/adventureretreat.jpg",
       location: "Rio de Janeiro, Brazil",
       price: 1840,
@@ -2089,7 +2089,7 @@ function initdata() {
     {
       destinationID: "dest090",
       name: "Mystic River Lodge",
-      Description: "Enjoy a blend of modernity and natural beauty.",
+      description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/mysticriverlodge.jpg",
       location: "Barcelona, Spain",
       price: 2074,
@@ -2100,7 +2100,7 @@ function initdata() {
     {
       destinationID: "dest091",
       name: "Skyline Suites",
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "./accelair app/img/skylinesuites.jpg",
       location: "Zermatt, Switzerland",
       price: 1273,
@@ -2111,7 +2111,7 @@ function initdata() {
     {
       destinationID: "dest092",
       name: "Mountain View Lodge",
-      Description: "A hidden gem for travelers seeking something new.",
+      description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/mountainviewlodge.jpg",
       location: "Barcelona, Spain",
       price: 1574,
@@ -2122,7 +2122,7 @@ function initdata() {
     {
       destinationID: "dest093",
       name: "Emerald Hills Hotel",
-      Description: "Ideal for adventurers and nature lovers.",
+      description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/emeraldhillshotel.jpg",
       location: "Zermatt, Switzerland",
       price: 1301,
@@ -2133,7 +2133,7 @@ function initdata() {
     {
       destinationID: "dest094",
       name: "Timeless Sands Hotel",
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/timelesssandshotel.jpg",
       location: "Cairo, Egypt",
       price: 1044,
@@ -2144,7 +2144,7 @@ function initdata() {
     {
       destinationID: "dest095",
       name: "Skyline Suites",
-      Description: "A bustling city full of life and energy.",
+      description: "A bustling city full of life and energy.",
       image: "./accelair app/img/skylinesuites.jpg",
       location: "Rio de Janeiro, Brazil",
       price: 1892,
@@ -2155,7 +2155,7 @@ function initdata() {
     {
       destinationID: "dest096",
       name: "Emerald Hills Hotel",
-      Description: "A lively hub of entertainment and shopping.",
+      description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/emeraldhillshotel.jpg",
       location: "Tokyo, Japan",
       price: 1908,
@@ -2166,7 +2166,7 @@ function initdata() {
     {
       destinationID: "dest097",
       name: "Cultural Palace",
-      Description: "A hidden gem for travelers seeking something new.",
+      description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/culturalpalace.jpg",
       location: "San Francisco, USA",
       price: 2851,
@@ -2177,7 +2177,7 @@ function initdata() {
     {
       destinationID: "dest098",
       name: "Ocean Breeze Hotel",
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
       location: "Amsterdam, Netherlands",
       price: 2059,
@@ -2188,7 +2188,7 @@ function initdata() {
     {
       destinationID: "dest099",
       name: "Skyline Suites",
-      Description: "A beautiful and culturally rich destination.",
+      description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/skylinesuites.jpg",
       location: "Amsterdam, Netherlands",
       price: 1039,
@@ -2199,7 +2199,7 @@ function initdata() {
     {
       destinationID: "dest100",
       name: "Grand Heritage Inn",
-      Description: "Experience world-class cuisine and scenic views.",
+      description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/grandheritageinn.jpg",
       location: "Istanbul, Turkey",
       price: 1180,

@@ -1110,8 +1110,13 @@ function initdata() {
      {
       destinationID: "dest001",
       name: "Grand Heritage Inn",
+<<<<<<< HEAD
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/grandheritageinn.jpg",
+=======
+      Description: "A bustling city full of life and energy.",
+      image: "/accelair app/img/grandheritageinn.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cape Town, South Africa",
       price: 2950,
       counter: 99,
@@ -1121,8 +1126,13 @@ function initdata() {
     {
       destinationID: "dest002",
       name: "Grand Heritage Inn",
+<<<<<<< HEAD
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/grandheritageinn.jpg",
+=======
+      Description: "A beautiful and culturally rich destination.",
+      image: "/accelair app/img/grandheritageinn.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cairo, Egypt",
       price: 1575,
       counter: 8,
@@ -1132,8 +1142,13 @@ function initdata() {
     {
       destinationID: "dest003",
       name: "Cultural Palace",
+<<<<<<< HEAD
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/culturalpalace.jpg",
+=======
+      Description: "Enjoy a blend of modernity and natural beauty.",
+      image: "/accelair app/img/culturalpalace.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Prague, Czech Republic",
       price: 1360,
       counter: 7,
@@ -1143,8 +1158,13 @@ function initdata() {
     {
       destinationID: "dest004",
       name: "Grand Heritage Inn",
+<<<<<<< HEAD
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/grandheritageinn.jpg",
+=======
+      Description: "Enjoy a blend of modernity and natural beauty.",
+      image: "/accelair app/img/grandheritageinn.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "New York, USA",
       price: 2145,
       counter: 1,
@@ -1154,8 +1174,13 @@ function initdata() {
     {
       destinationID: "dest005",
       name: "Seaside Bliss Resort",
+<<<<<<< HEAD
       description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/seasideblissresort.jpg",
+=======
+      Description: "Discover stunning architecture and rich traditions.",
+      image: "/accelair app/img/seasideblissresort.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rio de Janeiro, Brazil",
       price: 1478,
       counter: 0,
@@ -1165,8 +1190,13 @@ function initdata() {
     {
       destinationID: "dest006",
       name: "Golden Dunes Resort",
+<<<<<<< HEAD
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/goldendunesresort.jpg",
+=======
+      Description: "Ideal for adventurers and nature lovers.",
+      image: "/accelair app/img/goldendunesresort.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Bali, Indonesia",
       price: 1861,
       counter: 0,
@@ -1176,8 +1206,13 @@ function initdata() {
     {
       destinationID: "dest007",
       name: "Harbor Lights Hotel",
+<<<<<<< HEAD
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/harborlightshoteljpg",
+=======
+      Description: "Ideal for adventurers and nature lovers.",
+      image: "/accelair app/img/harborlightshoteljpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cairo, Egypt",
       price: 1855,
       counter: 0,
@@ -1187,8 +1222,13 @@ function initdata() {
     {
       destinationID: "dest008",
       name: "Mystic River Lodge",
+<<<<<<< HEAD
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/mysticriverlodge.jpg",
+=======
+      Description: "Ideal for adventurers and nature lovers.",
+      image: "/accelair app/img/mysticriverlodge.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Amsterdam, Netherlands",
       price: 1777,
       counter: 0,
@@ -1198,8 +1238,13 @@ function initdata() {
     {
       destinationID: "dest009",
       name: "Royal Orchid Hotel",
+<<<<<<< HEAD
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/royalorchidhotel.jpg",
+=======
+      Description: "A bustling city full of life and energy.",
+      image: "/accelair app/img/royalorchidhotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "San Francisco, USA",
       price: 1316,
       counter: 0,
@@ -1209,8 +1254,13 @@ function initdata() {
     {
       destinationID: "dest010",
       name: "Harbor Lights Hotel",
+<<<<<<< HEAD
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/harborlightshotel.jpg",
+=======
+      Description: "Enjoy a blend of modernity and natural beauty.",
+      image: "/accelair app/img/harborlightshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "New York, USA",
       price: 1331,
       counter: 0,
@@ -1220,8 +1270,13 @@ function initdata() {
     {
       destinationID: "dest011",
       name: "Sunset Resort",
+<<<<<<< HEAD
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/sunsetresort.jpg",
+=======
+      Description: "Experience world-class cuisine and scenic views.",
+      image: "accelair app/img/sunsetresort.jpg", 
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Reykjavik, Iceland",
       price: 2910,
       counter: 0,
@@ -1231,8 +1286,13 @@ function initdata() {
     {
       destinationID: "dest012",
       name: "Alpine Heights",
+<<<<<<< HEAD
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/alpineheights.jpg",
+=======
+      Description: "A beautiful and culturally rich destination.",
+      image: "/accelair app/img/alpineheights.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Bangkok, Thailand",
       price: 1810,
       counter: 0,
@@ -1242,8 +1302,13 @@ function initdata() {
     {
       destinationID: "dest013",
       name: "Golden Dunes Resort",
+<<<<<<< HEAD
       description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/goldendunesresort.jpg",
+=======
+      Description: "A hidden gem for travelers seeking something new.",
+      image: "/accelair app/img/goldendunesresort.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
       price: 2731,
       counter: 0,
@@ -1253,8 +1318,13 @@ function initdata() {
     {
       destinationID: "dest014",
       name: "Ocean Breeze Hotel",
+<<<<<<< HEAD
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
+=======
+      Description: "Ideal for adventurers and nature lovers.",
+      image: "/accelair app/img/oceanbreezehotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "San Francisco, USA",
       price: 2625,
       counter: 0,
@@ -1264,8 +1334,13 @@ function initdata() {
     {
       destinationID: "dest015",
       name: "Cultural Palace",
+<<<<<<< HEAD
       description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/culturalpalace.jpg",
+=======
+      Description: "Explore ancient history and modern attractions.",
+      image: "/accelair app/img/culturalpalace.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Dubai, UAE",
       price: 2044,
       counter: 0,
@@ -1275,8 +1350,13 @@ function initdata() {
     {
       destinationID: "dest016",
       name: "Ocean Breeze Hotel",
+<<<<<<< HEAD
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
+=======
+      Description: "Ideal for adventurers and nature lovers.",
+      image: "/accelair app/img/oceanbreezehotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Kyoto, Japan",
       price: 2163,
       counter: 0,
@@ -1286,8 +1366,13 @@ function initdata() {
     {
       destinationID: "dest017",
       name: "Serenity Stay",
+<<<<<<< HEAD
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/serenitystay.jpg",
+=======
+      Description: "A bustling city full of life and energy.",
+      image: "/accelair app/img/serenitystay.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Dubai, UAE",
       price: 2131,
       counter: 0,
@@ -1297,8 +1382,13 @@ function initdata() {
     {
       destinationID: "dest018",
       name: "Seaside Bliss Resort",
+<<<<<<< HEAD
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/seasideblissresort.jpg",
+=======
+      Description: "A lively hub of entertainment and shopping.",
+      image: "/accelair app/img/seasideblissresort.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
       price: 2228,
       counter: 0,
@@ -1308,8 +1398,13 @@ function initdata() {
     {
       destinationID: "dest019",
       name: "Mystic River Lodge",
+<<<<<<< HEAD
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/mysticriverlodge.jpg",
+=======
+      Description: "Ideal for adventurers and nature lovers.",
+      image: "/accelair app/img/mysticriverlodge.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
       price: 1068,
       counter: 0,
@@ -1319,8 +1414,13 @@ function initdata() {
     {
       destinationID: "dest020",
       name: "Cultural Palace",
+<<<<<<< HEAD
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/culturalpalace.jpg",
+=======
+      Description: "Enjoy a blend of modernity and natural beauty.",
+      image: "/accelair app/img/culturalpalace.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rio de Janeiro, Brazil",
       price: 2664,
       counter: 0,
@@ -1330,8 +1430,13 @@ function initdata() {
     {
       destinationID: "dest021",
       name: "Sunset Resort",
+<<<<<<< HEAD
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/sunsetresort.jpg",
+=======
+      Description: "Perfect for a relaxing and luxurious getaway.",
+      image: "/accelair app/img/sunsetresort.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Prague, Czech Republic",
       price: 2331,
       counter: 0,
@@ -1341,8 +1446,13 @@ function initdata() {
     {
       destinationID: "dest022",
       name: "Ocean Breeze Hotel",
+<<<<<<< HEAD
       description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
+=======
+      Description: "Explore ancient history and modern attractions.",
+      image: "/accelair app/img/oceanbreezehotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Reykjavik, Iceland",
       price: 1499,
       counter: 0,
@@ -1352,8 +1462,13 @@ function initdata() {
     {
       destinationID: "dest023",
       name: "Sunset Resort",
+<<<<<<< HEAD
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/sunsetresort.jpg",
+=======
+      Description: "A bustling city full of life and energy.",
+      image: "/accelair app/img/sunsetresort.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Amsterdam, Netherlands",
       price: 1984,
       counter: 0,
@@ -1363,8 +1478,13 @@ function initdata() {
     {
       destinationID: "dest024",
       name: "Crystal Coast Resort",
+<<<<<<< HEAD
       description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/crystalcoastresort.jpg",
+=======
+      Description: "Explore ancient history and modern attractions.",
+      image: "/accelair app/img/crystalcoastresort.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Dubai, UAE",
       price: 1125,
       counter: 0,
@@ -1374,8 +1494,13 @@ function initdata() {
     {
       destinationID: "dest025",
       name: "Adventure Retreat",
+<<<<<<< HEAD
       description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/adventureretreat.jpg",
+=======
+      Description: "A hidden gem for travelers seeking something new.",
+      image: "/accelair app/img/adventureretreat.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Paris, France",
       price: 1157,
       counter: 0,
@@ -1385,8 +1510,13 @@ function initdata() {
     {
       destinationID: "dest026",
       name: "Adventure Retreat",
+<<<<<<< HEAD
       description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/adventureretreat.jpg",
+=======
+      Description: "Explore ancient history and modern attractions.",
+      image: "/accelair app/img/adventureretreat.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cape Town, South Africa",
       price: 2967,
       counter: 0,
@@ -1396,8 +1526,13 @@ function initdata() {
     {
       destinationID: "dest027",
       name: "Adventure Retreat",
+<<<<<<< HEAD
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/adventureretreat.jpg",
+=======
+      Description: "Enjoy a blend of modernity and natural beauty.",
+      image: "/accelair app/img/adventureretreat.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Tokyo, Japan",
       price: 2436,
       counter: 0,
@@ -1407,8 +1542,13 @@ function initdata() {
     {
       destinationID: "dest028",
       name: "Sunset Resort",
+<<<<<<< HEAD
       description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/sunsetresort.jpg",
+=======
+      Description: "Discover stunning architecture and rich traditions.",
+      image: "/accelair app/img/sunsetresort.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cairo, Egypt",
       price: 2941,
       counter: 0,
@@ -1418,8 +1558,13 @@ function initdata() {
     {
       destinationID: "dest029",
       name: "Twilight Bay Inn",
+<<<<<<< HEAD
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/twilightbayinn.jpg",
+=======
+      Description: "Experience world-class cuisine and scenic views.",
+      image: "/accelair app/img/twilightbayinn.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
       price: 1722,
       counter: 0,
@@ -1429,8 +1574,13 @@ function initdata() {
     {
       destinationID: "dest030",
       name: "Cultural Palace",
+<<<<<<< HEAD
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/culturalpalace.jpg",
+=======
+      Description: "Experience world-class cuisine and scenic views.",
+      image: "/accelair app/img/culturalpalace.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Kyoto, Japan",
       price: 1809,
       counter: 0,
@@ -1440,8 +1590,13 @@ function initdata() {
     {
       destinationID: "dest031",
       name: "Serenity Stay",
+<<<<<<< HEAD
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/serenitystay.jpg",
+=======
+      Description: "A bustling city full of life and energy.",
+      image: "/accelair app/img/serenitystay.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Barcelona, Spain",
       price: 1730,
       counter: 0,
@@ -1451,8 +1606,13 @@ function initdata() {
     {
       destinationID: "dest032",
       name: "Urban Oasis Hotel",
+<<<<<<< HEAD
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/urbanoasishotel.jpg",
+=======
+      Description: "Perfect for a relaxing and luxurious getaway.",
+      image: "/accelair app/img/urbanoasishotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rome, Italy",
       price: 1948,
       counter: 0,
@@ -1462,8 +1622,13 @@ function initdata() {
     {
       destinationID: "dest033",
       name: "Lagoon Escape",
+<<<<<<< HEAD
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/lagoonescape.jpg",
+=======
+      Description: "Experience world-class cuisine and scenic views.",
+      image: "/accelair app/img/lagoonescape.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cairo, Egypt",
       price: 2248,
       counter: 0,
@@ -1473,8 +1638,13 @@ function initdata() {
     {
       destinationID: "dest034",
       name: "Harbor Lights Hotel",
+<<<<<<< HEAD
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/harborlightshotel.jpg",
+=======
+      Description: "Perfect for a relaxing and luxurious getaway.",
+      image: "/accelair app/img/harborlightshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
       price: 1585,
       counter: 0,
@@ -1484,8 +1654,13 @@ function initdata() {
     {
       destinationID: "dest035",
       name: "Urban Oasis Hotel",
+<<<<<<< HEAD
       description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/urbanoasishotel.jpg",
+=======
+      Description: "Discover stunning architecture and rich traditions.",
+      image: "/accelair app/img/urbanoasishotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Kyoto, Japan",
       price: 1713,
       counter: 0,
@@ -1495,8 +1670,13 @@ function initdata() {
     {
       destinationID: "dest036",
       name: "Harbor Lights Hotel",
+<<<<<<< HEAD
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/harborlightshotel.jpg",
+=======
+      Description: "A beautiful and culturally rich destination.",
+      image: "/accelair app/img/harborlightshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
       price: 2937,
       counter: 0,
@@ -1506,8 +1686,13 @@ function initdata() {
     {
       destinationID: "dest037",
       name: "Adventure Retreat",
+<<<<<<< HEAD
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/adventureretreat.jpg",
+=======
+      Description: "Enjoy a blend of modernity and natural beauty.",
+      image: "/accelair app/img/adventureretreat.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cape Town, South Africa",
       price: 1836,
       counter: 0,
@@ -1517,8 +1702,13 @@ function initdata() {
     {
       destinationID: "dest038",
       name: "Twilight Bay Inn",
+<<<<<<< HEAD
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/twilightbayinn.jpg",
+=======
+      Description: "A lively hub of entertainment and shopping.",
+      image: "/accelair app/img/twilightbayinn.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
       price: 2737,
       counter: 0,
@@ -1528,8 +1718,13 @@ function initdata() {
     {
       destinationID: "dest039",
       name: "Harbor Lights Hotel",
+<<<<<<< HEAD
       description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/harborlightshotel.jpg",
+=======
+      Description: "A hidden gem for travelers seeking something new.",
+      image: "/accelair app/img/harborlightshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Kyoto, Japan",
       price: 1573,
       counter: 0,
@@ -1539,8 +1734,13 @@ function initdata() {
     {
       destinationID: "dest040",
       name: "Alpine Heights",
+<<<<<<< HEAD
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/alpineheights.jpg",
+=======
+      Description: "Experience world-class cuisine and scenic views.",
+      image: "/accelair app/img/alpineheights.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Amsterdam, Netherlands",
       price: 2324,
       counter: 0,
@@ -1550,8 +1750,13 @@ function initdata() {
     {
       destinationID: "dest041",
       name: "Adventure Retreat",
+<<<<<<< HEAD
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/adventureretreat.jpg",
+=======
+      Description: "Enjoy a blend of modernity and natural beauty.",
+      image: "/accelair app/img/adventureretreat.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rome, Italy",
       price: 1039,
       counter: 0,
@@ -1561,8 +1766,13 @@ function initdata() {
     {
       destinationID: "dest042",
       name: "Alpine Heights",
+<<<<<<< HEAD
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/alpineheights.jpg",
+=======
+      Description: "A lively hub of entertainment and shopping.",
+      image: "/accelair app/img/alpineheights.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
       price: 1345,
       counter: 0,
@@ -1572,8 +1782,13 @@ function initdata() {
     {
       destinationID: "dest043",
       name: "Timeless Sands Hotel",
+<<<<<<< HEAD
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/timelesssandshotel.jpg",
+=======
+      Description: "Enjoy a blend of modernity and natural beauty.",
+      image: "/accelair app/img/timelesssandshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
       price: 1261,
       counter: 0,
@@ -1583,8 +1798,13 @@ function initdata() {
     {
       destinationID: "dest044",
       name: "Adventure Retreat",
+<<<<<<< HEAD
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/adventureretreat.jpg",
+=======
+      Description: "Perfect for a relaxing and luxurious getaway.",
+      image: "/accelair app/img/adventureretreat.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cape Town, South Africa",
       price: 2870,
       counter: 0,
@@ -1594,8 +1814,13 @@ function initdata() {
     {
       destinationID: "dest045",
       name: "Golden Dunes Resort",
+<<<<<<< HEAD
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/goldendunesresort.jpg",
+=======
+      Description: "A bustling city full of life and energy.",
+      image: "/accelair app/img/goldendunesresort.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Paris, France",
       price: 1637,
       counter: 0,
@@ -1605,8 +1830,13 @@ function initdata() {
     {
       destinationID: "dest046",
       name: "Urban Oasis Hotel",
+<<<<<<< HEAD
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/urbanoasishotel.jpg",
+=======
+      Description: "Experience world-class cuisine and scenic views.",
+      image: "/accelair app/img/urbanoasishotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
       price: 1494,
       counter: 0,
@@ -1616,8 +1846,13 @@ function initdata() {
     {
       destinationID: "dest047",
       name: "Alpine Heights",
+<<<<<<< HEAD
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/alpineheights.jpg",
+=======
+      Description: "Experience world-class cuisine and scenic views.",
+      image: "/accelair app/img/alpineheights.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
       price: 1627,
       counter: 0,
@@ -1627,8 +1862,13 @@ function initdata() {
     {
       destinationID: "dest048",
       name: "Lagoon Escape",
+<<<<<<< HEAD
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/lagoonescape.jpg",
+=======
+      Description: "Ideal for adventurers and nature lovers.",
+      image: "/accelair app/img/lagoonescape.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Sydney, Australia",
       price: 1506,
       counter: 0,
@@ -1638,8 +1878,13 @@ function initdata() {
     {
       destinationID: "dest049",
       name: "Lagoon Escape",
+<<<<<<< HEAD
       description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/lagoonescape.jpg",
+=======
+      Description: "Discover stunning architecture and rich traditions.",
+      image: "/accelair app/img/lagoonescape.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Tokyo, Japan",
       price: 2664,
       counter: 0,
@@ -1649,8 +1894,13 @@ function initdata() {
     {
       destinationID: "dest050",
       name: "Royal Orchid Hotel",
+<<<<<<< HEAD
       description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/royalorchidhotel.jpg",
+=======
+      Description: "A hidden gem for travelers seeking something new.",
+      image: "/accelair app/img/royalorchidhotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cape Town, South Africa",
       price: 2513,
       counter: 0,
@@ -1660,8 +1910,13 @@ function initdata() {
     {
       destinationID: "dest051",
       name: "Twilight Bay Inn",
+<<<<<<< HEAD
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/twilightbayinn.jpg",
+=======
+      Description: "Perfect for a relaxing and luxurious getaway.",
+      image: "/accelair app/img/twilightbayinn.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cairo, Egypt",
       price: 1854,
       counter: 0,
@@ -1671,8 +1926,13 @@ function initdata() {
     {
       destinationID: "dest052",
       name: "Golden Dunes Resort",
+<<<<<<< HEAD
       description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/goldendunesresort.jpg",
+=======
+      Description: "A hidden gem for travelers seeking something new.",
+      image: "/accelair app/img/goldendunesresort.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Barcelona, Spain",
       price: 2918,
       counter: 0,
@@ -1682,8 +1942,13 @@ function initdata() {
     {
       destinationID: "dest053",
       name: "Urban Oasis Hotel",
+<<<<<<< HEAD
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/urbanoasishotel.jpg",
+=======
+      Description: "Perfect for a relaxing and luxurious getaway.",
+      image: "/accelair app/img/urbanoasishotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Dubai, UAE",
       price: 2202,
       counter: 0,
@@ -1693,8 +1958,13 @@ function initdata() {
     {
       destinationID: "dest054",
       name: "Grand Heritage Inn",
+<<<<<<< HEAD
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/grandheritageinn.jpg",
+=======
+      Description: "A bustling city full of life and energy.",
+      image: "/accelair app/img/grandheritageinn.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
       price: 2469,
       counter: 0,
@@ -1704,8 +1974,13 @@ function initdata() {
     {
       destinationID: "dest055",
       name: "Cultural Palace",
+<<<<<<< HEAD
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/culturalpalace.jpg",
+=======
+      Description: "Experience world-class cuisine and scenic views.",
+      image: "/accelair app/img/culturalpalace.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Paris, France",
       price: 2915,
       counter: 0,
@@ -1715,8 +1990,13 @@ function initdata() {
     {
       destinationID: "dest056",
       name: "Alpine Heights",
+<<<<<<< HEAD
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/alpineheights.jpg",
+=======
+      Description: "Experience world-class cuisine and scenic views.",
+      image: "/accelair app/img/alpineheights.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Sydney, Australia",
       price: 2188,
       counter: 0,
@@ -1726,8 +2006,13 @@ function initdata() {
     {
       destinationID: "dest057",
       name: "Harbor Lights Hotel",
+<<<<<<< HEAD
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/harborlightshotel.jpg",
+=======
+      Description: "A lively hub of entertainment and shopping.",
+      image: "/accelair app/img/harborlightshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
       price: 1194,
       counter: 0,
@@ -1737,8 +2022,13 @@ function initdata() {
     {
       destinationID: "dest058",
       name: "Timeless Sands Hotel",
+<<<<<<< HEAD
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/timelesssandshotel.jpg",
+=======
+      Description: "Experience world-class cuisine and scenic views.",
+      image: "/accelair app/img/timelesssandshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Toronto, Canada",
       price: 1580,
       counter: 0,
@@ -1748,8 +2038,13 @@ function initdata() {
     {
       destinationID: "dest059",
       name: "Serenity Stay",
+<<<<<<< HEAD
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/serenitystay.jpg",
+=======
+      Description: "Perfect for a relaxing and luxurious getaway.",
+      image: "/accelair app/img/serenitystay.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Bali, Indonesia",
       price: 1384,
       counter: 0,
@@ -1759,8 +2054,13 @@ function initdata() {
     {
       destinationID: "dest060",
       name: "Grand Heritage Inn",
+<<<<<<< HEAD
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/grandheritageinn.jpg",
+=======
+      Description: "A lively hub of entertainment and shopping.",
+      image: "/accelair app/img/grandheritageinn.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "San Francisco, USA",
       price: 1497,
       counter: 0,
@@ -1770,8 +2070,13 @@ function initdata() {
     {
       destinationID: "dest061",
       name: "Royal Orchid Hotel",
+<<<<<<< HEAD
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/royalorchidhotel.jpg",
+=======
+      Description: "A bustling city full of life and energy.",
+      image: "/accelair app/img/royalorchidhotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Kyoto, Japan",
       price: 1644,
       counter: 0,
@@ -1781,8 +2086,13 @@ function initdata() {
     {
       destinationID: "dest062",
       name: "Urban Oasis Hotel",
+<<<<<<< HEAD
       description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/urbanoasishotel.jpg",
+=======
+      Description: "A hidden gem for travelers seeking something new.",
+      image: "/accelair app/img/urbanoasishotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Dubai, UAE",
       price: 2735,
       counter: 0,
@@ -1792,8 +2102,13 @@ function initdata() {
     {
       destinationID: "dest063",
       name: "Grand Heritage Inn",
+<<<<<<< HEAD
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/grandheritageinn.jpg",
+=======
+      Description: "A bustling city full of life and energy.",
+      image: "/accelair app/img/grandheritageinn.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Tokyo, Japan",
       price: 1509,
       counter: 0,
@@ -1803,8 +2118,13 @@ function initdata() {
     {
       destinationID: "dest064",
       name: "Mystic River Lodge",
+<<<<<<< HEAD
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/mysticriverlodge.jpg",
+=======
+      Description: "Perfect for a relaxing and luxurious getaway.",
+      image: "/accelair app/img/mysticriverlodge.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Amsterdam, Netherlands",
       price: 2646,
       counter: 0,
@@ -1814,8 +2134,13 @@ function initdata() {
     {
       destinationID: "dest065",
       name: "Ocean Breeze Hotel",
+<<<<<<< HEAD
       description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
+=======
+      Description: "Discover stunning architecture and rich traditions.",
+      image: "/accelair app/img/oceanbreezehotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rome, Italy",
       price: 1537,
       counter: 0,
@@ -1825,8 +2150,13 @@ function initdata() {
     {
       destinationID: "dest066",
       name: "Timeless Sands Hotel",
+<<<<<<< HEAD
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/timelesssandshotel.jpg",
+=======
+      Description: "A bustling city full of life and energy.",
+      image: "/accelair app/img/timelesssandshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Bangkok, Thailand",
       price: 1324,
       counter: 0,
@@ -1836,8 +2166,13 @@ function initdata() {
     {
       destinationID: "dest067",
       name: "Emerald Hills Hotel",
+<<<<<<< HEAD
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/emeraldhillshotel.jpg",
+=======
+      Description: "Perfect for a relaxing and luxurious getaway.",
+      image: "/accelair app/img/emeraldhillshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rome, Italy",
       price: 1474,
       counter: 0,
@@ -1847,8 +2182,13 @@ function initdata() {
     {
       destinationID: "dest068",
       name: "Mystic River Lodge",
+<<<<<<< HEAD
       description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/mysticriverlodge.jpg",
+=======
+      Description: "Explore ancient history and modern attractions.",
+      image: "/accelair app/img/mysticriverlodge.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "New York, USA",
       price: 1779,
       counter: 0,
@@ -1858,8 +2198,13 @@ function initdata() {
     {
       destinationID: "dest069",
       name: "Urban Oasis Hotel",
+<<<<<<< HEAD
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/urbanoasishotel.jpg",
+=======
+      Description: "Perfect for a relaxing and luxurious getaway.",
+      image: "/accelair app/img/urbanoasishotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "San Francisco, USA",
       price: 1134,
       counter: 0,
@@ -1869,8 +2214,13 @@ function initdata() {
     {
       destinationID: "dest070",
       name: "Serenity Stay",
+<<<<<<< HEAD
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/serenitystay.jpg",
+=======
+      Description: "A beautiful and culturally rich destination.",
+      image: "/accelair app/img/serenitystay.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
       price: 2231,
       counter: 0,
@@ -1880,8 +2230,13 @@ function initdata() {
     {
       destinationID: "dest071",
       name: "Timeless Sands Hotel",
+<<<<<<< HEAD
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/timelesssandshotel.jpg",
+=======
+      Description: "A lively hub of entertainment and shopping.",
+      image: "/accelair app/img/timelesssandshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rio de Janeiro, Brazil",
       price: 2671,
       counter: 0,
@@ -1891,8 +2246,13 @@ function initdata() {
     {
       destinationID: "dest072",
       name: "Seaside Bliss Resort",
+<<<<<<< HEAD
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/seasideblissresort.jpg",
+=======
+      Description: "Perfect for a relaxing and luxurious getaway.",
+      image: "/accelair app/img/seasideblissresort.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cape Town, South Africa",
       price: 1369,
       counter: 0,
@@ -1902,8 +2262,13 @@ function initdata() {
     {
       destinationID: "dest073",
       name: "Emerald Hills Hotel",
+<<<<<<< HEAD
       description: "Discover stunning architecture and rich traditions.",
       image: "./accelair app/img/emeraldhillshotel.jpg",
+=======
+      Description: "Discover stunning architecture and rich traditions.",
+      image: "/accelair app/img/emeraldhillshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Barcelona, Spain",
       price: 1887,
       counter: 0,
@@ -1913,8 +2278,13 @@ function initdata() {
     {
       destinationID: "dest074",
       name: "Lagoon Escape",
+<<<<<<< HEAD
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/lagoonescape.jpg",
+=======
+      Description: "A beautiful and culturally rich destination.",
+      image: "/accelair app/img/lagoonescape.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "New York, USA",
       price: 1559,
       counter: 0,
@@ -1924,8 +2294,13 @@ function initdata() {
     {
       destinationID: "dest075",
       name: "Harbor Lights Hotel",
+<<<<<<< HEAD
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/harborlightshotel.jpg",
+=======
+      Description: "Perfect for a relaxing and luxurious getaway.",
+      image: "/accelair app/img/harborlightshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
       price: 1794,
       counter: 0,
@@ -1935,8 +2310,13 @@ function initdata() {
     {
       destinationID: "dest076",
       name: "Ocean Breeze Hotel",
+<<<<<<< HEAD
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
+=======
+      Description: "Experience world-class cuisine and scenic views.",
+      image: "/accelair app/img/oceanbreezehotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Prague, Czech Republic",
       price: 1498,
       counter: 0,
@@ -1946,8 +2326,13 @@ function initdata() {
     {
       destinationID: "dest077",
       name: "Mystic River Lodge",
+<<<<<<< HEAD
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/mysticriverlodge.jpg",
+=======
+      Description: "Ideal for adventurers and nature lovers.",
+      image: "/accelair app/img/mysticriverlodge.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rome, Italy",
       price: 1516,
       counter: 0,
@@ -1957,8 +2342,13 @@ function initdata() {
     {
       destinationID: "dest078",
       name: "Emerald Hills Hotel",
+<<<<<<< HEAD
       description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/emeraldhillshotel.jpg",
+=======
+      Description: "Explore ancient history and modern attractions.",
+      image: "/accelair app/img/emeraldhillshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Bangkok, Thailand",
       price: 1767,
       counter: 0,
@@ -1968,8 +2358,13 @@ function initdata() {
     {
       destinationID: "dest079",
       name: "Mountain View Lodge",
+<<<<<<< HEAD
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/mountainviewlodge.jpg",
+=======
+      Description: "A lively hub of entertainment and shopping.",
+      image: "/accelair app/img/mountainviewlodge.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Tokyo, Japan",
       price: 1310,
       counter: 0,
@@ -1979,8 +2374,13 @@ function initdata() {
     {
       destinationID: "dest080",
       name: "Seaside Bliss Resort",
+<<<<<<< HEAD
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/seasideblissresort.jpg",
+=======
+      Description: "Enjoy a blend of modernity and natural beauty.",
+      image: "/accelair app/img/seasideblissresort.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "New York, USA",
       price: 2143,
       counter: 0,
@@ -1990,8 +2390,13 @@ function initdata() {
     {
       destinationID: "dest081",
       name: "Timeless Sands Hotel",
+<<<<<<< HEAD
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/timelesssandshotel.jpg",
+=======
+      Description: "A bustling city full of life and energy.",
+      image: "/accelair app/img/timelesssandshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cairo, Egypt",
       price: 2223,
       counter: 0,
@@ -2001,8 +2406,13 @@ function initdata() {
     {
       destinationID: "dest082",
       name: "Adventure Retreat",
+<<<<<<< HEAD
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/adventureretreat.jpg",
+=======
+      Description: "A beautiful and culturally rich destination.",
+      image: "/accelair app/img/adventureretreat.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
       price: 1922,
       counter: 0,
@@ -2012,8 +2422,13 @@ function initdata() {
     {
       destinationID: "dest083",
       name: "Cultural Palace",
+<<<<<<< HEAD
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/culturalpalace.jpg",
+=======
+      Description: "Perfect for a relaxing and luxurious getaway.",
+      image: "/accelair app/img/culturalpalace.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cape Town, South Africa",
       price: 2784,
       counter: 0,
@@ -2023,8 +2438,13 @@ function initdata() {
     {
       destinationID: "dest084",
       name: "Adventure Retreat",
+<<<<<<< HEAD
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/adventureretreat.jpg",
+=======
+      Description: "A beautiful and culturally rich destination.",
+      image: "/accelair app/img/adventureretreat.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Prague, Czech Republic",
       price: 2244,
       counter: 0,
@@ -2034,8 +2454,13 @@ function initdata() {
     {
       destinationID: "dest085",
       name: "Crystal Coast Resort",
+<<<<<<< HEAD
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/crystalcoastresort.jpg",
+=======
+      Description: "Enjoy a blend of modernity and natural beauty.",
+      image: "/accelair app/img/crystalcoastresort.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Kyoto, Japan",
       price: 2754,
       counter: 0,
@@ -2045,8 +2470,13 @@ function initdata() {
     {
       destinationID: "dest086",
       name: "Twilight Bay Inn",
+<<<<<<< HEAD
       description: "Perfect for a relaxing and luxurious getaway.",
       image: "./accelair app/img/twilightbayinn.jpg",
+=======
+      Description: "Perfect for a relaxing and luxurious getaway.",
+      image: "/accelair app/img/twilightbayinn.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Kyoto, Japan",
       price: 1922,
       counter: 0,
@@ -2056,8 +2486,13 @@ function initdata() {
     {
       destinationID: "dest087",
       name: "Grand Heritage Inn",
+<<<<<<< HEAD
       description: "Explore ancient history and modern attractions.",
       image: "./accelair app/img/grandheritageinn.jpg",
+=======
+      Description: "Explore ancient history and modern attractions.",
+      image: "/accelair app/img/grandheritageinn.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
       price: 2595,
       counter: 0,
@@ -2067,8 +2502,13 @@ function initdata() {
     {
       destinationID: "dest088",
       name: "Grand Heritage Inn",
+<<<<<<< HEAD
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/grandheritageinn.jpg",
+=======
+      Description: "A bustling city full of life and energy.",
+      image: "/accelair app/img/grandheritageinn.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "New York, USA",
       price: 2043,
       counter: 0,
@@ -2078,8 +2518,13 @@ function initdata() {
     {
       destinationID: "dest089",
       name: "Adventure Retreat",
+<<<<<<< HEAD
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/adventureretreat.jpg",
+=======
+      Description: "Experience world-class cuisine and scenic views.",
+      image: "/accelair app/img/adventureretreat.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rio de Janeiro, Brazil",
       price: 1840,
       counter: 0,
@@ -2089,8 +2534,13 @@ function initdata() {
     {
       destinationID: "dest090",
       name: "Mystic River Lodge",
+<<<<<<< HEAD
       description: "Enjoy a blend of modernity and natural beauty.",
       image: "./accelair app/img/mysticriverlodge.jpg",
+=======
+      Description: "Enjoy a blend of modernity and natural beauty.",
+      image: "/accelair app/img/mysticriverlodge.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Barcelona, Spain",
       price: 2074,
       counter: 0,
@@ -2100,8 +2550,13 @@ function initdata() {
     {
       destinationID: "dest091",
       name: "Skyline Suites",
+<<<<<<< HEAD
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/skylinesuites.jpg",
+=======
+      Description: "A bustling city full of life and energy.",
+      image: "/accelair app/img/skylinesuites.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Zermatt, Switzerland",
       price: 1273,
       counter: 0,
@@ -2111,8 +2566,13 @@ function initdata() {
     {
       destinationID: "dest092",
       name: "Mountain View Lodge",
+<<<<<<< HEAD
       description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/mountainviewlodge.jpg",
+=======
+      Description: "A hidden gem for travelers seeking something new.",
+      image: "/accelair app/img/mountainviewlodge.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Barcelona, Spain",
       price: 1574,
       counter: 0,
@@ -2122,8 +2582,13 @@ function initdata() {
     {
       destinationID: "dest093",
       name: "Emerald Hills Hotel",
+<<<<<<< HEAD
       description: "Ideal for adventurers and nature lovers.",
       image: "./accelair app/img/emeraldhillshotel.jpg",
+=======
+      Description: "Ideal for adventurers and nature lovers.",
+      image: "/accelair app/img/emeraldhillshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Zermatt, Switzerland",
       price: 1301,
       counter: 0,
@@ -2133,8 +2598,13 @@ function initdata() {
     {
       destinationID: "dest094",
       name: "Timeless Sands Hotel",
+<<<<<<< HEAD
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/timelesssandshotel.jpg",
+=======
+      Description: "A lively hub of entertainment and shopping.",
+      image: "/accelair app/img/timelesssandshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Cairo, Egypt",
       price: 1044,
       counter: 0,
@@ -2144,8 +2614,13 @@ function initdata() {
     {
       destinationID: "dest095",
       name: "Skyline Suites",
+<<<<<<< HEAD
       description: "A bustling city full of life and energy.",
       image: "./accelair app/img/skylinesuites.jpg",
+=======
+      Description: "A bustling city full of life and energy.",
+      image: "/accelair app/img/skylinesuites.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Rio de Janeiro, Brazil",
       price: 1892,
       counter: 0,
@@ -2155,8 +2630,13 @@ function initdata() {
     {
       destinationID: "dest096",
       name: "Emerald Hills Hotel",
+<<<<<<< HEAD
       description: "A lively hub of entertainment and shopping.",
       image: "./accelair app/img/emeraldhillshotel.jpg",
+=======
+      Description: "A lively hub of entertainment and shopping.",
+      image: "/accelair app/img/emeraldhillshotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Tokyo, Japan",
       price: 1908,
       counter: 0,
@@ -2166,8 +2646,13 @@ function initdata() {
     {
       destinationID: "dest097",
       name: "Cultural Palace",
+<<<<<<< HEAD
       description: "A hidden gem for travelers seeking something new.",
       image: "./accelair app/img/culturalpalace.jpg",
+=======
+      Description: "A hidden gem for travelers seeking something new.",
+      image: "/accelair app/img/culturalpalace.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "San Francisco, USA",
       price: 2851,
       counter: 0,
@@ -2177,8 +2662,13 @@ function initdata() {
     {
       destinationID: "dest098",
       name: "Ocean Breeze Hotel",
+<<<<<<< HEAD
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/oceanbreezehotel.jpg",
+=======
+      Description: "A beautiful and culturally rich destination.",
+      image: "/accelair app/img/oceanbreezehotel.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Amsterdam, Netherlands",
       price: 2059,
       counter: 0,
@@ -2188,8 +2678,13 @@ function initdata() {
     {
       destinationID: "dest099",
       name: "Skyline Suites",
+<<<<<<< HEAD
       description: "A beautiful and culturally rich destination.",
       image: "./accelair app/img/skylinesuites.jpg",
+=======
+      Description: "A beautiful and culturally rich destination.",
+      image: "/accelair app/img/skylinesuites.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Amsterdam, Netherlands",
       price: 1039,
       counter: 0,
@@ -2199,8 +2694,13 @@ function initdata() {
     {
       destinationID: "dest100",
       name: "Grand Heritage Inn",
+<<<<<<< HEAD
       description: "Experience world-class cuisine and scenic views.",
       image: "./accelair app/img/grandheritageinn.jpg",
+=======
+      Description: "Experience world-class cuisine and scenic views.",
+      image: "/accelair app/img/grandheritageinn.jpg",
+>>>>>>> 01882065a91337ed88fc0ff93b24964d8db1aa2d
       location: "Istanbul, Turkey",
       price: 1180,
       counter: 0,

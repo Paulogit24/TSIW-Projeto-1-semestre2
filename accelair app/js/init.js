@@ -17,7 +17,7 @@ window.onscroll = function() {
 initdata();
 
 function initdata() {
-  // destinos
+  // flight
   if (!localStorage.flight) {
     const flight = [
       {
@@ -1104,7 +1104,7 @@ function initdata() {
    localStorage.setItem("flight", JSON.stringify(flight));
   }
 
-  // destinos
+  // destination
  if (!localStorage.destination) {
    const destination = [
      {

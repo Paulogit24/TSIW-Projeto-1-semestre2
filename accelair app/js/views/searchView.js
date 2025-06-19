@@ -1,3 +1,4 @@
+import setCurrentdestination from '../models/destinationmodels.js';
 
 export  default function initSearchView(formSelector) {
     const form = document.querySelector(formSelector);
@@ -21,7 +22,11 @@ export  default function initSearchView(formSelector) {
     console.log('Dados da pesquisa:', data);
     // Exemplo: alert(JSON.stringify(data));
 }
- 
+
+function setCurrentdestination(destinationID) {
+  localStorage.setItem("setdestination", destinationID);
+}
+
 }
 initdata()
 const DestinationCardTemplate = document.getElementById('DestinationCardTemplate');
@@ -44,12 +49,21 @@ destination.forEach(destination => {
   const body = card.querySelector('[body]');
   const duration = card.querySelector('[duration]');
   const type = card.querySelector('[type]');
-  header.textContent = destination.name;
-  body.textContent = destination.location;
+  const price = card.querySelector('[price]');
+
+  header.textContent = destination.name + " - " +destination.location;
+  body.textContent = destination.destinationDescription;
   duration.textContent = "Duração: " + destination.duration + " dias";
   type.textContent = destination.category;
   DestinationCardContainer.append(card);
-  cards.push({ location: destination.location,name: destination.name,type: destination.category, element: card });
+  price.textContent = "preço:" + destination.price.toFixed(2) + "€";
+  cards.push({ location: destination.location,name: destination.name,type: destination.category, duration: destination.duration,destID: destination.destinationID, element: card });
+  const button = card.querySelector('input[type="button"]');
+  button.addEventListener('click', () => {
+    setCurrentdestination(destination.destinationID);
+    console.log(localStorage.setdestination);
+    window.location.href = "destino.html"; // Replace with your target page
+  });
 });
 
 // Search by local
@@ -76,6 +90,15 @@ turismsearch.addEventListener('input', e => {
   const typeValue = e.target.value.toLowerCase();
   cards.forEach(cardObj => {
     const isVisible = cardObj.type.toLowerCase().includes(typeValue);
+    cardObj.element.classList.toggle('hide', !isVisible);
+  });
+});
+
+// search by duration
+durationsearch.addEventListener('input', e => {
+  const durationValue = e.target.value.toLowerCase();
+  cards.forEach(cardObj => {
+    const isVisible = cardObj.duration.toLowerCase().includes(durationValue)
     cardObj.element.classList.toggle('hide', !isVisible);
   });
 });

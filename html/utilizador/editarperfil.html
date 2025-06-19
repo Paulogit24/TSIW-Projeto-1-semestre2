@@ -52,45 +52,89 @@
       </div>
 
       <div class="ml-4" style="margin-top: 90px">
-        <h5 class="font-weight-bold m-0 d-flex align-items-center">
-          Nome do utilizador
-          <a href="editarperfil.html" class="btn btn-sm btn-outline-danger ml-3">Editar perfil</a>
-        </h5>
+        <h5 class="font-weight-bold m-0">Nome do utilizador</h5>
         <small class="text-muted">Nível 1 - (19/100%)</small>
       </div>
+    </div>
+
+    <a href="#" class="position-absolute text-danger" style="top: 10px; right: 10px;">
+      <i class="fas fa-pen"></i>
+    </a>
   </div>
 </div>
 
 <div class="container-fluid px-5" style="margin-top: 90px;">
-  <h4 class="font-weight-bold text-danger">Viagens recentes</h4>
+    <h3 class="text-danger mb-4 border-bottom pb-2">Editar Perfil</h3>
 
-  <div class="row mt-3">
-    <div class="col-12 col-md-6 mb-3">
-      <img src="../../img/tipos-turismo/maldivas01.jpg" class="img-fluid w-100"
-           style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
+    <!-- Alterar banner -->
+    <div class="mb-4">
+        <h5>Banner</h5>
+
+        <!-- Imagens sugeridas da base de dados -->
+        <div class="row">
+            <div class="col-4 mb-3">
+                <img src="../../img/tipos-turismo/maldivas01.jpg" class="img-fluid img-thumbnail" onclick="setBannerImage(this)">
+            </div>
+            <div class="col-4 mb-3">
+                <img src="../../img/tipos-turismo/maldivas01.jpg" class="img-fluid img-thumbnail" onclick="setBannerImage(this)">
+            </div>
+            <div class="col-4 mb-3">
+                <img src="../../img/tipos-turismo/maldivas01.jpg" class="img-fluid img-thumbnail" onclick="setBannerImage(this)">
+            </div>
+            <div class="col-4 mb-3">
+                <img src="../../img/tipos-turismo/maldivas01.jpg" class="img-fluid img-thumbnail" onclick="setBannerImage(this)">
+            </div>
+            <div class="col-4 mb-3">
+                <img src="../../img/tipos-turismo/maldivas01.jpg" class="img-fluid img-thumbnail" onclick="setBannerImage(this)">
+            </div>
+            <div class="col-4 mb-3">
+                <img src="../../img/tipos-turismo/maldivas01.jpg" class="img-fluid img-thumbnail" onclick="setBannerImage(this)">
+            </div>
+        </div>
     </div>
-    <div class="col-12 col-md-6 mb-3">
-      <img src="../../img/tipos-turismo/maldivas01.jpg" class="img-fluid w-100"
-           style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
+
+    <!-- Alterar imagem de perfil -->
+    <div class="mb-4">
+        <h5>Imagem de perfil</h5>
+        <img id="profilePreview" src="../../img/lisboa.jpg" class="img-thumbnail mb-2" style="width: 150px; height: 150px; object-fit: cover;">
+        <input type="file" class="form-control-file" onchange="previewImage(this, 'profilePreview')">
     </div>
-  </div>
+
+    <!-- Sobre o utilizador -->
+    <div class="mb-4">
+        <h5>Sobre o utilizador</h5>
+        <textarea class="form-control" rows="4" placeholder="Escreva algo sobre si..."></textarea>
+    </div>
+
+    <!-- Alterar palavra-passe -->
+    <div class="mb-4">
+        <h5>Alterar palavra-passe</h5>
+        <input type="password" class="form-control mb-2" placeholder="Palavra-passe atual">
+        <input type="password" class="form-control mb-2" placeholder="Nova palavra-passe">
+        <input type="password" class="form-control" placeholder="Confirmar nova palavra-passe">
+    </div>
+
+    <button class="btn btn-danger btn-block" onclick="confirmarAlteracoes()">
+        Guardar Alterações
+    </button>
 </div>
 
-<div class="container-fluid px-5" style="margin-top: 90px;">
-  <h4 class="font-weight-bold text-danger">Viagens favoritos</h4>
-
-  <div class="row mt-3">
-    <div class="col-6 col-md-3 mb-4">
-      <img src="../../img/viagens-para-si/barcelona01.png" class="img-fluid w-100" style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
-    </div>
-    <div class="col-6 col-md-3 mb-4">
-      <img src="../../img/viagens-para-si/barcelona01.png" class="img-fluid w-100" style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
-    </div>
-    <div class="col-6 col-md-3 mb-4">
-      <img src="../../img/viagens-para-si/barcelona01.png" class="img-fluid w-100" style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
-    </div>
-    <div class="col-6 col-md-3 mb-4">
-      <img src="../../img/viagens-para-si/barcelona01.png" class="img-fluid w-100" style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
+<div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-labelledby="confirmModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content border-danger rounded-4">
+      <div class="modal-header">
+        <h5 class="modal-title" id="confirmModalLabel">Confirmar alterações</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Tem a certeza de que pretende guardar as alterações feitas ao perfil?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
+        <button type="button" class="btn btn-danger" onclick="confirmarAlteracoes()">Sim</button>
+      </div>
     </div>
   </div>
 </div>
@@ -119,5 +163,14 @@
   </div>
 </footer>
 
+<script>
+function confirmarAlteracoes() {
+  const confirmar = confirm("Tem a certeza de que pretende guardar as alterações?");
+  if (confirmar) {
+    window.location.href = "utilizador.html";
+  }
+}
+
+</script>
 </body>
 </html>

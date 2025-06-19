@@ -1,6 +1,9 @@
 import {logout, isLogged, getUserLogged, getUBanner} from "../models/usermodels.js";
 
-getUserLogged();
+
+
+let USER = getUserLogged();
 
 const userbanner = document.getElementById('userbanner');
-userbanner.src = getUBanner();
+userbanner.src = USER.banner
+console.log(USER);

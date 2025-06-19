@@ -14,6 +14,7 @@
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>AccelAir</title>
+    <script type="module" src="/accelair app/js/models/destinationmodels.js"></script>
     <script src="/accelair app/js/init.js" defer></script>
 </head>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
@@ -106,19 +107,27 @@
 <div id = "destinationID" class="destin-card" >
 <template id="DestinationCardTemplate">
 <div class="carta">
-  <div class="header" head></div>
-  <div class="body" body></div>
-  <div class="duration" duration>Duração: </div>
-  <div class="type" type></div>
+  <div class="card border-0 shadow-sm rounded mt-3 w-100">
+    <div class="row no-gutters">
+      <div class="col-md-5">
+        <img src="/accelair app/img/adventureretreat.jpg" class="card-img" alt="Destino">
+      </div>
+      <div class="col-md-7">
+        <div class="card-body">
+          <h5 class="card-title text-white bg-danger p-2 rounded" head><br><small>País do destino</small></h5>
+          <p class="card-text mt-2" body ></p>
+          <p class="card-text" duration></p>
+          <p class="card-text" type></p>
+          <p class="card-text" price></p>
+          <p class="card-text"><a href="#" class="text-danger font-weight-bold">Interessado? Clique <a href="destino.html">aqui</a> para saber mais.</p>
+          <input type="button" value="avançar" class="btn btn-danger mt-2" >
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 </template>
 </div>
-
-<section class="container mb-5">
-    <h5 class="text-danger font-weight-bold mb-3">Precisa de ajuda?</h5>
-    <p>Clique <a href="/accelair app/html/utilizador/destino.html" class="text-danger font-weight-bold">aqui</a> para abrir a nossa página de contactos, ou entre em contacto connosco diretamente pelo nosso email <b>apoiocliente@accelair.pt</b></p>
-  </section>
-
 
 <div id="search-results" class="row"></div>
 

@@ -1,5 +1,5 @@
 //model para os destinos da app   verificar se o nome das variaveis nas funções está correto
-let destinations;
+
 
 // CARREGAR destinoS DA LOCALSTORAGE
 export function init() {
@@ -34,7 +34,7 @@ export function removedestination(destinationID) {
 }
 
 // DEFINIR O destino ATUAL (AQUELE QUE SERÁ VISTO NO DETALHE)
-export function setCurrentdestination(destinationID) {
+export default function setCurrentdestination(destinationID) {
   localStorage.setItem("setdestination", destinationID);
 }
 
@@ -47,8 +47,8 @@ export function getCurrentdestination() {
 export function sortdestination(by = "price") {
   if (by === "price") {
     destination.sort((a, b) => a.price - b.price);
-  } else if (by === "departure") {
-    destination.sort((a, b) => new Date(a.departure) - new Date(b.departure));
+  } else if (by === "counter") {
+    destination.sort((a, b) => new Date(a.counter) - new Date(b.counter));
   }
 }
 
@@ -68,7 +68,7 @@ export function getdestination(filterOrigin = "", filterdestination = "", isSort
 
   return filtereddestination;
 }
-
+let destinations;
 // Classe que modela um destino
 
 class destination {
@@ -79,16 +79,16 @@ class destination {
   location = "location";
   price = "price";
   counter = 0;
-  duration = "3";
+  duration = 3;
   category = "category";
 
-  constructor(destinationID, name, destinationcription, image, location, price, category) {
+  constructor(destinationID, name, description, image, location, price, category) {
     this.destinationID = destinationID;
     this.name = name;
-    this.description = destinationcription;
+    this.description = description;
     this.image = image;
     this.location = location;
-    this.duration = "3"; // Default duration
+    this.duration = 3; // Default duration
     this.price = price;
     this.category = category;
   }

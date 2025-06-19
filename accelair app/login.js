@@ -1,3 +1,5 @@
+import 
+
 window.addEventListener('scroll', function () {
   const navbar = document.querySelector("#navbar nav");
   const loginBtn = document.querySelector(".login-btn");
@@ -82,4 +84,4 @@ document.addEventListener("DOMContentLoaded", () => renderSet(0));
   }
 });
 
-let destination = JSON.parse(localStorage.getItem("destination")) || [];
+let destination = JSON.parse(localStorage.getItem("users")) || [];

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Favicon & CSS -->
+    <link rel="stylesheet" href="../../css/accelair.css">
+    <link rel="icon" href="../../img/icon.png"> 
+    <!-- Tipo de letra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>AccelAir</title>
+</head>
+<body>
+
+<div class="container-fluid position-relative" id="navbar">
+  <nav class="navbar navbar-expand-sm justify-content-center fixed-top bg-white" style="z-index: 1030;">
+    <a class="navbar-brand position-absolute" style="left: 20px;" href="../../index.html">
+      <img src="../../img/accel-air.png" alt="Logotipo" width="100">
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="../html\destinos\maisvendidos.html">Mais vendidos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="../html\destinos\ofertasexclusivas.html">Ofertas exclusivas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="../html\destinos\tiposdeturismo.html">Tipos de turismo</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="../html\sobrenos.html">Sobre nós</a>
+      </li>
+    </ul>
+    <a class="nav-link text-dark position-absolute" style="right: 20px;" href="login.html">
+      Iniciar sessão
+    </a>
+  </nav>
+</div>
+
+<div class="container-fluid p-0 position-relative">
+  <div class="position-relative">
+    <img src="../../img/paris-banner.png" class="img-fluid w-100" style="height: 280px; object-fit: cover;">
+
+    <div class="position-absolute d-flex align-items-center" style="bottom: -60px; left: 30px;">
+      <div class="rounded-circle border border-white" style="width: 150px; height: 150px; overflow: hidden; box-shadow: 0 0 5px red;">
+        <img src="../../img/lisboa.jpg" alt="Foto de perfil" class="w-100 h-100" style="object-fit: cover;">
+      </div>
+
+      <div class="ml-4" style="margin-top: 90px">
+        <h5 class="font-weight-bold m-0">Nome do utilizador</h5>
+        <small class="text-muted">Nível 1 - (19/100%)</small>
+      </div>
+    </div>
+
+    <a href="#" class="position-absolute text-danger" style="top: 10px; right: 10px;">
+      <i class="fas fa-pen"></i>
+    </a>
+  </div>
+</div>
+
+<div class="container-fluid px-5" style="margin-top: 90px;">
+  <h4 class="font-weight-bold text-danger">Viagens recentes</h4>
+
+  <div class="row mt-3">
+    <div class="col-12 col-md-6 mb-3">
+      <img src="../../img/tipos-turismo/maldivas01.jpg" class="img-fluid w-100"
+           style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
+    </div>
+    <div class="col-12 col-md-6 mb-3">
+      <img src="../../img/tipos-turismo/maldivas01.jpg" class="img-fluid w-100"
+           style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid px-5" style="margin-top: 90px;">
+  <h4 class="font-weight-bold text-danger">Viagens favoritos</h4>
+
+  <div class="row mt-3">
+    <div class="col-6 col-md-3 mb-4">
+      <img src="../../img/viagens-para-si/barcelona01.png" class="img-fluid w-100" style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
+    </div>
+    <div class="col-6 col-md-3 mb-4">
+      <img src="../../img/viagens-para-si/barcelona01.png" class="img-fluid w-100" style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
+    </div>
+    <div class="col-6 col-md-3 mb-4">
+      <img src="../../img/viagens-para-si/barcelona01.png" class="img-fluid w-100" style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
+    </div>
+    <div class="col-6 col-md-3 mb-4">
+      <img src="../../img/viagens-para-si/barcelona01.png" class="img-fluid w-100" style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content border-danger border-2 rounded-4">
+
+      <!-- Ecrã 1: Login -->
+      <div id="loginScreen" class="p-4">
+        <div class="text-center mb-4">
+          <img src="../img/accel-air.png" alt="AccelAir" width="120" class="img-fluid">
+        </div>
+        <div class="mb-2">
+          <input type="text" id="username" class="form-control text-center rounded-pill" placeholder="Nome de Utilizador">
+        </div>
+        <div class="mb-3">
+          <input type="password" id="password" class="form-control text-center rounded-pill" placeholder="Palavra-passe">
+        </div>
+        <button id="btnLogin" class="btn btn-primary w-100 rounded-pill mb-2">Login</button>
+        <button class="btn btn-primary w-100 rounded-pill mb-3" onclick="showRegister()">Criar conta</button>
+      </div>
+
+      <!-- Ecrã 2: Registo -->
+      <div id="registerScreen" class="p-4 d-none">
+        <button class="btn btn-link p-0 mb-3" onclick="showLogin()">← Voltar</button>
+        <div class="text-center mb-4">
+          <img src="../img/accel-air.png" alt="AccelAir" width="120" class="img-fluid">
+        </div>
+
+        <div class="mb-2"><input type="text" class="form-control text-center rounded-pill" placeholder="Nome de Utilizador"></div>
+        <div class="mb-2"><input type="email" class="form-control text-center rounded-pill" placeholder="E-mail"></div>
+        <div class="mb-2"><input type="email" class="form-control text-center rounded-pill" placeholder="Confirmar E-mail"></div>
+        <div class="mb-2"><input type="password" class="form-control text-center rounded-pill" placeholder="Palavra-passe"></div>
+        <div class="mb-3"><input type="password" class="form-control text-center rounded-pill" placeholder="Confirmar Palavra-passe"></div>
+
+        <div class="form-check text-start mb-2 small">
+          <input class="form-check-input" type="checkbox" id="terms">
+          <label class="form-check-label" for="terms">
+            Ao criar conta, confirma que tem 18 anos ou mais e aceita os <a href="#">Termos</a> e a <a href="#">Política</a>.
+          </label>
+        </div>
+
+        <button class="btn btn-primary w-100 rounded-pill">Criar conta</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer class="mt-5" style="background-color: #f40000; color: white; border-top-left-radius: 30px; border-top-right-radius: 30px;">
+  <div class="container py-4">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <img src="../../img/accel-air-branco.png" alt="Logotipo AccelAir" width="120">
+        <small class="d-block mt-2">© AccelAir Ltd 2025</small>
+      </div>
+      <div class="col-md-4 mb-3">
+        <ul class="list-unstyled">
+          <li><a href="../perguntasfrequentes.html" class="text-white">Perguntas frequentes</a></li>
+          <li><a href="../sobrenos.html" class="text-white">Sobre nós</a></li>
+          <li><a href="#" class="text-white">Sugestões e reclamações</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-3">
+        <ul class="list-unstyled">
+          <li><a href="maisvendidos.html" class="text-white">Destinos mais populares</a></li>
+          <li><a href="ofertasexclusivas.html" class="text-white">Exclusivo para si</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => renderSet(0));
+
+  function showRegister() {
+    document.getElementById('loginScreen').classList.add('d-none');
+    document.getElementById('registerScreen').classList.remove('d-none');
+  }
+
+  function showLogin() {
+    document.getElementById('registerScreen').classList.add('d-none');
+    document.getElementById('loginScreen').classList.remove('d-none');
+  }
+
+  document.getElementById("btnLogin").addEventListener("click", function () {
+  const username = document.getElementById("username").value.trim();
+  const password = document.getElementById("password").value.trim();
+
+  if (username === "admin" && password === "admin") {
+    window.location.href = "html/admin/admin.html";
+  } else {
+    alert("Nome de utilizador ou palavra-passe incorretos.");
+  }
+});
+</script>
+</body>
+</html>

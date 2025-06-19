@@ -59,10 +59,10 @@ destination.forEach(destination => {
   price.textContent = "preço:" + destination.price.toFixed(2) + "€";
   cards.push({ location: destination.location,name: destination.name,type: destination.category, duration: destination.duration,destID: destination.destinationID, element: card });
   const button = card.querySelector('input[type="button"]');
-  button.addEventListener('click', () => {
+  button.addEventListener('click', () => {     // butom para a página destino
     setCurrentdestination(destination.destinationID);
-    console.log(localStorage.setdestination);
-    window.location.href = "destino.html"; // Replace with your target page
+    console.log(localStorage.setdestination);   //console log para verificar o destino atual, retirar depois
+    window.location.href = "destino.html";
   });
 });
 
@@ -102,14 +102,6 @@ durationsearch.addEventListener('input', e => {
     cardObj.element.classList.toggle('hide', !isVisible);
   });
 });
-
-function getQueryParams() {
-  const params = {};
-  window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
-    params[key] = decodeURIComponent(value);
-  });
-  return params;
-}
 
 
 

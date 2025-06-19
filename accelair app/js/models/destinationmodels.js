@@ -93,3 +93,5 @@ class destination {
     this.category = category;
   }
 }
+
+//let destination = [];

@@ -17,6 +17,9 @@ window.onscroll = function() {
 initdata();
 
 function initdata() {
+  let destination;
+  let flight
+  let users
   // flight
   if (!localStorage.flight) {
     const flight = [
@@ -2064,7 +2067,7 @@ function initdata() {
       duration: 3,
       category: "Cultural"
     },
-    {
+       {
       destinationID: "dest088",
       name: "Grand Heritage Inn",
       description: "A bustling city full of life and energy.",
@@ -2220,7 +2223,7 @@ function initdata() {
      const users = [
       {
         username: "admin1",
-        password: "admin",
+        password: "admin1",
         exp: 0,
         banner: "",
         userimage: "",

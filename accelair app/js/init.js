@@ -1110,1105 +1110,1205 @@ function initdata() {
   // destination
  if (!localStorage.destination) {
    const destination = [
-     {
+    {
       destinationID: "dest001",
       name: "Grand Heritage Inn",
-      description: "A bustling city full of life and energy.",
+      briefdescription: "A bustling city full of life and energy.",
       image: "/accelair app/img/grandheritageinn.jpg",
       location: "Cape Town, South Africa",
       price: 2950,
       counter: 99,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "A bustling city full of life and energy. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest002",
       name: "Grand Heritage Inn",
-      description: "A beautiful and culturally rich destination.",
+      briefdescription: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/grandheritageinn.jpg",
       location: "Cairo, Egypt",
       price: 1575,
       counter: 8,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "A beautiful and culturally rich destination. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest003",
       name: "Cultural Palace",
-      description: "Enjoy a blend of modernity and natural beauty.",
+      briefdescription: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/culturalpalace.jpg",
       location: "Prague, Czech Republic",
       price: 1360,
       counter: 7,
       duration: 3,
-      category: "Urban"
+      category: "Urban",
+      completedescription: "Enjoy a blend of modernity and natural beauty. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest004",
       name: "Grand Heritage Inn",
-      description: "Enjoy a blend of modernity and natural beauty.",
+      briefdescription: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/grandheritageinn.jpg",
       location: "New York, USA",
       price: 2145,
       counter: 0,
       duration: 3,
-      category: "Beach"
+      category: "Beach",
+      completedescription: "Enjoy a blend of modernity and natural beauty. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest005",
       name: "Seaside Bliss Resort",
-      description: "Discover stunning architecture and rich traditions.",
+      briefdescription: "Discover stunning architecture and rich traditions.",
       image: "/accelair app/img/seasideblissresort.jpg",
       location: "Rio de Janeiro, Brazil",
       price: 1478,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "Discover stunning architecture and rich traditions. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest006",
       name: "Golden Dunes Resort",
-      description: "Ideal for adventurers and nature lovers.",
+      briefdescription: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/goldendunesresort.jpg",
       location: "Bali, Indonesia",
       price: 1861,
       counter: 99,
       duration: 3,
-      category: "Eco"
+      category: "Eco",
+      completedescription: "Ideal for adventurers and nature lovers. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest007",
       name: "Harbor Lights Hotel",
-      description: "Ideal for adventurers and nature lovers.",
-      image: "/accelair app/img/harborlightshoteljpg",
+      briefdescription: "Ideal for adventurers and nature lovers.",
+      image: "/accelair app/img/harborlightshotel.jpg",
       location: "Cairo, Egypt",
       price: 1855,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "Ideal for adventurers and nature lovers. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest008",
       name: "Mystic River Lodge",
-      description: "Ideal for adventurers and nature lovers.",
+      briefdescription: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/mysticriverlodge.jpg",
       location: "Amsterdam, Netherlands",
       price: 1777,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "Ideal for adventurers and nature lovers. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest009",
       name: "Royal Orchid Hotel",
-      description: "A bustling city full of life and energy.",
+      briefdescription: "A bustling city full of life and energy.",
       image: "/accelair app/img/royalorchidhotel.jpg",
       location: "San Francisco, USA",
       price: 1316,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "A bustling city full of life and energy. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest010",
       name: "Harbor Lights Hotel",
-      description: "Enjoy a blend of modernity and natural beauty.",
+      briefdescription: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/harborlightshotel.jpg",
       location: "New York, USA",
       price: 1331,
       counter: 0,
       duration: 3,
-      category: "Heritage"
+      category: "Heritage",
+      completedescription: "Enjoy a blend of modernity and natural beauty. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest011",
       name: "Sunset Resort",
-      description: "Experience world-class cuisine and scenic views.",
+      briefdescription: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/sunsetresort.jpg",
       location: "Reykjavik, Iceland",
       price: 2910,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "Experience world-class cuisine and scenic views. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest012",
       name: "Alpine Heights",
-      description: "A beautiful and culturally rich destination.",
+      briefdescription: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/alpineheights.jpg",
       location: "Bangkok, Thailand",
       price: 1810,
       counter: 0,
       duration: 3,
-      category: "Heritage"
+      category: "Heritage",
+      completedescription: "A beautiful and culturally rich destination. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest013",
       name: "Golden Dunes Resort",
-      description: "A hidden gem for travelers seeking something new.",
+      briefdescription: "A hidden gem for travelers seeking something new.",
       image: "/accelair app/img/goldendunesresort.jpg",
       location: "Istanbul, Turkey",
       price: 2731,
       counter: 0,
       duration: 3,
-      category: "Adventure"
+      category: "Adventure",
+      completedescription: "A hidden gem for travelers seeking something new. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest014",
       name: "Ocean Breeze Hotel",
-      description: "Ideal for adventurers and nature lovers.",
+      briefdescription: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/oceanbreezehotel.jpg",
       location: "San Francisco, USA",
       price: 2625,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "Ideal for adventurers and nature lovers. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest015",
       name: "Cultural Palace",
-      description: "Explore ancient history and modern attractions.",
+      briefdescription: "Explore ancient history and modern attractions.",
       image: "/accelair app/img/culturalpalace.jpg",
       location: "Dubai, UAE",
       price: 2044,
       counter: 0,
       duration: 3,
-      category: "Religious"
+      category: "Religious",
+      completedescription: "Explore ancient history and modern attractions. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest016",
       name: "Ocean Breeze Hotel",
-      description: "Ideal for adventurers and nature lovers.",
+      briefdescription: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/oceanbreezehotel.jpg",
       location: "Kyoto, Japan",
       price: 2163,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "Ideal for adventurers and nature lovers. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest017",
       name: "Serenity Stay",
-      description: "A bustling city full of life and energy.",
+      briefdescription: "A bustling city full of life and energy.",
       image: "/accelair app/img/serenitystay.jpg",
       location: "Dubai, UAE",
       price: 2131,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "A bustling city full of life and energy. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest018",
       name: "Seaside Bliss Resort",
-      description: "A lively hub of entertainment and shopping.",
+      briefdescription: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/seasideblissresort.jpg",
       location: "Toronto, Canada",
       price: 2228,
       counter: 0,
       duration: 3,
-      category: "Religious"
+      category: "Religious",
+      completedescription: "A lively hub of entertainment and shopping. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest019",
       name: "Mystic River Lodge",
-      description: "Ideal for adventurers and nature lovers.",
+      briefdescription: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/mysticriverlodge.jpg",
       location: "Toronto, Canada",
       price: 1068,
       counter: 0,
       duration: 3,
-      category: "Heritage"
+      category: "Heritage",
+      completedescription: "Ideal for adventurers and nature lovers. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest020",
       name: "Cultural Palace",
-      description: "Enjoy a blend of modernity and natural beauty.",
+      briefdescription: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/culturalpalace.jpg",
       location: "Rio de Janeiro, Brazil",
       price: 2664,
       counter: 0,
       duration: 3,
-      category: "Heritage"
+      category: "Heritage",
+      completedescription: "Enjoy a blend of modernity and natural beauty. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest021",
       name: "Sunset Resort",
-      description: "Perfect for a relaxing and luxurious getaway.",
+      briefdescription: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/sunsetresort.jpg",
       location: "Prague, Czech Republic",
       price: 2331,
       counter: 0,
       duration: 3,
-      category: "Adventure"
+      category: "Adventure",
+      completedescription: "Perfect for a relaxing and luxurious getaway. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest022",
       name: "Ocean Breeze Hotel",
-      description: "Explore ancient history and modern attractions.",
+      briefdescription: "Explore ancient history and modern attractions.",
       image: "/accelair app/img/oceanbreezehotel.jpg",
       location: "Reykjavik, Iceland",
       price: 1499,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "Explore ancient history and modern attractions. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest023",
       name: "Sunset Resort",
-      description: "A bustling city full of life and energy.",
+      briefdescription: "A bustling city full of life and energy.",
       image: "/accelair app/img/sunsetresort.jpg",
       location: "Amsterdam, Netherlands",
       price: 1984,
       counter: 0,
       duration: 3,
-      category: "Heritage"
+      category: "Heritage",
+      completedescription: "A bustling city full of life and energy. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest024",
       name: "Crystal Coast Resort",
-      description: "Explore ancient history and modern attractions.",
+      briefdescription: "Explore ancient history and modern attractions.",
       image: "/accelair app/img/crystalcoastresort.jpg",
       location: "Dubai, UAE",
       price: 1125,
       counter: 0,
       duration: 3,
-      category: "Heritage"
+      category: "Heritage",
+      completedescription: "Explore ancient history and modern attractions. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest025",
       name: "Adventure Retreat",
-      description: "A hidden gem for travelers seeking something new.",
+      briefdescription: "A hidden gem for travelers seeking something new.",
       image: "/accelair app/img/adventureretreat.jpg",
       location: "Paris, France",
       price: 1157,
       counter: 0,
       duration: 3,
-      category: "Adventure"
+      category: "Adventure",
+      completedescription: "A hidden gem for travelers seeking something new. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest026",
       name: "Adventure Retreat",
-      description: "Explore ancient history and modern attractions.",
+      briefdescription: "Explore ancient history and modern attractions.",
       image: "/accelair app/img/adventureretreat.jpg",
       location: "Cape Town, South Africa",
       price: 2967,
       counter: 0,
       duration: 3,
-      category: "Religious"
+      category: "Religious",
+      completedescription: "Explore ancient history and modern attractions. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest027",
       name: "Adventure Retreat",
-      description: "Enjoy a blend of modernity and natural beauty.",
+      briefdescription: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/adventureretreat.jpg",
       location: "Tokyo, Japan",
       price: 2436,
       counter: 0,
       duration: 3,
-      category: "Religious"
+      category: "Religious",
+      completedescription: "Enjoy a blend of modernity and natural beauty. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest028",
       name: "Sunset Resort",
-      description: "Discover stunning architecture and rich traditions.",
+      briefdescription: "Discover stunning architecture and rich traditions.",
       image: "/accelair app/img/sunsetresort.jpg",
       location: "Cairo, Egypt",
       price: 2941,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "Discover stunning architecture and rich traditions. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest029",
       name: "Twilight Bay Inn",
-      description: "Experience world-class cuisine and scenic views.",
+      briefdescription: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/twilightbayinn.jpg",
       location: "Toronto, Canada",
       price: 1722,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "Experience world-class cuisine and scenic views. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest030",
       name: "Cultural Palace",
-      description: "Experience world-class cuisine and scenic views.",
+      briefdescription: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/culturalpalace.jpg",
       location: "Kyoto, Japan",
       price: 1809,
       counter: 0,
       duration: 3,
-      category: "Urban"
+      category: "Urban",
+      completedescription: "Experience world-class cuisine and scenic views. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest031",
       name: "Serenity Stay",
-      description: "A bustling city full of life and energy.",
+      briefdescription: "A bustling city full of life and energy.",
       image: "/accelair app/img/serenitystay.jpg",
       location: "Barcelona, Spain",
       price: 1730,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "A bustling city full of life and energy. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest032",
       name: "Urban Oasis Hotel",
-      description: "Perfect for a relaxing and luxurious getaway.",
+      briefdescription: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/urbanoasishotel.jpg",
       location: "Rome, Italy",
       price: 1948,
       counter: 0,
       duration: 3,
-      category: "Beach"
+      category: "Beach",
+      completedescription: "Perfect for a relaxing and luxurious getaway. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest033",
       name: "Lagoon Escape",
-      description: "Experience world-class cuisine and scenic views.",
+      briefdescription: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/lagoonescape.jpg",
       location: "Cairo, Egypt",
       price: 2248,
       counter: 0,
       duration: 3,
-      category: "Eco"
+      category: "Eco",
+      completedescription: "Experience world-class cuisine and scenic views. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest034",
       name: "Harbor Lights Hotel",
-      description: "Perfect for a relaxing and luxurious getaway.",
+      briefdescription: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/harborlightshotel.jpg",
       location: "Istanbul, Turkey",
       price: 1585,
       counter: 0,
       duration: 3,
-      category: "Heritage"
+      category: "Heritage",
+      completedescription: "Perfect for a relaxing and luxurious getaway. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest035",
       name: "Urban Oasis Hotel",
-      description: "Discover stunning architecture and rich traditions.",
+      briefdescription: "Discover stunning architecture and rich traditions.",
       image: "/accelair app/img/urbanoasishotel.jpg",
       location: "Kyoto, Japan",
       price: 1713,
       counter: 0,
       duration: 3,
-      category: "Eco"
+      category: "Eco",
+      completedescription: "Discover stunning architecture and rich traditions. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest036",
       name: "Harbor Lights Hotel",
-      description: "A beautiful and culturally rich destination.",
+      briefdescription: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/harborlightshotel.jpg",
       location: "Toronto, Canada",
       price: 2937,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "A beautiful and culturally rich destination. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest037",
       name: "Adventure Retreat",
-      description: "Enjoy a blend of modernity and natural beauty.",
+      briefdescription: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/adventureretreat.jpg",
       location: "Cape Town, South Africa",
       price: 1836,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "Enjoy a blend of modernity and natural beauty. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest038",
       name: "Twilight Bay Inn",
-      description: "A lively hub of entertainment and shopping.",
+      briefdescription: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/twilightbayinn.jpg",
       location: "Toronto, Canada",
       price: 2737,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "A lively hub of entertainment and shopping. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest039",
       name: "Harbor Lights Hotel",
-      description: "A hidden gem for travelers seeking something new.",
+      briefdescription: "A hidden gem for travelers seeking something new.",
       image: "/accelair app/img/harborlightshotel.jpg",
       location: "Kyoto, Japan",
       price: 1573,
       counter: 0,
       duration: 3,
-      category: "Heritage"
+      category: "Heritage",
+      completedescription: "A hidden gem for travelers seeking something new. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest040",
       name: "Alpine Heights",
-      description: "Experience world-class cuisine and scenic views.",
+      briefdescription: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/alpineheights.jpg",
       location: "Amsterdam, Netherlands",
       price: 2324,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "Experience world-class cuisine and scenic views. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest041",
       name: "Adventure Retreat",
-      description: "Enjoy a blend of modernity and natural beauty.",
+      briefdescription: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/adventureretreat.jpg",
       location: "Rome, Italy",
       price: 1039,
       counter: 0,
       duration: 3,
-      category: "Adventure"
+      category: "Adventure",
+      completedescription: "Enjoy a blend of modernity and natural beauty. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest042",
       name: "Alpine Heights",
-      description: "A lively hub of entertainment and shopping.",
+      briefdescription: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/alpineheights.jpg",
       location: "Istanbul, Turkey",
       price: 1345,
       counter: 0,
       duration: 3,
-      category: "Religious"
+      category: "Religious",
+      completedescription: "A lively hub of entertainment and shopping. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest043",
       name: "Timeless Sands Hotel",
-      description: "Enjoy a blend of modernity and natural beauty.",
+      briefdescription: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/timelesssandshotel.jpg",
       location: "Toronto, Canada",
       price: 1261,
       counter: 0,
       duration: 3,
-      category: "Eco"
+      category: "Eco",
+      completedescription: "Enjoy a blend of modernity and natural beauty. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest044",
       name: "Adventure Retreat",
-      description: "Perfect for a relaxing and luxurious getaway.",
+      briefdescription: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/adventureretreat.jpg",
       location: "Cape Town, South Africa",
       price: 2870,
       counter: 0,
       duration: 3,
-      category: "Urban"
+      category: "Urban",
+      completedescription: "Perfect for a relaxing and luxurious getaway. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest045",
       name: "Golden Dunes Resort",
-      description: "A bustling city full of life and energy.",
+      briefdescription: "A bustling city full of life and energy.",
       image: "/accelair app/img/goldendunesresort.jpg",
       location: "Paris, France",
       price: 1637,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "A bustling city full of life and energy. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest046",
       name: "Urban Oasis Hotel",
-      description: "Experience world-class cuisine and scenic views.",
+      briefdescription: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/urbanoasishotel.jpg",
       location: "Toronto, Canada",
       price: 1494,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "Experience world-class cuisine and scenic views. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest047",
       name: "Alpine Heights",
-      description: "Experience world-class cuisine and scenic views.",
+      briefdescription: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/alpineheights.jpg",
       location: "Istanbul, Turkey",
       price: 1627,
       counter: 0,
       duration: 3,
-      category: "Adventure"
+      category: "Adventure",
+      completedescription: "Experience world-class cuisine and scenic views. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest048",
       name: "Lagoon Escape",
-      description: "Ideal for adventurers and nature lovers.",
+      briefdescription: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/lagoonescape.jpg",
       location: "Sydney, Australia",
       price: 1506,
       counter: 0,
       duration: 3,
-      category: "Heritage"
+      category: "Heritage",
+      completedescription: "Ideal for adventurers and nature lovers. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest049",
       name: "Lagoon Escape",
-      description: "Discover stunning architecture and rich traditions.",
+      briefdescription: "Discover stunning architecture and rich traditions.",
       image: "/accelair app/img/lagoonescape.jpg",
       location: "Tokyo, Japan",
       price: 2664,
       counter: 0,
       duration: 3,
-      category: "Eco"
+      category: "Eco",
+      completedescription: "Discover stunning architecture and rich traditions. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest050",
       name: "Royal Orchid Hotel",
-      description: "A hidden gem for travelers seeking something new.",
+      briefdescription: "A hidden gem for travelers seeking something new.",
       image: "/accelair app/img/royalorchidhotel.jpg",
       location: "Cape Town, South Africa",
       price: 2513,
       counter: 0,
       duration: 3,
-      category: "Eco"
+      category: "Eco",
+      completedescription: "A hidden gem for travelers seeking something new. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest051",
       name: "Twilight Bay Inn",
-      description: "Perfect for a relaxing and luxurious getaway.",
+      briefdescription: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/twilightbayinn.jpg",
       location: "Cairo, Egypt",
       price: 1854,
       counter: 0,
       duration: 3,
-      category: "Heritage"
+      category: "Heritage",
+      completedescription: "Perfect for a relaxing and luxurious getaway. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest052",
       name: "Golden Dunes Resort",
-      description: "A hidden gem for travelers seeking something new.",
+      briefdescription: "A hidden gem for travelers seeking something new.",
       image: "/accelair app/img/goldendunesresort.jpg",
       location: "Barcelona, Spain",
       price: 2918,
       counter: 0,
       duration: 3,
-      category: "Beach"
+      category: "Beach",
+      completedescription: "A hidden gem for travelers seeking something new. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest053",
       name: "Urban Oasis Hotel",
-      description: "Perfect for a relaxing and luxurious getaway.",
+      briefdescription: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/urbanoasishotel.jpg",
       location: "Dubai, UAE",
       price: 2202,
       counter: 0,
       duration: 3,
-      category: "Adventure"
+      category: "Adventure",
+      completedescription: "Perfect for a relaxing and luxurious getaway. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest054",
       name: "Grand Heritage Inn",
-      description: "A bustling city full of life and energy.",
+      briefdescription: "A bustling city full of life and energy.",
       image: "/accelair app/img/grandheritageinn.jpg",
       location: "Toronto, Canada",
       price: 2469,
       counter: 0,
       duration: 3,
-      category: "Beach"
+      category: "Beach",
+      completedescription: "A bustling city full of life and energy. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest055",
       name: "Cultural Palace",
-      description: "Experience world-class cuisine and scenic views.",
+      briefdescription: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/culturalpalace.jpg",
       location: "Paris, France",
       price: 2915,
       counter: 0,
       duration: 3,
-      category: "Eco"
+      category: "Eco",
+      completedescription: "Experience world-class cuisine and scenic views. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest056",
       name: "Alpine Heights",
-      description: "Experience world-class cuisine and scenic views.",
+      briefdescription: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/alpineheights.jpg",
       location: "Sydney, Australia",
       price: 2188,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "Experience world-class cuisine and scenic views. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest057",
       name: "Harbor Lights Hotel",
-      description: "A lively hub of entertainment and shopping.",
+      briefdescription: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/harborlightshotel.jpg",
       location: "Toronto, Canada",
       price: 1194,
       counter: 0,
       duration: 3,
-      category: "Urban"
+      category: "Urban",
+      completedescription: "A lively hub of entertainment and shopping. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest058",
       name: "Timeless Sands Hotel",
-      description: "Experience world-class cuisine and scenic views.",
+      briefdescription: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/timelesssandshotel.jpg",
       location: "Toronto, Canada",
       price: 1580,
       counter: 0,
       duration: 3,
-      category: "Heritage"
+      category: "Heritage",
+      completedescription: "Experience world-class cuisine and scenic views. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest059",
       name: "Serenity Stay",
-      description: "Perfect for a relaxing and luxurious getaway.",
+      briefdescription: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/serenitystay.jpg",
       location: "Bali, Indonesia",
       price: 1384,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "Perfect for a relaxing and luxurious getaway. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest060",
       name: "Grand Heritage Inn",
-      description: "A lively hub of entertainment and shopping.",
+      briefdescription: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/grandheritageinn.jpg",
       location: "San Francisco, USA",
       price: 1497,
       counter: 0,
       duration: 3,
-      category: "Urban"
+      category: "Urban",
+      completedescription: "A lively hub of entertainment and shopping. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest061",
       name: "Royal Orchid Hotel",
-      description: "A bustling city full of life and energy.",
+      briefdescription: "A bustling city full of life and energy.",
       image: "/accelair app/img/royalorchidhotel.jpg",
       location: "Kyoto, Japan",
       price: 1644,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "A bustling city full of life and energy. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest062",
       name: "Urban Oasis Hotel",
-      description: "A hidden gem for travelers seeking something new.",
+      briefdescription: "A hidden gem for travelers seeking something new.",
       image: "/accelair app/img/urbanoasishotel.jpg",
       location: "Dubai, UAE",
       price: 2735,
       counter: 0,
       duration: 3,
-      category: "Beach"
+      category: "Beach",
+      completedescription: "A hidden gem for travelers seeking something new. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest063",
       name: "Grand Heritage Inn",
-      description: "A bustling city full of life and energy.",
+      briefdescription: "A bustling city full of life and energy.",
       image: "/accelair app/img/grandheritageinn.jpg",
       location: "Tokyo, Japan",
       price: 1509,
       counter: 0,
       duration: 3,
-      category: "Adventure"
+      category: "Adventure",
+      completedescription: "A bustling city full of life and energy. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest064",
       name: "Mystic River Lodge",
-      description: "Perfect for a relaxing and luxurious getaway.",
+      briefdescription: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/mysticriverlodge.jpg",
       location: "Amsterdam, Netherlands",
       price: 2646,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "Perfect for a relaxing and luxurious getaway. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest065",
       name: "Ocean Breeze Hotel",
-      description: "Discover stunning architecture and rich traditions.",
+      briefdescription: "Discover stunning architecture and rich traditions.",
       image: "/accelair app/img/oceanbreezehotel.jpg",
       location: "Rome, Italy",
       price: 1537,
       counter: 0,
       duration: 3,
-      category: "Heritage"
+      category: "Heritage",
+      completedescription: "Discover stunning architecture and rich traditions. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest066",
       name: "Timeless Sands Hotel",
-      description: "A bustling city full of life and energy.",
+      briefdescription: "A bustling city full of life and energy.",
       image: "/accelair app/img/timelesssandshotel.jpg",
       location: "Bangkok, Thailand",
       price: 1324,
       counter: 0,
       duration: 3,
-      category: "Urban"
+      category: "Urban",
+      completedescription: "A bustling city full of life and energy. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest067",
       name: "Emerald Hills Hotel",
-      description: "Perfect for a relaxing and luxurious getaway.",
+      briefdescription: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/emeraldhillshotel.jpg",
       location: "Rome, Italy",
       price: 1474,
       counter: 0,
       duration: 3,
-      category: "Urban"
+      category: "Urban",
+      completedescription: "Perfect for a relaxing and luxurious getaway. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest068",
       name: "Mystic River Lodge",
-      description: "Explore ancient history and modern attractions.",
+      briefdescription: "Explore ancient history and modern attractions.",
       image: "/accelair app/img/mysticriverlodge.jpg",
       location: "New York, USA",
       price: 1779,
       counter: 0,
       duration: 3,
-      category: "Religious"
+      category: "Religious",
+      completedescription: "Explore ancient history and modern attractions. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest069",
       name: "Urban Oasis Hotel",
-      description: "Perfect for a relaxing and luxurious getaway.",
+      briefdescription: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/urbanoasishotel.jpg",
       location: "San Francisco, USA",
       price: 1134,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "Perfect for a relaxing and luxurious getaway. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest070",
       name: "Serenity Stay",
-      description: "A beautiful and culturally rich destination.",
+      briefdescription: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/serenitystay.jpg",
       location: "Istanbul, Turkey",
       price: 2231,
       counter: 0,
       duration: 3,
-      category: "Adventure"
+      category: "Adventure",
+      completedescription: "A beautiful and culturally rich destination. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest071",
       name: "Timeless Sands Hotel",
-      description: "A lively hub of entertainment and shopping.",
+      briefdescription: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/timelesssandshotel.jpg",
       location: "Rio de Janeiro, Brazil",
       price: 2671,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "A lively hub of entertainment and shopping. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest072",
       name: "Seaside Bliss Resort",
-      description: "Perfect for a relaxing and luxurious getaway.",
+      briefdescription: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/seasideblissresort.jpg",
       location: "Cape Town, South Africa",
       price: 1369,
       counter: 0,
       duration: 3,
-      category: "Adventure"
+      category: "Adventure",
+      completedescription: "Perfect for a relaxing and luxurious getaway. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest073",
       name: "Emerald Hills Hotel",
-      description: "Discover stunning architecture and rich traditions.",
+      briefdescription: "Discover stunning architecture and rich traditions.",
       image: "/accelair app/img/emeraldhillshotel.jpg",
       location: "Barcelona, Spain",
       price: 1887,
       counter: 0,
       duration: 3,
-      category: "Urban"
+      category: "Urban",
+      completedescription: "Discover stunning architecture and rich traditions. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest074",
       name: "Lagoon Escape",
-      description: "A beautiful and culturally rich destination.",
+      briefdescription: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/lagoonescape.jpg",
       location: "New York, USA",
       price: 1559,
       counter: 0,
       duration: 3,
-      category: "Heritage"
+      category: "Heritage",
+      completedescription: "A beautiful and culturally rich destination. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest075",
       name: "Harbor Lights Hotel",
-      description: "Perfect for a relaxing and luxurious getaway.",
+      briefdescription: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/harborlightshotel.jpg",
       location: "Istanbul, Turkey",
       price: 1794,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "Perfect for a relaxing and luxurious getaway. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest076",
       name: "Ocean Breeze Hotel",
-      description: "Experience world-class cuisine and scenic views.",
+      briefdescription: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/oceanbreezehotel.jpg",
       location: "Prague, Czech Republic",
       price: 1498,
       counter: 0,
       duration: 3,
-      category: "Religious"
+      category: "Religious",
+      completedescription: "Experience world-class cuisine and scenic views. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest077",
       name: "Mystic River Lodge",
-      description: "Ideal for adventurers and nature lovers.",
+      briefdescription: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/mysticriverlodge.jpg",
       location: "Rome, Italy",
       price: 1516,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "Ideal for adventurers and nature lovers. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest078",
       name: "Emerald Hills Hotel",
-      description: "Explore ancient history and modern attractions.",
+      briefdescription: "Explore ancient history and modern attractions.",
       image: "/accelair app/img/emeraldhillshotel.jpg",
       location: "Bangkok, Thailand",
       price: 1767,
       counter: 0,
       duration: 3,
-      category: "Eco"
+      category: "Eco",
+      completedescription: "Explore ancient history and modern attractions. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest079",
       name: "Mountain View Lodge",
-      description: "A lively hub of entertainment and shopping.",
+      briefdescription: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/mountainviewlodge.jpg",
       location: "Tokyo, Japan",
       price: 1310,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "A lively hub of entertainment and shopping. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest080",
       name: "Seaside Bliss Resort",
-      description: "Enjoy a blend of modernity and natural beauty.",
+      briefdescription: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/seasideblissresort.jpg",
       location: "New York, USA",
       price: 2143,
       counter: 0,
       duration: 3,
-      category: "Urban"
+      category: "Urban",
+      completedescription: "Enjoy a blend of modernity and natural beauty. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest081",
       name: "Timeless Sands Hotel",
-      description: "A bustling city full of life and energy.",
+      briefdescription: "A bustling city full of life and energy.",
       image: "/accelair app/img/timelesssandshotel.jpg",
       location: "Cairo, Egypt",
       price: 2223,
       counter: 0,
       duration: 3,
-      category: "Adventure"
+      category: "Adventure",
+      completedescription: "A bustling city full of life and energy. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest082",
       name: "Adventure Retreat",
-      description: "A beautiful and culturally rich destination.",
+      briefdescription: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/adventureretreat.jpg",
       location: "Istanbul, Turkey",
       price: 1922,
       counter: 0,
       duration: 3,
-      category: "Beach"
+      category: "Beach",
+      completedescription: "A beautiful and culturally rich destination. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest083",
       name: "Cultural Palace",
-      description: "Perfect for a relaxing and luxurious getaway.",
+      briefdescription: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/culturalpalace.jpg",
       location: "Cape Town, South Africa",
       price: 2784,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "Perfect for a relaxing and luxurious getaway. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest084",
       name: "Adventure Retreat",
-      description: "A beautiful and culturally rich destination.",
+      briefdescription: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/adventureretreat.jpg",
       location: "Prague, Czech Republic",
       price: 2244,
       counter: 0,
       duration: 3,
-      category: "Wildlife"
+      category: "Wildlife",
+      completedescription: "A beautiful and culturally rich destination. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest085",
       name: "Crystal Coast Resort",
-      description: "Enjoy a blend of modernity and natural beauty.",
+      briefdescription: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/crystalcoastresort.jpg",
       location: "Kyoto, Japan",
       price: 2754,
       counter: 0,
       duration: 3,
-      category: "Heritage"
+      category: "Heritage",
+      completedescription: "Enjoy a blend of modernity and natural beauty. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest086",
       name: "Twilight Bay Inn",
-      description: "Perfect for a relaxing and luxurious getaway.",
+      briefdescription: "Perfect for a relaxing and luxurious getaway.",
       image: "/accelair app/img/twilightbayinn.jpg",
       location: "Kyoto, Japan",
       price: 1922,
       counter: 0,
       duration: 3,
-      category: "Eco"
+      category: "Eco",
+      completedescription: "Perfect for a relaxing and luxurious getaway. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest087",
       name: "Grand Heritage Inn",
-      description: "Explore ancient history and modern attractions.",
+      briefdescription: "Explore ancient history and modern attractions.",
       image: "/accelair app/img/grandheritageinn.jpg",
       location: "Istanbul, Turkey",
       price: 2595,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "Explore ancient history and modern attractions. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
        {
       destinationID: "dest088",
       name: "Grand Heritage Inn",
-      description: "A bustling city full of life and energy.",
+      briefdescription: "A bustling city full of life and energy.",
       image: "/accelair app/img/grandheritageinn.jpg",
       location: "New York, USA",
       price: 2043,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "A bustling city full of life and energy. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest089",
       name: "Adventure Retreat",
-      description: "Experience world-class cuisine and scenic views.",
+      briefdescription: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/adventureretreat.jpg",
       location: "Rio de Janeiro, Brazil",
       price: 1840,
       counter: 0,
       duration: 3,
-      category: "Urban"
+      category: "Urban",
+      completedescription: "Experience world-class cuisine and scenic views. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest090",
       name: "Mystic River Lodge",
-      description: "Enjoy a blend of modernity and natural beauty.",
+      briefdescription: "Enjoy a blend of modernity and natural beauty.",
       image: "/accelair app/img/mysticriverlodge.jpg",
       location: "Barcelona, Spain",
       price: 2074,
       counter: 0,
       duration: 3,
-      category: "Heritage"
+      category: "Heritage",
+      completedescription: "Enjoy a blend of modernity and natural beauty. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest091",
       name: "Skyline Suites",
-      description: "A bustling city full of life and energy.",
+      briefdescription: "A bustling city full of life and energy.",
       image: "/accelair app/img/skylinesuites.jpg",
       location: "Zermatt, Switzerland",
       price: 1273,
       counter: 0,
       duration: 3,
-      category: "Urban"
+      category: "Urban",
+      completedescription: "A bustling city full of life and energy. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest092",
       name: "Mountain View Lodge",
-      description: "A hidden gem for travelers seeking something new.",
+      briefdescription: "A hidden gem for travelers seeking something new.",
       image: "/accelair app/img/mountainviewlodge.jpg",
       location: "Barcelona, Spain",
       price: 1574,
       counter: 0,
       duration: 3,
-      category: "Beach"
+      category: "Beach",
+      completedescription: "A hidden gem for travelers seeking something new. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest093",
       name: "Emerald Hills Hotel",
-      description: "Ideal for adventurers and nature lovers.",
+      briefdescription: "Ideal for adventurers and nature lovers.",
       image: "/accelair app/img/emeraldhillshotel.jpg",
       location: "Zermatt, Switzerland",
       price: 1301,
       counter: 0,
       duration: 3,
-      category: "Adventure"
+      category: "Adventure",
+      completedescription: "Ideal for adventurers and nature lovers. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest094",
       name: "Timeless Sands Hotel",
-      description: "A lively hub of entertainment and shopping.",
+      briefdescription: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/timelesssandshotel.jpg",
       location: "Cairo, Egypt",
       price: 1044,
       counter: 0,
       duration: 3,
-      category: "Religious"
+      category: "Religious",
+      completedescription: "A lively hub of entertainment and shopping. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest095",
       name: "Skyline Suites",
-      description: "A bustling city full of life and energy.",
+      briefdescription: "A bustling city full of life and energy.",
       image: "/accelair app/img/skylinesuites.jpg",
       location: "Rio de Janeiro, Brazil",
       price: 1892,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "A bustling city full of life and energy. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest096",
       name: "Emerald Hills Hotel",
-      description: "A lively hub of entertainment and shopping.",
+      briefdescription: "A lively hub of entertainment and shopping.",
       image: "/accelair app/img/emeraldhillshotel.jpg",
       location: "Tokyo, Japan",
       price: 1908,
       counter: 0,
       duration: 3,
-      category: "Urban"
+      category: "Urban",
+      completedescription: "A lively hub of entertainment and shopping. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest097",
       name: "Cultural Palace",
-      description: "A hidden gem for travelers seeking something new.",
+      briefdescription: "A hidden gem for travelers seeking something new.",
       image: "/accelair app/img/culturalpalace.jpg",
       location: "San Francisco, USA",
       price: 2851,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "A hidden gem for travelers seeking something new. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest098",
       name: "Ocean Breeze Hotel",
-      description: "A beautiful and culturally rich destination.",
+      briefdescription: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/oceanbreezehotel.jpg",
       location: "Amsterdam, Netherlands",
       price: 2059,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "A beautiful and culturally rich destination. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest099",
       name: "Skyline Suites",
-      description: "A beautiful and culturally rich destination.",
+      briefdescription: "A beautiful and culturally rich destination.",
       image: "/accelair app/img/skylinesuites.jpg",
       location: "Amsterdam, Netherlands",
       price: 1039,
       counter: 0,
       duration: 3,
-      category: "Cultural"
+      category: "Cultural",
+      completedescription: "A beautiful and culturally rich destination. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
     {
       destinationID: "dest100",
       name: "Grand Heritage Inn",
-      description: "Experience world-class cuisine and scenic views.",
+      briefdescription: "Experience world-class cuisine and scenic views.",
       image: "/accelair app/img/grandheritageinn.jpg",
       location: "Istanbul, Turkey",
       price: 1180,
       counter: 0,
       duration: 3,
-      category: "Beach"
+      category: "Beach",
+      completedescription: "Experience world-class cuisine and scenic views. This destination offers an immersive experience with extensive cultural, historical, and natural attractions, perfect for travelers seeking both relaxation and adventure."
     },
      // Adicione mais voos conforme necessário
    ];

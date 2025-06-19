@@ -32,7 +32,17 @@ const DESTINO = getCurrentdestination();
 console.log(DESTINO);
 
 
-const localinfo = document.getElementById('local');
+const localinfo = document.getElementById('localização');
 const nameinfo = document.getElementById('name');
 const durationinfo = document.getElementById('duration');
-const turisminfo = document.getElementById('turismtype');
+const turisminfo = document.getElementById('categoria');
+const description = document.getElementById("description")
+const completedesc = document.getElementById("completedesc")
+const priceinfo = document.getElementById('price');
+
+localinfo.textContent =" "+ DESTINO.name+ ", "+ DESTINO.location;
+durationinfo.textContent=" " +DESTINO.duration +" dias";
+turisminfo.textContent =" "+ DESTINO.category;
+description.innerHTML = `<strong>${DESTINO.briefdescription}</strong>`;
+completedesc.textContent = DESTINO.completedescription;
+priceinfo.textContent = "Por apenas: " + DESTINO.price.toFixed(2) + "€";

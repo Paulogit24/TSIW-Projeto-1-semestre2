@@ -68,13 +68,13 @@ export function getdestination(filterOrigin = "", filterdestination = "", isSort
 
   return filtereddestination;
 }
-let destinations;
+//let destinations;
 // Classe que modela um destino
 
 class destination {
   destinationID = "00000000";
   name = "name";
-  description = "destination description";
+  briefdescription = "destination description";
   image = "image-url";
   location = "location";
   price = "price";
@@ -85,7 +85,7 @@ class destination {
   constructor(destinationID, name, description, image, location, price, category) {
     this.destinationID = destinationID;
     this.name = name;
-    this.description = description;
+    this.briefdescription = description;
     this.image = image;
     this.location = location;
     this.duration = 3; // Default duration

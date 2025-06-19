@@ -50,13 +50,16 @@ destination.forEach(destination => {
   const duration = card.querySelector('[duration]');
   const type = card.querySelector('[type]');
   const price = card.querySelector('[price]');
+  const img = card.querySelector('[card-img]'); //teste de alteração de imagem
+  
 
   header.textContent = destination.name + " - " +destination.location;
-  body.textContent = destination.destinationDescription;
+  body.textContent = destination.briefdescription;
   duration.textContent = "Duração: " + destination.duration + " dias";
   type.textContent = destination.category;
   DestinationCardContainer.append(card);
   price.textContent = "preço:" + destination.price.toFixed(2) + "€";
+  img.src = destination.image;
   cards.push({ location: destination.location,name: destination.name,type: destination.category, duration: destination.duration,destID: destination.destinationID, element: card });
   const button = card.querySelector('input[type="button"]');
   button.addEventListener('click', () => {     // butom para a página destino
@@ -96,9 +99,9 @@ turismsearch.addEventListener('input', e => {
 
 // search by duration
 durationsearch.addEventListener('input', e => {
-  const durationValue = e.target.value.toLowerCase();
+  const durationValue = e.target.value();
   cards.forEach(cardObj => {
-    const isVisible = cardObj.duration.toLowerCase().includes(durationValue)
+    const isVisible = cardObj.duration() ===durationValue;
     cardObj.element.classList.toggle('hide', !isVisible);
   });
 });

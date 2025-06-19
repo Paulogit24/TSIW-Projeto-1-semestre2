@@ -96,14 +96,14 @@ turismsearch.addEventListener('input', e => {
   });
 });
 
-// search by duration
-durationsearch.addEventListener('input', e => {
+// search by duration não funciona
+/*durationsearch.addEventListener('input', e => {
   const durationValue = e.target.value();
   cards.forEach(cardObj => {
     const isVisible = cardObj.duration() ===durationValue;
     cardObj.element.classList.toggle('hide', !isVisible);
   });
-});
+});*/
 
 
 

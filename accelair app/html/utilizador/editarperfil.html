@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Favicon & CSS -->
-    <link rel="stylesheet" href="/accelair app/css/lib/accelair.css">
+    <link rel="stylesheet" href="../../css/lib/accelair.css">
     <link rel="icon" href="../../img/icon.png"> 
     <!-- Tipo de letra -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <script type="module" src="/accelair app/js/views/userview.js"></script>
     <title>AccelAir</title>
 </head>
 <body>
@@ -37,24 +36,21 @@
         <a class="nav-link text-dark" href="../html\sobrenos.html">Sobre nós</a>
       </li>
     </ul>
-  </nav>
+    
 </div>
 
 <div class="container-fluid p-0 position-relative">
   <div class="position-relative">
-    <img id="userbanner" class="img-fluid w-100" style="height: 280px; object-fit: cover;">
+    <img src="../../img/paris-banner.png" class="img-fluid w-100" style="height: 280px; object-fit: cover;">
 
     <div class="position-absolute d-flex align-items-center" style="bottom: -60px; left: 30px;">
       <div class="rounded-circle border border-white" style="width: 150px; height: 150px; overflow: hidden; box-shadow: 0 0 5px red;">
-        <img id="userimg" alt="Foto de perfil" class="w-100 h-100" style="object-fit: cover;">
+        <img src="../../img/lisboa.jpg" alt="Foto de perfil" class="w-100 h-100" style="object-fit: cover;">
       </div>
 
       <div class="ml-4" style="margin-top: 90px">
-        <h5 id="usernam" class="font-weight-bold m-0"></h5>
-        <small id="ex" class="text-muted"></small> 
-        <br>
-        <small id="money" class="text-muted"></small>
-        <input type="button" value="edit" class="btn btn-danger mt-2" href="editarperfil.html" >
+        <h5 class="font-weight-bold m-0">Nome do utilizador</h5>
+        <small class="text-muted">Nível 1 - (19/100%)</small>
       </div>
     </div>
 
@@ -65,34 +61,78 @@
 </div>
 
 <div class="container-fluid px-5" style="margin-top: 90px;">
-  <h4 class="font-weight-bold text-danger">sobre mim</h4>
-  <h5 id="about"></h5>
+    <h3 class="text-danger mb-4 border-bottom pb-2">Editar Perfil</h3>
+
+    <!-- Alterar banner -->
+    <div class="mb-4">
+        <h5>Banner</h5>
+
+        <!-- Imagens sugeridas da base de dados -->
+        <div class="row">
+          <button id="bn1">
+            <div class="col-4 mb-3">
+                <img src="/accelair app/img/userbanner1.png" class="img-fluid img-thumbnail" onclick="setBannerImage(this)">
+            </div>
+          </button>
+          <button id="bn2">
+            <div class="col-4 mb-3">
+                <img src="/accelair app/img/userbanner2.jpg" class="img-fluid img-thumbnail" onclick="setBannerImage(this)">
+            </div>
+          </button>
+          <button id="bn3">
+            <div class="col-4 mb-3">
+                <img src="/accelair app/img/adminbanner1.jpg" class="img-fluid img-thumbnail" onclick="setBannerImage(this)">
+            </div>
+          </button>
+          
+        </div>
+    </div>
+
+    <!-- Alterar imagem de perfil -->
+    <div class="mb-4">
+        <h5>Imagem de perfil</h5>
+        <img id="profilePreview" src="../../img/lisboa.jpg" class="img-thumbnail mb-2" style="width: 150px; height: 150px; object-fit: cover;">
+        <input type="file" class="form-control-file" onchange="previewImage(this, 'profilePreview')">
+    </div>
+
+    <!-- Sobre o utilizador -->
+    <div class="mb-4">
+        <h5>Sobre o utilizador</h5>
+        <textarea class="form-control" rows="4" placeholder="Escreva algo sobre si..." id="edtabout"></textarea>
+    </div>
+
+    <!-- Alterar palavra-passe -->
+    <div class="mb-4">
+        <h5>Alterar palavra-passe</h5>
+        <input type="password" class="form-control mb-2" placeholder="Palavra-passe atual">
+        <input type="password" class="form-control mb-2" placeholder="Nova palavra-passe">
+        <input type="password" class="form-control" placeholder="Confirmar nova palavra-passe">
+    </div>
+
+    <button class="btn btn-danger btn-block" onclick="confirmarAlteracoes()">
+        Guardar Alterações
+    </button>
 </div>
 
-
-
-<div class="container-fluid px-5" style="margin-top: 90px;">
-  <h4 class="font-weight-bold text-danger">locais favoritos</h4>
-
-  <div class="row mt-3">
-    <div class="col-6 col-md-3 mb-4">
-      <img src="../../img/viagens-para-si/barcelona01.png" class="img-fluid w-100" style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
-    </div>
-    <div class="col-6 col-md-3 mb-4">
-      <img src="../../img/viagens-para-si/barcelona01.png" class="img-fluid w-100" style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
-    </div>
-    <div class="col-6 col-md-3 mb-4">
-      <img src="../../img/viagens-para-si/barcelona01.png" class="img-fluid w-100" style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
-    </div>
-    <div class="col-6 col-md-3 mb-4">
-      <img src="../../img/viagens-para-si/barcelona01.png" class="img-fluid w-100" style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
+<div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-labelledby="confirmModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content border-danger rounded-4">
+      <div class="modal-header">
+        <h5 class="modal-title" id="confirmModalLabel">Confirmar alterações</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Tem a certeza de que pretende guardar as alterações feitas ao perfil?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
+        <button type="button" class="btn btn-danger" onclick="confirmarAlteracoes()">Sim</button>
+      </div>
     </div>
   </div>
 </div>
-
-
-
-
 
 <footer class="mt-5" style="background-color: #f40000; color: white; border-top-left-radius: 30px; border-top-right-radius: 30px;">
   <div class="container py-4">
@@ -118,3 +158,14 @@
   </div>
 </footer>
 
+<script>
+function confirmarAlteracoes() {
+  const confirmar = confirm("Tem a certeza de que pretende guardar as alterações?");
+  if (confirmar) {
+    window.location.href = "utilizador.html";
+  }
+}
+
+</script>
+</body>
+</html>

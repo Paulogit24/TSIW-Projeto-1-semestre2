@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Favicon & CSS -->
-    <link rel="stylesheet" href="/accelair app/css/lib/accelair.css">
+    <link rel="stylesheet" href="../../css/accelair.css">
     <link rel="icon" href="../../img/icon.png"> 
     <!-- Tipo de letra -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <script type="module" src="/accelair app/js/views/userview.js"></script>
     <title>AccelAir</title>
 </head>
 <body>
@@ -37,42 +36,48 @@
         <a class="nav-link text-dark" href="../html\sobrenos.html">Sobre nós</a>
       </li>
     </ul>
+    <a class="nav-link text-dark position-absolute" style="right: 20px;" href="login.html">
+      Iniciar sessão
+    </a>
   </nav>
 </div>
 
 <div class="container-fluid p-0 position-relative">
   <div class="position-relative">
-    <img id="userbanner" class="img-fluid w-100" style="height: 280px; object-fit: cover;">
+    <img src="../../img/paris-banner.png" class="img-fluid w-100" style="height: 280px; object-fit: cover;">
 
     <div class="position-absolute d-flex align-items-center" style="bottom: -60px; left: 30px;">
       <div class="rounded-circle border border-white" style="width: 150px; height: 150px; overflow: hidden; box-shadow: 0 0 5px red;">
-        <img id="userimg" alt="Foto de perfil" class="w-100 h-100" style="object-fit: cover;">
+        <img src="../../img/lisboa.jpg" alt="Foto de perfil" class="w-100 h-100" style="object-fit: cover;">
       </div>
 
       <div class="ml-4" style="margin-top: 90px">
-        <h5 id="usernam" class="font-weight-bold m-0"></h5>
-        <small id="ex" class="text-muted"></small> 
-        <br>
-        <small id="money" class="text-muted"></small>
-        <input type="button" value="edit" class="btn btn-danger mt-2" href="editarperfil.html" >
+        <h5 class="font-weight-bold m-0 d-flex align-items-center">
+          Nome do utilizador
+          <a href="editarperfil.html" class="btn btn-sm btn-outline-danger ml-3">Editar perfil</a>
+        </h5>
+        <small class="text-muted">Nível 1 - (19/100%)</small>
       </div>
-    </div>
-
-    <a href="#" class="position-absolute text-danger" style="top: 10px; right: 10px;">
-      <i class="fas fa-pen"></i>
-    </a>
   </div>
 </div>
 
 <div class="container-fluid px-5" style="margin-top: 90px;">
-  <h4 class="font-weight-bold text-danger">sobre mim</h4>
-  <h5 id="about"></h5>
+  <h4 class="font-weight-bold text-danger">Viagens recentes</h4>
+
+  <div class="row mt-3">
+    <div class="col-12 col-md-6 mb-3">
+      <img src="../../img/tipos-turismo/maldivas01.jpg" class="img-fluid w-100"
+           style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
+    </div>
+    <div class="col-12 col-md-6 mb-3">
+      <img src="../../img/tipos-turismo/maldivas01.jpg" class="img-fluid w-100"
+           style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
+    </div>
+  </div>
 </div>
 
-
-
 <div class="container-fluid px-5" style="margin-top: 90px;">
-  <h4 class="font-weight-bold text-danger">locais favoritos</h4>
+  <h4 class="font-weight-bold text-danger">Viagens favoritos</h4>
 
   <div class="row mt-3">
     <div class="col-6 col-md-3 mb-4">
@@ -89,10 +94,6 @@
     </div>
   </div>
 </div>
-
-
-
-
 
 <footer class="mt-5" style="background-color: #f40000; color: white; border-top-left-radius: 30px; border-top-right-radius: 30px;">
   <div class="container py-4">
@@ -118,3 +119,5 @@
   </div>
 </footer>
 
+</body>
+</html>

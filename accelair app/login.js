@@ -81,6 +81,7 @@ document.getElementById("btnLogin").addEventListener("click", function () {
   const username = document.getElementById("username").value.trim();
   const password = document.getElementById("password").value.trim();
   login(username, password)
+  window.location.href="/accelair app/index.html"
 });
 
 

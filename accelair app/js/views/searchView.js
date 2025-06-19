@@ -56,7 +56,7 @@ destination.forEach(destination => {
   duration.textContent = "Duração: " + destination.duration + " dias";
   type.textContent = destination.category;
   DestinationCardContainer.append(card);
-  price.textContent = "preço:" + destination.price.toFixed(2) + "€";
+  price.textContent = "Preço: " + destination.price.toFixed(2) + "€";
   cards.push({ location: destination.location,name: destination.name,type: destination.category, duration: destination.duration,destID: destination.destinationID, element: card });
   const button = card.querySelector('input[type="button"]');
   button.addEventListener('click', () => {     // butom para a página destino

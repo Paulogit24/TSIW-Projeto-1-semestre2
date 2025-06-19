@@ -23,11 +23,10 @@ export  default function initSearchView(formSelector) {
     // Exemplo: alert(JSON.stringify(data));
 }
 
-function setCurrentdestination(destinationID) {
-  localStorage.setItem("setdestination", destinationID);
-}
 
 }
+
+
 initdata()
 const DestinationCardTemplate = document.getElementById('DestinationCardTemplate');
 const DestinationCardContainer = document.getElementById('destinationID');

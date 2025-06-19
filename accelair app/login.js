@@ -1,4 +1,4 @@
-import 
+import login from './js/models/usermodels.js';
 
 window.addEventListener('scroll', function () {
   const navbar = document.querySelector("#navbar nav");
@@ -85,3 +85,14 @@ document.addEventListener("DOMContentLoaded", () => renderSet(0));
 });
 
 let destination = JSON.parse(localStorage.getItem("users")) || [];
+
+const username = document.getElementById("username");
+const password = document.getElementById("password");
+const button = document.getElementById("btnLogin");
+
+button.addEventListener('click', () => {     // butom para a página destino
+    console.log(username);
+    console.log(password);
+  });
+console.log(username);
+console.log(password);

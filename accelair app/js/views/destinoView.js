@@ -39,6 +39,7 @@ const turisminfo = document.getElementById('categoria');
 const description = document.getElementById("description")
 const completedesc = document.getElementById("completedesc")
 const priceinfo = document.getElementById('price');
+const destimage = document.getElementById('dest-image');
 
 localinfo.textContent =" "+ DESTINO.name+ ", "+ DESTINO.location;
 durationinfo.textContent=" " +DESTINO.duration +" dias";
@@ -46,3 +47,4 @@ turisminfo.textContent =" "+ DESTINO.category;
 description.innerHTML = `<strong>${DESTINO.briefdescription}</strong>`;
 completedesc.textContent = DESTINO.completedescription;
 priceinfo.textContent = "Por apenas: " + DESTINO.price.toFixed(2) + "€";
+destimage.src=DESTINO.image

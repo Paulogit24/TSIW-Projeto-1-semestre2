@@ -1,4 +1,6 @@
-import login from './js/models/usermodels.js';
+import { add, login, init } from './js/models/usermodels.js';
+init();
+let users = JSON.parse(localStorage.getItem("users")) || []
 
 window.addEventListener('scroll', function () {
   const navbar = document.querySelector("#navbar nav");
@@ -62,37 +64,26 @@ window.changeSet = changeSet
 
 document.addEventListener("DOMContentLoaded", () => renderSet(0));
 
-  function showRegister() {
-    document.getElementById('loginScreen').classList.add('d-none');
-    document.getElementById('registerScreen').classList.remove('d-none');
-  }
-  window.showRegister = showRegister
-  function showLogin() {
-    document.getElementById('registerScreen').classList.add('d-none');
-    document.getElementById('loginScreen').classList.remove('d-none');
-  }
-  window.showLogin = showLogin;
+function showRegister() {
+  document.getElementById('loginScreen').classList.add('d-none');
+  document.getElementById('registerScreen').classList.remove('d-none');
+}
+window.showRegister = showRegister
+function showLogin() {
+  document.getElementById('registerScreen').classList.add('d-none');
+  document.getElementById('loginScreen').classList.remove('d-none');
+}
+window.showLogin = showLogin;
 
-  document.getElementById("btnLogin").addEventListener("click", function () {
+
+
+document.getElementById("btnLogin").addEventListener("click", function () {
   const username = document.getElementById("username").value.trim();
   const password = document.getElementById("password").value.trim();
-
-  if (username === "admin" && password === "admin") {
-    window.location.href = "html/admin/admin.html";
-  } else {
-    alert("Nome de utilizador ou palavra-passe incorretos.");
-  }
+  login(username, password)
 });
 
-let destination = JSON.parse(localStorage.getItem("users")) || [];
 
-const username = document.getElementById("username");
-const password = document.getElementById("password");
-const button = document.getElementById("btnLogin");
 
-button.addEventListener('click', () => {     // butom para a página destino
-    console.log(username);
-    console.log(password);
-  });
-console.log(username);
-console.log(password);
+
+
